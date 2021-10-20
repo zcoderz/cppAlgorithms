@@ -33,6 +33,28 @@
 using namespace std;
 using namespace chrono;
 void SortChecks::runSortChecks(){
+    vector<int> valA = {1, 2};
+    vector<int> valB = {3,4};
+    vector<int> valC = {5,6};
+    IntersectionOfThreeSortedArrays intersection;
+    vector<int> res = intersection.find_intersection(valA, valB, valC);
+    for (int val : res) {
+        cout << val << "," << endl;
+    }
+
+//    OnlineMedian median;
+//    vector<int> vals = {3, 8, 5, 2};
+//    vector<int> res = median.online_median(vals);
+//    for (int v: res) {
+//        cout << v  << ",";
+//    }
+//    vector<int> first = {1,1,1,1,1, 1000000000};
+//    vector<int> second = {100000};
+//    KthLargestInStream kth;
+//    vector<int> res = kth.kth_largest(4, first, second);
+//    for (int i =0; i < res.size(); i++) {
+//        cout << res[i] << endl;
+//    }
 
 //    QuickSort quickSort;
 //    int data[] = {1,2,2,2};
@@ -41,13 +63,13 @@ void SortChecks::runSortChecks(){
 //        cout << data[i] << ", ";
 //    }
 //    cout << endl;
-    TopKFrequent topK;
-    vector<int> vec = {1,2,3,2,4,3,1};
-    int k = 2;
-    vector<int> resVec = topK.find_top_k_frequent_elements(vec, k);
-    for (int i =0; i < resVec.size() ; i++) {
-        cout << resVec[i] << ",";
-    }
+//    TopKFrequent topK;
+//    vector<int> vec = {1,2,3,2,4,3,1};
+//    int k = 2;
+//    vector<int> resVec = topK.find_top_k_frequent_elements(vec, k);
+//    for (int i =0; i < resVec.size() ; i++) {
+//        cout << resVec[i] << ",";
+//    }
 //    GroupNumbers groupNumbers;
 //    vector<int> arr = {4,9,5,2,9,5,7,10};
 //    arr = groupNumbers.solve(arr);

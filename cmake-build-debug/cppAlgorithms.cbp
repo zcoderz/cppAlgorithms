@@ -87,6 +87,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/main.cpp">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/operatorchecks/OperatorChecks.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/priorityqueue/PriorityQueue.h">
 			<Option target="kick_start"/>
 		</Unit>

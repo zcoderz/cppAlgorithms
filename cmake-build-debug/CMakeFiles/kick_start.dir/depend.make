@@ -3,6 +3,7 @@
 
 CMakeFiles/kick_start.dir/main.cpp.o: \
  ../main.cpp \
+ ../operatorchecks/OperatorChecks.h \
  ../priorityqueue/PriorityQueueTest.h \
  ../sort/SortChecks.h
 CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o: \

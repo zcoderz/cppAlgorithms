@@ -12,6 +12,10 @@
 
 using namespace std;
 
+/**
+ * Quick Select problem.
+ */
+
 class TopKFrequent {
 
     /**
@@ -25,13 +29,16 @@ class TopKFrequent {
      */
     int partition(vector<pair<int, int>> & vecFrequencies , int left, int right) {
         int mid = left + (right-left) / 2;
+        //put item on right
         swap(vecFrequencies[right], vecFrequencies[mid]);
         int freqComp = vecFrequencies[right].second;
         for (int j = left; j <= right; j++) {
             if (vecFrequencies[j].second < freqComp) {
+                //move smaller items to left
                 swap(vecFrequencies[j], vecFrequencies[left++]);
             }
         }
+        //swap right with left , left is current index
         swap(vecFrequencies[right], vecFrequencies[left]);
         return left;
     }
@@ -69,13 +76,18 @@ class TopKFrequent {
         int i = left + 1;
         while (i <= right) {
             if (vecFrequencies[i].second < pivotVal) {
+                //if item is smaller, swap with left and move current and left forward
                 swap(vecFrequencies[i++], vecFrequencies[left++]);
             } else if (vecFrequencies[i].second > pivotVal) {
+                //move right left but keep index i at current location if item is greater
                 swap(vecFrequencies[i], vecFrequencies[right--]);
             } else {
+                //if same move current index forward
                 i++;
             }
         }
+        //look at right or left partitions if item is greater or smaller.
+        //if index is in mid (not left, not right) return
         if (targetIndex < left) {
             partition(vecFrequencies, origLeft, left-1, targetIndex);
         } else if (targetIndex > right) {
