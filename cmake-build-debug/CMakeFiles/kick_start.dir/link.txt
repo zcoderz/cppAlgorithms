@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g CMakeFiles/kick_start.dir/main.cpp.o CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o -o kick_start 
