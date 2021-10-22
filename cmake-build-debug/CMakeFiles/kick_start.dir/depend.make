@@ -501,6 +501,7 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  ../sort/ThreeWayQuickSort.h \
  ../sort/questions/AttendMeetings.h \
  ../sort/questions/DutchNationalFlag.h \
+ ../sort/questions/FourSum.h \
  ../sort/questions/GroupNumbers.h \
  ../sort/questions/IntersectionOfThreeSortedArrays.h \
  ../sort/questions/KthLargestInAnArray.h \

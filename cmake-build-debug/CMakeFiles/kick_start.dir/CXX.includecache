@@ -4947,6 +4947,8 @@ questions/IntersectionOfThreeSortedArrays.h
 /home/usman/work/cppAlgorithms/sort/questions/IntersectionOfThreeSortedArrays.h
 questions/ThreeSum.h
 /home/usman/work/cppAlgorithms/sort/questions/ThreeSum.h
+questions/FourSum.h
+/home/usman/work/cppAlgorithms/sort/questions/FourSum.h
 
 /home/usman/work/cppAlgorithms/sort/SortChecks.h
 
@@ -4962,6 +4964,12 @@ vector
 
 /home/usman/work/cppAlgorithms/sort/questions/DutchNationalFlag.h
 algorithm
+-
+
+/home/usman/work/cppAlgorithms/sort/questions/FourSum.h
+vector
+-
+unordered_set
 -
 
 /home/usman/work/cppAlgorithms/sort/questions/GroupNumbers.h

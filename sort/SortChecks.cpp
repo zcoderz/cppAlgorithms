@@ -30,12 +30,18 @@
 #include "questions/OnlineMedian.h"
 #include "questions/IntersectionOfThreeSortedArrays.h"
 #include "questions/ThreeSum.h"
+#include "questions/FourSum.h"
+
 using namespace std;
 using namespace chrono;
 void SortChecks::runSortChecks(){
-    vector<int> vec = {1,-1,-1,0};
-    ThreeSum threeSum;
-    vector<vector<int>> res = threeSum.threeSum(vec);
+    //vector<int> vec = {2,2,2,2,2};
+    vector<int> vec = {-2,-1,-1,1,1,2,2};
+
+    FourSum fourSum;
+    vector<vector<int>> res = fourSum.fourSum(vec, 0, 4);
+//    ThreeSum threeSum;
+//    vector<vector<int>> res = threeSum.threeSum(vec);
     for (vector<int> v : res) {
         for (int i : v) {
             cout << i << ",";

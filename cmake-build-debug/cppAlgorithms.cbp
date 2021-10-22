@@ -135,6 +135,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/DutchNationalFlag.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/FourSum.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/GroupNumbers.h">
 			<Option target="kick_start"/>
 		</Unit>
