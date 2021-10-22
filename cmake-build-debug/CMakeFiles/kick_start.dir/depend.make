@@ -508,6 +508,7 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  ../sort/questions/MergeSortedSinglyLinkedLists.h \
  ../sort/questions/MergeVectors.h \
  ../sort/questions/OnlineMedian.h \
+ ../sort/questions/ThreeSum.h \
  ../sort/questions/TopKFrequent.h \
  ../sort/questions/TwoSum.h \
  ../sort/questions/TwoSumNonSorted.h

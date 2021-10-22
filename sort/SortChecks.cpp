@@ -29,18 +29,28 @@
 #include "questions/KthLargestInAnArray.h"
 #include "questions/OnlineMedian.h"
 #include "questions/IntersectionOfThreeSortedArrays.h"
-
+#include "questions/ThreeSum.h"
 using namespace std;
 using namespace chrono;
 void SortChecks::runSortChecks(){
-    vector<int> valA = {1, 2};
-    vector<int> valB = {3,4};
-    vector<int> valC = {5,6};
-    IntersectionOfThreeSortedArrays intersection;
-    vector<int> res = intersection.find_intersection(valA, valB, valC);
-    for (int val : res) {
-        cout << val << "," << endl;
+    vector<int> vec = {1,-1,-1,0};
+    ThreeSum threeSum;
+    vector<vector<int>> res = threeSum.threeSum(vec);
+    for (vector<int> v : res) {
+        for (int i : v) {
+            cout << i << ",";
+        }
+        cout << endl;
     }
+
+//    vector<int> valA = {1, 2};
+//    vector<int> valB = {3,4};
+//    vector<int> valC = {5,6};
+//    IntersectionOfThreeSortedArrays intersection;
+//    vector<int> res = intersection.find_intersection(valA, valB, valC);
+//    for (int val : res) {
+//        cout << val << "," << endl;
+//    }
 
 //    OnlineMedian median;
 //    vector<int> vals = {3, 8, 5, 2};

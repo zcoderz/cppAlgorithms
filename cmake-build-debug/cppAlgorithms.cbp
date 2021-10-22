@@ -156,6 +156,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/OnlineMedian.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/ThreeSum.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/TopKFrequent.h">
 			<Option target="kick_start"/>
 		</Unit>

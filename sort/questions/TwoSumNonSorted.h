@@ -9,10 +9,25 @@
 
 #include <vector>
 #include <unordered_map>
+#include <unordered_set>
 using namespace std;
 
 class TwoSumNonSorted {
+
+    //single pass two sum
     vector<int> two_sum(vector<int> numbers, int target) {
+        unordered_map<int, int> data;
+        for (int i =0; i < numbers.size(); i++) {
+                int complement = target - numbers[i];
+                auto  iter = data.find(complement);
+                if (data.find(complement) != data.end()) {
+                    return {i, iter->second};
+                }
+                data.insert(make_pair(numbers[i], i));
+        }
+    }
+
+    vector<int> two_sum_two_pass(vector<int> numbers, int target) {
         unordered_map<int, int> valIndex;
 
         for (int j = numbers.size()-1; j >=0; j--) {
