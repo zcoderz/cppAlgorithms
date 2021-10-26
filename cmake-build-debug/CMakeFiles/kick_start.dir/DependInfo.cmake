@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/usman/work/cppAlgorithms/bits/BitTests.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/bits/BitTests.cpp.o"
   "/home/usman/work/cppAlgorithms/main.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/main.cpp.o"
   "/home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o"
+  "/home/usman/work/cppAlgorithms/recursion/RecursionProblems.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o"
   "/home/usman/work/cppAlgorithms/sort/SortChecks.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -28,6 +28,7 @@ public:
         }
 
         //greater in PQ orders it smallest to largest. greater here is using the comparison operator '>'
+        //if you want to sort via largest to smallest use operator '<'
         priority_queue<int , vector<int> , greater<int>> pQ;
         for (int val : first) {
             pQ.push(val);

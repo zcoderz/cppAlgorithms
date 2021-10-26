@@ -129,6 +129,30 @@ kick_start/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/build
 .PHONY : kick_start/fast
 
+bits/BitTests.o: bits/BitTests.cpp.o
+.PHONY : bits/BitTests.o
+
+# target to build an object file
+bits/BitTests.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/bits/BitTests.cpp.o
+.PHONY : bits/BitTests.cpp.o
+
+bits/BitTests.i: bits/BitTests.cpp.i
+.PHONY : bits/BitTests.i
+
+# target to preprocess a source file
+bits/BitTests.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/bits/BitTests.cpp.i
+.PHONY : bits/BitTests.cpp.i
+
+bits/BitTests.s: bits/BitTests.cpp.s
+.PHONY : bits/BitTests.s
+
+# target to generate assembly for a file
+bits/BitTests.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/bits/BitTests.cpp.s
+.PHONY : bits/BitTests.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -177,6 +201,30 @@ priorityqueue/PriorityQueueTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.s
 .PHONY : priorityqueue/PriorityQueueTest.cpp.s
 
+recursion/RecursionProblems.o: recursion/RecursionProblems.cpp.o
+.PHONY : recursion/RecursionProblems.o
+
+# target to build an object file
+recursion/RecursionProblems.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o
+.PHONY : recursion/RecursionProblems.cpp.o
+
+recursion/RecursionProblems.i: recursion/RecursionProblems.cpp.i
+.PHONY : recursion/RecursionProblems.i
+
+# target to preprocess a source file
+recursion/RecursionProblems.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.i
+.PHONY : recursion/RecursionProblems.cpp.i
+
+recursion/RecursionProblems.s: recursion/RecursionProblems.cpp.s
+.PHONY : recursion/RecursionProblems.s
+
+# target to generate assembly for a file
+recursion/RecursionProblems.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.s
+.PHONY : recursion/RecursionProblems.cpp.s
+
 sort/SortChecks.o: sort/SortChecks.cpp.o
 .PHONY : sort/SortChecks.o
 
@@ -210,12 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kick_start"
+	@echo "... bits/BitTests.o"
+	@echo "... bits/BitTests.i"
+	@echo "... bits/BitTests.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... priorityqueue/PriorityQueueTest.o"
 	@echo "... priorityqueue/PriorityQueueTest.i"
 	@echo "... priorityqueue/PriorityQueueTest.s"
+	@echo "... recursion/RecursionProblems.o"
+	@echo "... recursion/RecursionProblems.i"
+	@echo "... recursion/RecursionProblems.s"
 	@echo "... sort/SortChecks.o"
 	@echo "... sort/SortChecks.i"
 	@echo "... sort/SortChecks.s"
