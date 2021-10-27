@@ -6,8 +6,6 @@
 #ifndef KICK_START_PRIORITYQUEUE_H
 #define KICK_START_PRIORITYQUEUE_H
 
-#endif //KICK_START_PRIORITYQUEUE_H
-
 #include <algorithm>
 using namespace std;
 
@@ -130,3 +128,4 @@ private:
     int capacity;
     bool  isMax;
 };
+#endif //KICK_START_PRIORITYQUEUE_H

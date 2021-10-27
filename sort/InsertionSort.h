@@ -5,8 +5,6 @@
 #ifndef KICK_START_INSERTIONSORT_H
 #define KICK_START_INSERTIONSORT_H
 
-#endif //KICK_START_INSERTIONSORT_H
-
 #include <algorithm>
 using namespace std;
 
@@ -24,3 +22,4 @@ public:
         }
     }
 };
+#endif //KICK_START_INSERTIONSORT_H

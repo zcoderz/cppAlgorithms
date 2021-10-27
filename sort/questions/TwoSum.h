@@ -5,8 +5,6 @@
 #ifndef KICK_START_TWOSUM_H
 #define KICK_START_TWOSUM_H
 
-#endif //KICK_START_TWOSUM_H
-
 #include <vector>
 using namespace std;
 
@@ -29,3 +27,5 @@ public:
         else return {left, right};
     }
 };
+
+#endif //KICK_START_TWOSUM_H

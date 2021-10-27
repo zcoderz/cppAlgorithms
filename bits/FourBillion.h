@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_FOURBILLION_H
 #define CPPALGORITHMS_FOURBILLION_H
 
-#endif //CPPALGORITHMS_FOURBILLION_H
-
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -64,3 +62,4 @@ public:
      */
 
 };
+#endif //CPPALGORITHMS_FOURBILLION_H

@@ -22,6 +22,9 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
  ../recursion/GetWordsFromPhoneNumber.h \
  ../recursion/LetterCasePermutations.h \
  ../recursion/NChooseK.h \
+ ../recursion/PalindromePartitioning.h \
+ ../recursion/Parenthesis.h \
+ ../recursion/PascalTriangle.h \
  ../recursion/PermuteWithDuplicates.h \
  ../recursion/RecursionProblems.cpp \
  ../recursion/RecursionProblems.h \

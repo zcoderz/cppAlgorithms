@@ -5,7 +5,6 @@
 #ifndef KICK_START_BUBBLESORT_H
 #define KICK_START_BUBBLESORT_H
 
-#endif //KICK_START_BUBBLESORT_H
 #include <algorithm>
 using namespace std;
 class BubbleSort {
@@ -20,3 +19,4 @@ public:
         }
     }
 };
+#endif //KICK_START_BUBBLESORT_H

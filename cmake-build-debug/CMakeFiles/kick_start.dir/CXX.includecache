@@ -32,6 +32,20 @@ string
 vector
 -
 
+/home/usman/work/cppAlgorithms/recursion/PalindromePartitioning.h
+vector
+-
+
+/home/usman/work/cppAlgorithms/recursion/Parenthesis.h
+vector
+-
+
+/home/usman/work/cppAlgorithms/recursion/PascalTriangle.h
+vector
+-
+map
+-
+
 /home/usman/work/cppAlgorithms/recursion/PermuteWithDuplicates.h
 vector
 -
@@ -61,6 +75,12 @@ CombinationSum.h
 /home/usman/work/cppAlgorithms/recursion/CombinationSum.h
 SubSetsWithDuplicates.h
 /home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h
+PalindromePartitioning.h
+/home/usman/work/cppAlgorithms/recursion/PalindromePartitioning.h
+Parenthesis.h
+/home/usman/work/cppAlgorithms/recursion/Parenthesis.h
+PascalTriangle.h
+/home/usman/work/cppAlgorithms/recursion/PascalTriangle.h
 
 /home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
 

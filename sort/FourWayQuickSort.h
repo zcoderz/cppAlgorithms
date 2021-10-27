@@ -5,8 +5,6 @@
 #ifndef KICK_START_FOURWAYQUICKSORT_H
 #define KICK_START_FOURWAYQUICKSORT_H
 
-#endif //KICK_START_FOURWAYQUICKSORT_H
-
 #include <algorithm>
 using namespace std;
 
@@ -49,3 +47,4 @@ public:
         quicksort(arr, 0, sz - 1);
     }
 };
+#endif //KICK_START_FOURWAYQUICKSORT_H

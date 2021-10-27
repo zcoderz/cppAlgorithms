@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_NEARRESTNEIGHBORS_H
 #define CPPALGORITHMS_NEARRESTNEIGHBORS_H
 
-#endif //CPPALGORITHMS_NEARRESTNEIGHBORS_H
-
 #include <vector>
 #include <math.h>
 
@@ -105,3 +103,5 @@ public:
         return sqrt( pow(diffA, 2) + pow(diffB, 2));
     }
 };
+
+#endif //CPPALGORITHMS_NEARRESTNEIGHBORS_H

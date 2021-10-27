@@ -5,7 +5,7 @@
 #ifndef KICK_START_MERGESORT_H
 #define KICK_START_MERGESORT_H
 
-#endif //KICK_START_MERGESORT_H
+
 
 class MergeSort {
 public:
@@ -55,3 +55,5 @@ private:
     }
 
 };
+
+#endif //KICK_START_MERGESORT_H

@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_SORTALLCHARACTERS_H
 #define CPPALGORITHMS_SORTALLCHARACTERS_H
 
-#endif //CPPALGORITHMS_SORTALLCHARACTERS_H
-
 class SortAllCharacters {
 public:
     int partition(vector<char> arr, int left, int right) {
@@ -42,3 +40,4 @@ public:
 
 
 };
+#endif //CPPALGORITHMS_SORTALLCHARACTERS_H

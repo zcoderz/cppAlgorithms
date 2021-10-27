@@ -5,8 +5,6 @@
 #ifndef KICK_START_ATTENDMEETINGS_H
 #define KICK_START_ATTENDMEETINGS_H
 
-#endif //KICK_START_ATTENDMEETINGS_H
-
 
 #include <algorithm>
 #include <vector>
@@ -35,3 +33,5 @@ public:
     }
 
 };
+
+#endif //KICK_START_ATTENDMEETINGS_H

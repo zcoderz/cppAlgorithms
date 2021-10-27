@@ -5,8 +5,6 @@
 #ifndef KICK_START_TWOSUMNONSORTED_H
 #define KICK_START_TWOSUMNONSORTED_H
 
-#endif //KICK_START_TWOSUMNONSORTED_H
-
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
@@ -52,3 +50,5 @@ class TwoSumNonSorted {
         }
     }
 };
+
+#endif //KICK_START_TWOSUMNONSORTED_H

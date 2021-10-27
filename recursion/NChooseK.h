@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_NCHOOSEK_H
 #define CPPALGORITHMS_NCHOOSEK_H
 
-#endif //CPPALGORITHMS_NCHOOSEK_H
-
 #include <vector>
 
 class NChooseK{
@@ -31,3 +29,5 @@ public:
         return res;
     }
 };
+
+#endif //CPPALGORITHMS_NCHOOSEK_H

@@ -5,7 +5,7 @@
 #ifndef KICK_START_SELECTIONSORT_H
 #define KICK_START_SELECTIONSORT_H
 
-#endif //KICK_START_SELECTIONSORT_H
+
 #include <algorithm>
 class SelectionSort {
 
@@ -23,3 +23,4 @@ public:
         }
     }
 };
+#endif //KICK_START_SELECTIONSORT_H

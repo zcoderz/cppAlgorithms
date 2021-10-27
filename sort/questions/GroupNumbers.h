@@ -5,8 +5,6 @@
 #ifndef KICK_START_GROUPNUMBERS_H
 #define KICK_START_GROUPNUMBERS_H
 
-#endif //KICK_START_GROUPNUMBERS_H
-
 #include <vector>
 using namespace std;
 
@@ -28,3 +26,5 @@ public:
         return arr;
     }
 };
+
+#endif //KICK_START_GROUPNUMBERS_H

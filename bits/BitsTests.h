@@ -5,9 +5,8 @@
 #ifndef CPPALGORITHMS_BITSTESTS_H
 #define CPPALGORITHMS_BITSTESTS_H
 
-#endif //CPPALGORITHMS_BITSTESTS_H
-
 class BitTests {
 public:
     void runBitTests();
 };
+#endif //CPPALGORITHMS_BITSTESTS_H

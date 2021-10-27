@@ -5,7 +5,7 @@
 #ifndef CPPALGORITHMS_THREESUM_H
 #define CPPALGORITHMS_THREESUM_H
 
-#endif //CPPALGORITHMS_THREESUM_H
+
 #include <vector>
 #include <unordered_set>
 
@@ -72,3 +72,5 @@ public:
         return vRes;
     }
 };
+
+#endif //CPPALGORITHMS_THREESUM_H

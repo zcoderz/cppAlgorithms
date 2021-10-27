@@ -4,7 +4,7 @@
 
 #ifndef KICK_START_QUICKSORT_H
 #define KICK_START_QUICKSORT_H
-#endif //KICK_START_QUICKSORT_H
+
 #include <random>
 using namespace std;
 
@@ -52,3 +52,4 @@ public:
         runQuickSort(arr, 0, sz-1);
     }
 };
+#endif //KICK_START_QUICKSORT_H

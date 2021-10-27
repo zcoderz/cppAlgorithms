@@ -5,7 +5,6 @@
 #ifndef KICK_START_KTHLARGESTINANARRAY_H
 #define KICK_START_KTHLARGESTINANARRAY_H
 
-#endif //KICK_START_KTHLARGESTINANARRAY_H
 #include <vector>
 #include <algorithm>
 
@@ -93,3 +92,5 @@ class KthLargestInAnArray {
         return numbers[index];
     }
 };
+
+#endif //KICK_START_KTHLARGESTINANARRAY_H

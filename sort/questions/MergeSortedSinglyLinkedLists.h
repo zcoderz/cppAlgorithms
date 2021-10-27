@@ -5,8 +5,6 @@
 #ifndef KICK_START_MERGESORTEDSINGLYLINKEDLISTS_H
 #define KICK_START_MERGESORTEDSINGLYLINKEDLISTS_H
 
-#endif //KICK_START_MERGESORTEDSINGLYLINKEDLISTS_H
-
 #include <queue>
 #include <utility>
 
@@ -94,3 +92,5 @@ class MergeSortedSinglyLinkedList {
         return head;
     }
 };
+
+#endif //KICK_START_MERGESORTEDSINGLYLINKEDLISTS_H

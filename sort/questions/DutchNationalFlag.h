@@ -5,7 +5,7 @@
 #ifndef KICK_START_DUTCHNATIONALFLAG_H
 #define KICK_START_DUTCHNATIONALFLAG_H
 
-#endif //KICK_START_DUTCHNATIONALFLAG_H
+
 #include <algorithm>
 using namespace std;
 
@@ -65,3 +65,5 @@ class DutchNationalFlag {
         }
     }
 };
+
+#endif //KICK_START_DUTCHNATIONALFLAG_H

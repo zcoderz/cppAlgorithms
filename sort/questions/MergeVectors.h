@@ -5,7 +5,6 @@
 #ifndef KICK_START_MERGEVECTORS_H
 #define KICK_START_MERGEVECTORS_H
 
-#endif //KICK_START_MERGEVECTORS_H
 #include <vector>
 using namespace std;
 
@@ -35,3 +34,4 @@ public:
         }
     }
 };
+#endif //KICK_START_MERGEVECTORS_H

@@ -5,8 +5,6 @@
 #ifndef KICK_START_INTERSECTIONOFTHREESORTEDARRAYS_H
 #define KICK_START_INTERSECTIONOFTHREESORTEDARRAYS_H
 
-#endif //KICK_START_INTERSECTIONOFTHREESORTEDARRAYS_H
-
 class IntersectionOfThreeSortedArrays {
 public:
     vector<int> find_intersection(vector<int> arr1, vector<int> arr2, vector<int> arr3) {
@@ -44,3 +42,5 @@ public:
         }
     }
 };
+
+#endif //KICK_START_INTERSECTIONOFTHREESORTEDARRAYS_H

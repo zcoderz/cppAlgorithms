@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_OPERATORCHECKS_H
 #define CPPALGORITHMS_OPERATORCHECKS_H
 
-#endif //CPPALGORITHMS_OPERATORCHECKS_H
-
 #include <algorithm>
 #include <set>
 #include <vector>
@@ -39,3 +37,5 @@ public:
         }
     }
 };
+
+#endif //CPPALGORITHMS_OPERATORCHECKS_H

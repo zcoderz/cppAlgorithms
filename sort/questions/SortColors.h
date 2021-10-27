@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_SORTCOLORS_H
 #define CPPALGORITHMS_SORTCOLORS_H
 
-#endif //CPPALGORITHMS_SORTCOLORS_H
-
 #include <vector>
 
 using namespace std;
@@ -32,3 +30,5 @@ public:
         }
     }
 };
+
+#endif //CPPALGORITHMS_SORTCOLORS_H

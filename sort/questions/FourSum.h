@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_FOURSUM_H
 #define CPPALGORITHMS_FOURSUM_H
 
-#endif //CPPALGORITHMS_FOURSUM_H
-
 #include <vector>
 #include <unordered_set>
 
@@ -67,3 +65,5 @@ public:
         return res;
     }
 };
+
+#endif //CPPALGORITHMS_FOURSUM_H

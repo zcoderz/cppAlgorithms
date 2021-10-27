@@ -5,7 +5,6 @@
 #ifndef KICK_START_KTHLARGESTINSTREAM_H
 #define KICK_START_KTHLARGESTINSTREAM_H
 
-#endif //KICK_START_KTHLARGESTINSTREAM_H
 #include <vector>
 #include <queue>
 #include <set>
@@ -73,3 +72,4 @@ public:
     }
 
 };
+#endif //KICK_START_KTHLARGESTINSTREAM_H

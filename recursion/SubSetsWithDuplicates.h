@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_SUBSETSWITHDUPLICATES_H
 #define CPPALGORITHMS_SUBSETSWITHDUPLICATES_H
 
-#endif //CPPALGORITHMS_SUBSETSWITHDUPLICATES_H
-
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -34,3 +32,5 @@ public:
         }
     }
 };
+
+#endif //CPPALGORITHMS_SUBSETSWITHDUPLICATES_H

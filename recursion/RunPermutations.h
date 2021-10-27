@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_RUNPERMUTATIONS_H
 #define CPPALGORITHMS_RUNPERMUTATIONS_H
 
-#endif //CPPALGORITHMS_RUNPERMUTATIONS_H
-
 #include <vector>
 
 using namespace std;
@@ -32,3 +30,4 @@ public:
     }
 
 };
+#endif //CPPALGORITHMS_RUNPERMUTATIONS_H

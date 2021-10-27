@@ -5,8 +5,6 @@
 #ifndef KICK_START_TOPKFREQUENT_H
 #define KICK_START_TOPKFREQUENT_H
 
-#endif //KICK_START_TOPKFREQUENT_H
-
 #include <unordered_map>
 #include <vector>
 
@@ -121,3 +119,5 @@ public:
     }
 
 };
+
+#endif //KICK_START_TOPKFREQUENT_H

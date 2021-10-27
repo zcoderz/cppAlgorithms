@@ -5,8 +5,6 @@
 #ifndef KICK_START_ONLINEMEDIAN_H
 #define KICK_START_ONLINEMEDIAN_H
 
-#endif //KICK_START_ONLINEMEDIAN_H
-
 #include <algorithm>
 
 using namespace std;
@@ -70,3 +68,5 @@ public:
         return result;
     }
 };
+
+#endif //KICK_START_ONLINEMEDIAN_H

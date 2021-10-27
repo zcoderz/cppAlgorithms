@@ -5,7 +5,6 @@
 #ifndef KICK_START_MERGESORTBOTTOMUP_H
 #define KICK_START_MERGESORTBOTTOMUP_H
 
-#endif //KICK_START_MERGESORTBOTTOMUP_H
 #include <algorithm>
 using namespace std;
 
@@ -55,3 +54,4 @@ private:
         }
     }
 };
+#endif //KICK_START_MERGESORTBOTTOMUP_H

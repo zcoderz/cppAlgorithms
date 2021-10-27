@@ -5,8 +5,6 @@
 #ifndef CPPALGORITHMS_COMBINATIONSUM_H
 #define CPPALGORITHMS_COMBINATIONSUM_H
 
-#endif //CPPALGORITHMS_COMBINATIONSUM_H
-
 #include <vector>
 using namespace std;
 
@@ -37,3 +35,5 @@ public:
         }
     }
 };
+
+#endif //CPPALGORITHMS_COMBINATIONSUM_H

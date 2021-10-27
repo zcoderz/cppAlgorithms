@@ -5,8 +5,6 @@
 #ifndef KICK_START_THREEWAYQUICKSORT_H
 #define KICK_START_THREEWAYQUICKSORT_H
 
-#endif //KICK_START_THREEWAYQUICKSORT_H
-
 #include <algorithm>
 
 using namespace std;
@@ -41,3 +39,5 @@ public:
         partition(arr, 0, sz-1);
     }
 };
+
+#endif //KICK_START_THREEWAYQUICKSORT_H
