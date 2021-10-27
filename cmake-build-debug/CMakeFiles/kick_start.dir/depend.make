@@ -17,12 +17,16 @@ CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o: \
  ../priorityqueue/PriorityQueueTest.cpp \
  ../priorityqueue/PriorityQueueTest.h
 CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
+ ../recursion/AllCombinationsWithSumQualToTarget.h \
+ ../recursion/CombinationSum.h \
+ ../recursion/GetWordsFromPhoneNumber.h \
  ../recursion/LetterCasePermutations.h \
  ../recursion/NChooseK.h \
  ../recursion/PermuteWithDuplicates.h \
  ../recursion/RecursionProblems.cpp \
  ../recursion/RecursionProblems.h \
- ../recursion/RunPermutations.h
+ ../recursion/RunPermutations.h \
+ ../recursion/SubSetsWithDuplicates.h
 CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  /home/usman/boost/boost_1_77_0/boost/algorithm/string.hpp \
  /home/usman/boost/boost_1_77_0/boost/algorithm/string/case_conv.hpp \

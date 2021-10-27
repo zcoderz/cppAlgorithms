@@ -86,9 +86,29 @@ public:
     vector<vector<int> > get_permutations(vector<int> arr) {
         sort(arr.begin(), arr.end());
         vector<vector<int>> res;
-        permute(0, arr.size(), arr, res);
+        permuteWithoutSet(0, arr.size(), arr, res);
         return res;
     }
 
+    /**
+     * extremely smart method because of its simplicity
+     * @param index
+     * @param size
+     * @param currVec
+     * @param res
+     */
+    void permuteWithoutSet(int index, int size, vector<int> & currVec, vector<vector<int>> & res) {
+        if (index == size) {
+            res.push_back(currVec);
+            return;
+        }
+
+        for (int i =index; i < size; i++) {
+            if (i == index || currVec[i] != currVec[index]) {
+                swap(currVec[i], currVec[index]);
+                permute(index + 1, size, currVec, res);
+            }
+        }
+    }
 
 };

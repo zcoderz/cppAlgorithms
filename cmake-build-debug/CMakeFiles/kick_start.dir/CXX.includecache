@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/usman/work/cppAlgorithms/recursion/AllCombinationsWithSumQualToTarget.h
+vector
+-
+set
+-
+
+/home/usman/work/cppAlgorithms/recursion/CombinationSum.h
+vector
+-
+
+/home/usman/work/cppAlgorithms/recursion/GetWordsFromPhoneNumber.h
+vector
+-
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/recursion/LetterCasePermutations.h
 vector
 -
@@ -37,10 +53,24 @@ NChooseK.h
 /home/usman/work/cppAlgorithms/recursion/NChooseK.h
 PermuteWithDuplicates.h
 /home/usman/work/cppAlgorithms/recursion/PermuteWithDuplicates.h
+GetWordsFromPhoneNumber.h
+/home/usman/work/cppAlgorithms/recursion/GetWordsFromPhoneNumber.h
+AllCombinationsWithSumQualToTarget.h
+/home/usman/work/cppAlgorithms/recursion/AllCombinationsWithSumQualToTarget.h
+CombinationSum.h
+/home/usman/work/cppAlgorithms/recursion/CombinationSum.h
+SubSetsWithDuplicates.h
+/home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h
 
 /home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
 
 /home/usman/work/cppAlgorithms/recursion/RunPermutations.h
 vector
+-
+
+/home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h
+vector
+-
+algorithm
 -
 
