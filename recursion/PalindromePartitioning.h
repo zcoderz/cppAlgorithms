@@ -103,6 +103,21 @@ public:
         identifyPalindromicPartitions(currString, currIndex + 1, origStr, currPartition, partitions);
         currString.pop_back();
     }
+    void test() {
+        vector<vector<string>> test;
+        vector<string> res;
+        for (vector<string> & vec : test) {
+            string s;
+            for (string & str: vec) {
+                s += str + "|";
+            }
+            if (!s.empty()) {
+                s.pop_back();
+            }
+            res.push_back(s);
+        }
+
+    }
 };
 
 #endif //CPPALGORITHMS_PALINDROMEPARTITIONING_H

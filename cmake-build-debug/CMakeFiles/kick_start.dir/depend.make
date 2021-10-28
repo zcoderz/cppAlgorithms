@@ -29,7 +29,8 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
  ../recursion/RecursionProblems.cpp \
  ../recursion/RecursionProblems.h \
  ../recursion/RunPermutations.h \
- ../recursion/SubSetsWithDuplicates.h
+ ../recursion/SubSetsWithDuplicates.h \
+ ../recursion/TowersOfHanoi.h
 CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  /home/usman/boost/boost_1_77_0/boost/algorithm/string.hpp \
  /home/usman/boost/boost_1_77_0/boost/algorithm/string/case_conv.hpp \

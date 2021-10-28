@@ -81,6 +81,8 @@ Parenthesis.h
 /home/usman/work/cppAlgorithms/recursion/Parenthesis.h
 PascalTriangle.h
 /home/usman/work/cppAlgorithms/recursion/PascalTriangle.h
+TowersOfHanoi.h
+/home/usman/work/cppAlgorithms/recursion/TowersOfHanoi.h
 
 /home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
 
@@ -93,4 +95,6 @@ vector
 -
 algorithm
 -
+
+/home/usman/work/cppAlgorithms/recursion/TowersOfHanoi.h
 

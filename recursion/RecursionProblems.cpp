@@ -18,14 +18,34 @@ using namespace std;
 #include "PalindromePartitioning.h"
 #include "Parenthesis.h"
 #include "PascalTriangle.h"
+#include "TowersOfHanoi.h"
+void TOH(int n,char Sour, char Aux,char Des)
+{
+    if(n==1)
+    {
+        cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
+        return;
+    }
 
+    TOH(n-1,Sour,Des,Aux);
+    cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
+    TOH(n-1,Aux,Sour,Des);
+}
 
 void RecursionProblems::runRecursionProblems() {
-    PascalTriangle pascal;
-    vector<int> vecRes = pascal.getRow(4);
-    for(int v : vecRes) {
-        cout << v << ",";
-    }
+    //TOH(5,'A','B','C');
+
+    vector<int> disks = {3,2,1};
+    TowersOfHanoi towers;
+    Tower a("a"); Tower b("b"); Tower c("c");
+    a.disks = disks;
+    towers.move(3, a, b, c);
+    int res = 1;
+//    PascalTriangle pascal;
+//    vector<int> vecRes = pascal.getRow(4);
+//    for(int v : vecRes) {
+//        cout << v << ",";
+//    }
 //    Parenthesis parentheses;
 //    vector<string> vecRes = parentheses.generateParenthesis(3);
 //    PalindromePartitioning partitioning;

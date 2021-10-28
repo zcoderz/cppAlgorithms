@@ -147,6 +147,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/recursion/TowersOfHanoi.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/BubbleSort.h">
 			<Option target="kick_start"/>
 		</Unit>
