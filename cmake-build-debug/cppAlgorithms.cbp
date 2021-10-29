@@ -111,6 +111,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/AllCombinationsWithSumQualToTarget.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/recursion/BSTWithNodes.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/CombinationSum.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -121,6 +124,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/NChooseK.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/recursion/NQueens.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/PalindromePartitioning.h">
@@ -142,6 +148,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/RunPermutations.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/recursion/SolveSudoku.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h">

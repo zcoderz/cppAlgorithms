@@ -18,10 +18,12 @@ CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.h
 CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o
  /home/usman/work/cppAlgorithms/recursion/AllCombinationsWithSumQualToTarget.h
+ /home/usman/work/cppAlgorithms/recursion/BSTWithNodes.h
  /home/usman/work/cppAlgorithms/recursion/CombinationSum.h
  /home/usman/work/cppAlgorithms/recursion/GetWordsFromPhoneNumber.h
  /home/usman/work/cppAlgorithms/recursion/LetterCasePermutations.h
  /home/usman/work/cppAlgorithms/recursion/NChooseK.h
+ /home/usman/work/cppAlgorithms/recursion/NQueens.h
  /home/usman/work/cppAlgorithms/recursion/PalindromePartitioning.h
  /home/usman/work/cppAlgorithms/recursion/Parenthesis.h
  /home/usman/work/cppAlgorithms/recursion/PascalTriangle.h
@@ -29,6 +31,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o
  /home/usman/work/cppAlgorithms/recursion/RecursionProblems.cpp
  /home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
  /home/usman/work/cppAlgorithms/recursion/RunPermutations.h
+ /home/usman/work/cppAlgorithms/recursion/SolveSudoku.h
  /home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h
  /home/usman/work/cppAlgorithms/recursion/TowersOfHanoi.h
 CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o

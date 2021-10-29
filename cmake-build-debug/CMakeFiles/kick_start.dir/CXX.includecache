@@ -12,6 +12,10 @@ vector
 set
 -
 
+/home/usman/work/cppAlgorithms/recursion/BSTWithNodes.h
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/recursion/CombinationSum.h
 vector
 -
@@ -29,6 +33,10 @@ string
 -
 
 /home/usman/work/cppAlgorithms/recursion/NChooseK.h
+vector
+-
+
+/home/usman/work/cppAlgorithms/recursion/NQueens.h
 vector
 -
 
@@ -83,10 +91,20 @@ PascalTriangle.h
 /home/usman/work/cppAlgorithms/recursion/PascalTriangle.h
 TowersOfHanoi.h
 /home/usman/work/cppAlgorithms/recursion/TowersOfHanoi.h
+BSTWithNodes.h
+/home/usman/work/cppAlgorithms/recursion/BSTWithNodes.h
+NQueens.h
+/home/usman/work/cppAlgorithms/recursion/NQueens.h
+SolveSudoku.h
+/home/usman/work/cppAlgorithms/recursion/SolveSudoku.h
 
 /home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
 
 /home/usman/work/cppAlgorithms/recursion/RunPermutations.h
+vector
+-
+
+/home/usman/work/cppAlgorithms/recursion/SolveSudoku.h
 vector
 -
 

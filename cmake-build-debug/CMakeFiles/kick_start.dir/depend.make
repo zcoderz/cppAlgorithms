@@ -18,10 +18,12 @@ CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o: \
  ../priorityqueue/PriorityQueueTest.h
 CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
  ../recursion/AllCombinationsWithSumQualToTarget.h \
+ ../recursion/BSTWithNodes.h \
  ../recursion/CombinationSum.h \
  ../recursion/GetWordsFromPhoneNumber.h \
  ../recursion/LetterCasePermutations.h \
  ../recursion/NChooseK.h \
+ ../recursion/NQueens.h \
  ../recursion/PalindromePartitioning.h \
  ../recursion/Parenthesis.h \
  ../recursion/PascalTriangle.h \
@@ -29,6 +31,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
  ../recursion/RecursionProblems.cpp \
  ../recursion/RecursionProblems.h \
  ../recursion/RunPermutations.h \
+ ../recursion/SolveSudoku.h \
  ../recursion/SubSetsWithDuplicates.h \
  ../recursion/TowersOfHanoi.h
 CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \

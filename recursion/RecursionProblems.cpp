@@ -19,28 +19,36 @@ using namespace std;
 #include "Parenthesis.h"
 #include "PascalTriangle.h"
 #include "TowersOfHanoi.h"
-void TOH(int n,char Sour, char Aux,char Des)
-{
-    if(n==1)
-    {
-        cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
-        return;
-    }
-
-    TOH(n-1,Sour,Des,Aux);
-    cout<<"Move Disk "<<n<<" from "<<Sour<<" to "<<Des<<endl;
-    TOH(n-1,Aux,Sour,Des);
-}
+#include "BSTWithNodes.h"
+#include "NQueens.h"
+#include "SolveSudoku.h"
 
 void RecursionProblems::runRecursionProblems() {
-    //TOH(5,'A','B','C');
+    SolveSudoku solveSudoku;
+    vector<vector<int>> board = {
+    {8, 4, 9, 0, 0, 3, 5, 7, 0},
+    {0, 1, 0, 0, 0, 0, 0, 0, 0},
+    {7, 0, 0, 0, 9, 0, 0, 8, 3},
+    {0, 0, 0, 9, 4, 6, 7, 0, 0},
+    {0, 8, 0, 0, 5, 0, 0, 4, 0},
+    {0, 0, 6, 8, 7, 2, 0, 0, 0},
+    {5, 7, 0, 0, 1, 0, 0, 0, 4},
+    {0, 0, 0, 0, 0, 0, 0, 1, 0},
+    {0, 2, 1, 7, 0, 0, 8, 6, 5}};
+    solveSudoku.solve_sudoku_puzzle(board);
+    int j = 1;
 
-    vector<int> disks = {3,2,1};
-    TowersOfHanoi towers;
-    Tower a("a"); Tower b("b"); Tower c("c");
-    a.disks = disks;
-    towers.move(3, a, b, c);
-    int res = 1;
+//    NQueens nQueens;
+//    vector<vector<string>> vecRes = nQueens.find_all_arrangements(4);
+//    BSTWithNodes bst;
+//    long long int res = bst.how_many_BSTs(10);
+//    cout << res << endl;
+//    vector<int> disks = {3,2,1};
+//    TowersOfHanoi towers;
+//    Tower a("a"); Tower b("b"); Tower c("c");
+//    a.disks = disks;
+//    towers.move(3, a, b, c);
+
 //    PascalTriangle pascal;
 //    vector<int> vecRes = pascal.getRow(4);
 //    for(int v : vecRes) {
@@ -52,9 +60,9 @@ void RecursionProblems::runRecursionProblems() {
 //    vector<vector<string>> vecRes = partitioning.partition("aab");
 //    for (vector<string> & vec : vecRes) {
 //        for (string & str: vec) {
-//            cout << str << ",";
+//            cout << str << endl;
 //        }
-//        cout << endl;
+//        cout << "eeeeeendddddd" << endl;
 //    }
 //    //SubSetsWithDuplicates subSetsWithDuplicates;
     //vector<string> vecRes = subSetsWithDuplicates.get_distinct_subsets("dc");
