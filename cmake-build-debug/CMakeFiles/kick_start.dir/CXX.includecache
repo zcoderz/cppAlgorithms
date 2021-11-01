@@ -12,6 +12,8 @@ vector
 ../utils/TreeNode.h
 /home/usman/work/cppAlgorithms/utils/TreeNode.h
 
+/home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h
+
 /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
 ../utils/TreeNodeNArray.h
 /home/usman/work/cppAlgorithms/utils/TreeNodeNArray.h
@@ -35,6 +37,8 @@ LevelOrderTraversal.h
 /home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h
 LevelOrderNArray.h
 /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
+DiameterOfABinaryTree.h
+/home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h
 
 /home/usman/work/cppAlgorithms/trees/TreeProblems.h
 

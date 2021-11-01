@@ -801,6 +801,7 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  ../sort/questions/TwoSumNonSorted.h
 CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
  ../trees/BinaryTreeTraversal.h \
+ ../trees/DiameterOfABinaryTree.h \
  ../trees/LevelOrderNArray.h \
  ../trees/LevelOrderTraversal.h \
  ../trees/TreeProblems.cpp \

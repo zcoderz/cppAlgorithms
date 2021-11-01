@@ -6,6 +6,7 @@
 #include "BinaryTreeTraversal.h"
 #include "LevelOrderTraversal.h"
 #include "LevelOrderNArray.h"
+#include "DiameterOfABinaryTree.h"
 
 void TreeProblems::runTreeProblems() {
 
