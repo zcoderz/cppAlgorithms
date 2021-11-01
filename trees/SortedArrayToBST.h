@@ -13,7 +13,7 @@ class SortedArrayToBST{
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         int index = 0;
-        return processBST(index, nums, numeric_limits<int>::min(), numeric_limits<int>::max());
+        return processBST(index, nums, 0, nums.size()-1);
     }
 
     TreeNode * processBST(int & index, vector<int>& nums, int left, int right) {
