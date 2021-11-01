@@ -800,11 +800,17 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  ../sort/questions/TwoSum.h \
  ../sort/questions/TwoSumNonSorted.h
 CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
+ ../trees/AllPathsThatSumToK.h \
+ ../trees/BinaryTreeFromPreOrder.h \
  ../trees/BinaryTreeTraversal.h \
  ../trees/DiameterOfABinaryTree.h \
  ../trees/LevelOrderNArray.h \
  ../trees/LevelOrderTraversal.h \
+ ../trees/RightSideViewOfABinaryTree.h \
+ ../trees/SortedArrayToBST.h \
+ ../trees/SortedListToBinarySearchTree.h \
  ../trees/TreeProblems.cpp \
  ../trees/TreeProblems.h \
+ ../utils/SinglyListNode.h \
  ../utils/TreeNode.h \
  ../utils/TreeNodeNArray.h

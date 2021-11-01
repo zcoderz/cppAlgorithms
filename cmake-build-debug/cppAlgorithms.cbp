@@ -243,6 +243,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/TwoSumNonSorted.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/AllPathsThatSumToK.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeTraversal.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -255,10 +261,22 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/SortedArrayToBST.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/SortedListToBinarySearchTree.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/TreeProblems.cpp">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/TreeProblems.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/utils/SinglyListNode.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/utils/TreeNode.h">

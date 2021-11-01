@@ -6,6 +6,10 @@
 #define CPPALGORITHMS_TREENODE_H
 
 struct TreeNode{
+    TreeNode() {}
+    TreeNode(int data) {
+        label = data;
+    }
     int label;
     TreeNode* left_ptr;
     TreeNode* right_ptr;

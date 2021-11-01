@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/usman/work/cppAlgorithms/trees/AllPathsThatSumToK.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
+vector
+-
+
+/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
+limits
+-
+stack
+-
+
 /home/usman/work/cppAlgorithms/trees/BinaryTreeTraversal.h
 vector
 -
@@ -28,6 +42,24 @@ vector
 queue
 -
 
+/home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h
+vector
+-
+unordered_set
+-
+
+/home/usman/work/cppAlgorithms/trees/SortedArrayToBST.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
+limits
+-
+
+/home/usman/work/cppAlgorithms/trees/SortedListToBinarySearchTree.h
+../utils/SinglyListNode.h
+/home/usman/work/cppAlgorithms/utils/SinglyListNode.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
+
 /home/usman/work/cppAlgorithms/trees/TreeProblems.cpp
 TreeProblems.h
 /home/usman/work/cppAlgorithms/trees/TreeProblems.h
@@ -39,8 +71,20 @@ LevelOrderNArray.h
 /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
 DiameterOfABinaryTree.h
 /home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h
+SortedListToBinarySearchTree.h
+/home/usman/work/cppAlgorithms/trees/SortedListToBinarySearchTree.h
+AllPathsThatSumToK.h
+/home/usman/work/cppAlgorithms/trees/AllPathsThatSumToK.h
+RightSideViewOfABinaryTree.h
+/home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h
+BinaryTreeFromPreOrder.h
+/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h
+SortedArrayToBST.h
+/home/usman/work/cppAlgorithms/trees/SortedArrayToBST.h
 
 /home/usman/work/cppAlgorithms/trees/TreeProblems.h
+
+/home/usman/work/cppAlgorithms/utils/SinglyListNode.h
 
 /home/usman/work/cppAlgorithms/utils/TreeNode.h
 

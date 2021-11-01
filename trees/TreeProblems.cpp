@@ -7,6 +7,11 @@
 #include "LevelOrderTraversal.h"
 #include "LevelOrderNArray.h"
 #include "DiameterOfABinaryTree.h"
+#include "SortedListToBinarySearchTree.h"
+#include "AllPathsThatSumToK.h"
+#include "RightSideViewOfABinaryTree.h"
+#include "BinaryTreeFromPreOrder.h"
+#include "SortedArrayToBST.h"
 
 void TreeProblems::runTreeProblems() {
 
