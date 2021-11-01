@@ -20,6 +20,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
  ../recursion/AllCombinationsWithSumQualToTarget.h \
  ../recursion/BSTWithNodes.h \
  ../recursion/CombinationSum.h \
+ ../recursion/GenerateAllExpressions.h \
  ../recursion/GetWordsFromPhoneNumber.h \
  ../recursion/LetterCasePermutations.h \
  ../recursion/NChooseK.h \
@@ -798,3 +799,11 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  ../sort/questions/TopKFrequent.h \
  ../sort/questions/TwoSum.h \
  ../sort/questions/TwoSumNonSorted.h
+CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
+ ../trees/BinaryTreeTraversal.h \
+ ../trees/LevelOrderNArray.h \
+ ../trees/LevelOrderTraversal.h \
+ ../trees/TreeProblems.cpp \
+ ../trees/TreeProblems.h \
+ ../utils/TreeNode.h \
+ ../utils/TreeNodeNArray.h

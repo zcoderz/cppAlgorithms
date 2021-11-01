@@ -20,6 +20,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o
  /home/usman/work/cppAlgorithms/recursion/AllCombinationsWithSumQualToTarget.h
  /home/usman/work/cppAlgorithms/recursion/BSTWithNodes.h
  /home/usman/work/cppAlgorithms/recursion/CombinationSum.h
+ /home/usman/work/cppAlgorithms/recursion/GenerateAllExpressions.h
  /home/usman/work/cppAlgorithms/recursion/GetWordsFromPhoneNumber.h
  /home/usman/work/cppAlgorithms/recursion/LetterCasePermutations.h
  /home/usman/work/cppAlgorithms/recursion/NChooseK.h
@@ -798,3 +799,11 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o
  /home/usman/work/cppAlgorithms/sort/questions/TopKFrequent.h
  /home/usman/work/cppAlgorithms/sort/questions/TwoSum.h
  /home/usman/work/cppAlgorithms/sort/questions/TwoSumNonSorted.h
+CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o
+ /home/usman/work/cppAlgorithms/trees/BinaryTreeTraversal.h
+ /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
+ /home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h
+ /home/usman/work/cppAlgorithms/trees/TreeProblems.cpp
+ /home/usman/work/cppAlgorithms/trees/TreeProblems.h
+ /home/usman/work/cppAlgorithms/utils/TreeNode.h
+ /home/usman/work/cppAlgorithms/utils/TreeNodeNArray.h

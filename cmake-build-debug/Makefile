@@ -249,6 +249,30 @@ sort/SortChecks.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/sort/SortChecks.cpp.s
 .PHONY : sort/SortChecks.cpp.s
 
+trees/TreeProblems.o: trees/TreeProblems.cpp.o
+.PHONY : trees/TreeProblems.o
+
+# target to build an object file
+trees/TreeProblems.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o
+.PHONY : trees/TreeProblems.cpp.o
+
+trees/TreeProblems.i: trees/TreeProblems.cpp.i
+.PHONY : trees/TreeProblems.i
+
+# target to preprocess a source file
+trees/TreeProblems.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.i
+.PHONY : trees/TreeProblems.cpp.i
+
+trees/TreeProblems.s: trees/TreeProblems.cpp.s
+.PHONY : trees/TreeProblems.s
+
+# target to generate assembly for a file
+trees/TreeProblems.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.s
+.PHONY : trees/TreeProblems.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,6 +297,9 @@ help:
 	@echo "... sort/SortChecks.o"
 	@echo "... sort/SortChecks.i"
 	@echo "... sort/SortChecks.s"
+	@echo "... trees/TreeProblems.o"
+	@echo "... trees/TreeProblems.i"
+	@echo "... trees/TreeProblems.s"
 .PHONY : help
 
 

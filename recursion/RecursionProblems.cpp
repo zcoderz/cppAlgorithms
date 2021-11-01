@@ -22,21 +22,25 @@ using namespace std;
 #include "BSTWithNodes.h"
 #include "NQueens.h"
 #include "SolveSudoku.h"
+#include "GenerateAllExpressions.h"
 
 void RecursionProblems::runRecursionProblems() {
-    SolveSudoku solveSudoku;
-    vector<vector<int>> board = {
-    {8, 4, 9, 0, 0, 3, 5, 7, 0},
-    {0, 1, 0, 0, 0, 0, 0, 0, 0},
-    {7, 0, 0, 0, 9, 0, 0, 8, 3},
-    {0, 0, 0, 9, 4, 6, 7, 0, 0},
-    {0, 8, 0, 0, 5, 0, 0, 4, 0},
-    {0, 0, 6, 8, 7, 2, 0, 0, 0},
-    {5, 7, 0, 0, 1, 0, 0, 0, 4},
-    {0, 0, 0, 0, 0, 0, 0, 1, 0},
-    {0, 2, 1, 7, 0, 0, 8, 6, 5}};
-    solveSudoku.solve_sudoku_puzzle(board);
-    int j = 1;
+
+    GenerateAllExpressions generateAllExpressions;
+    vector<string> vecRes = generateAllExpressions.generate_all_expressions("6666666666666", 6);
+//    SolveSudoku solveSudoku;
+//    vector<vector<int>> board = {
+//    {8, 4, 9, 0, 0, 3, 5, 7, 0},
+//    {0, 1, 0, 0, 0, 0, 0, 0, 0},
+//    {7, 0, 0, 0, 9, 0, 0, 8, 3},
+//    {0, 0, 0, 9, 4, 6, 7, 0, 0},
+//    {0, 8, 0, 0, 5, 0, 0, 4, 0},
+//    {0, 0, 6, 8, 7, 2, 0, 0, 0},
+//    {5, 7, 0, 0, 1, 0, 0, 0, 4},
+//    {0, 0, 0, 0, 0, 0, 0, 1, 0},
+//    {0, 2, 1, 7, 0, 0, 8, 6, 5}};
+//    solveSudoku.solve_sudoku_puzzle(board);
+//    int j = 1;
 
 //    NQueens nQueens;
 //    vector<vector<string>> vecRes = nQueens.find_all_arrangements(4);
@@ -73,9 +77,9 @@ void RecursionProblems::runRecursionProblems() {
 //    vector<vector<int>> res = sumEqualToTarget.generate_all_combinations(v, 6);
 //    GetWordsFromNumbers phone;
 //    vector<string> vecRes = phone.getWordsFromPhoneNumber("1010101");
-//    for (string & str: vecRes) {
-//        cout << str << endl;
-//    }
+    for (string & str: vecRes) {
+        cout << str << endl;
+    }
 
 //    vector<int> vec = {1, 2, 2, 3};
 //    PermuteWithDuplicates permuteWithDuplicates;

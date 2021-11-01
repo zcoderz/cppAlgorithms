@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o"
   "/home/usman/work/cppAlgorithms/recursion/RecursionProblems.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o"
   "/home/usman/work/cppAlgorithms/sort/SortChecks.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o"
+  "/home/usman/work/cppAlgorithms/trees/TreeProblems.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
