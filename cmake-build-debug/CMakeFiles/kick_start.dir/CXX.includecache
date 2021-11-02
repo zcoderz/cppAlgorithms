@@ -42,6 +42,12 @@ vector
 queue
 -
 
+/home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h
 vector
 -
@@ -81,6 +87,8 @@ BinaryTreeFromPreOrder.h
 /home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h
 SortedArrayToBST.h
 /home/usman/work/cppAlgorithms/trees/SortedArrayToBST.h
+PathsEqualToTarget.h
+/home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h
 
 /home/usman/work/cppAlgorithms/trees/TreeProblems.h
 

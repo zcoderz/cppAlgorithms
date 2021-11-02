@@ -806,6 +806,7 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
  ../trees/DiameterOfABinaryTree.h \
  ../trees/LevelOrderNArray.h \
  ../trees/LevelOrderTraversal.h \
+ ../trees/PathsEqualToTarget.h \
  ../trees/RightSideViewOfABinaryTree.h \
  ../trees/SortedArrayToBST.h \
  ../trees/SortedListToBinarySearchTree.h \

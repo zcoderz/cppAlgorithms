@@ -12,6 +12,8 @@
 #include "RightSideViewOfABinaryTree.h"
 #include "BinaryTreeFromPreOrder.h"
 #include "SortedArrayToBST.h"
+#include "PathsEqualToTarget.h"
+#include "BstFromInOrderAndPostOrderTraversal.h"
 
 void TreeProblems::runTreeProblems() {
 

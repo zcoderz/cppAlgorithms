@@ -252,6 +252,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeTraversal.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/BstFromInOrderAndPostOrderTraversal.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -259,6 +262,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h">
