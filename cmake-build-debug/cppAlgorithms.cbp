@@ -261,6 +261,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/IsABST.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -268,6 +271,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/LongestUniValPath.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/MaxPathSum.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h">

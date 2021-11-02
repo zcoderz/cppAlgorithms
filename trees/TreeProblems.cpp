@@ -16,6 +16,7 @@
 #include "BstFromInOrderAndPostOrderTraversal.h"
 #include "CountUnivalueSubtrees.h"
 #include "LongestUniValPath.h"
+#include "IsABST.h"
 
 void TreeProblems::runTreeProblems() {
 
