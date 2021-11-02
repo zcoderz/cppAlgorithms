@@ -255,6 +255,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BstFromInOrderAndPostOrderTraversal.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/CountUnivalueSubtrees.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -262,6 +265,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/LongestUniValPath.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h">

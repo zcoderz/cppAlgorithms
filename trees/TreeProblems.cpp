@@ -14,6 +14,8 @@
 #include "SortedArrayToBST.h"
 #include "PathsEqualToTarget.h"
 #include "BstFromInOrderAndPostOrderTraversal.h"
+#include "CountUnivalueSubtrees.h"
+#include "LongestUniValPath.h"
 
 void TreeProblems::runTreeProblems() {
 

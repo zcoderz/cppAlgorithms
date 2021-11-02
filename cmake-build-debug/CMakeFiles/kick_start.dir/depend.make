@@ -803,9 +803,12 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
  ../trees/AllPathsThatSumToK.h \
  ../trees/BinaryTreeFromPreOrder.h \
  ../trees/BinaryTreeTraversal.h \
+ ../trees/BstFromInOrderAndPostOrderTraversal.h \
+ ../trees/CountUnivalueSubtrees.h \
  ../trees/DiameterOfABinaryTree.h \
  ../trees/LevelOrderNArray.h \
  ../trees/LevelOrderTraversal.h \
+ ../trees/LongestUniValPath.h \
  ../trees/PathsEqualToTarget.h \
  ../trees/RightSideViewOfABinaryTree.h \
  ../trees/SortedArrayToBST.h \
