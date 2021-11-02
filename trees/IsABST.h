@@ -6,11 +6,12 @@
 #define CPPALGORITHMS_ISABST_H
 
 #include "../utils/TreeNode.h"
+#include <limits>
 
 class IsABST {
 public:
     bool isBST(TreeNode* root){
-        return isBst(root, true);
+        return isBst(root, numeric_limits<long>::min(), numeric_limits<long>::max());
     }
 
     bool isBst(TreeNode * node, long min, long max) {

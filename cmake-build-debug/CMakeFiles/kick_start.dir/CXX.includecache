@@ -34,6 +34,12 @@ vector
 
 /home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h
 
+/home/usman/work/cppAlgorithms/trees/IsABST.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
+limits
+-
+
 /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
 ../utils/TreeNodeNArray.h
 /home/usman/work/cppAlgorithms/utils/TreeNodeNArray.h
@@ -103,6 +109,8 @@ CountUnivalueSubtrees.h
 /home/usman/work/cppAlgorithms/trees/CountUnivalueSubtrees.h
 LongestUniValPath.h
 /home/usman/work/cppAlgorithms/trees/LongestUniValPath.h
+IsABST.h
+/home/usman/work/cppAlgorithms/trees/IsABST.h
 
 /home/usman/work/cppAlgorithms/trees/TreeProblems.h
 

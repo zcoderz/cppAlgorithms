@@ -806,6 +806,7 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
  ../trees/BstFromInOrderAndPostOrderTraversal.h \
  ../trees/CountUnivalueSubtrees.h \
  ../trees/DiameterOfABinaryTree.h \
+ ../trees/IsABST.h \
  ../trees/LevelOrderNArray.h \
  ../trees/LevelOrderTraversal.h \
  ../trees/LongestUniValPath.h \
