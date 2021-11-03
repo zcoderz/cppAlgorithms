@@ -807,15 +807,19 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o
  /home/usman/work/cppAlgorithms/trees/CountUnivalueSubtrees.h
  /home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h
  /home/usman/work/cppAlgorithms/trees/IsABST.h
+ /home/usman/work/cppAlgorithms/trees/LeastCommonAncestor.h
  /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
  /home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h
  /home/usman/work/cppAlgorithms/trees/LongestUniValPath.h
  /home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h
+ /home/usman/work/cppAlgorithms/trees/PrintAllPathsOfTree.h
  /home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h
  /home/usman/work/cppAlgorithms/trees/SortedArrayToBST.h
  /home/usman/work/cppAlgorithms/trees/SortedListToBinarySearchTree.h
  /home/usman/work/cppAlgorithms/trees/TreeProblems.cpp
  /home/usman/work/cppAlgorithms/trees/TreeProblems.h
+ /home/usman/work/cppAlgorithms/trees/UpsideDown.h
+ /home/usman/work/cppAlgorithms/utils/Node.h
  /home/usman/work/cppAlgorithms/utils/SinglyListNode.h
  /home/usman/work/cppAlgorithms/utils/TreeNode.h
  /home/usman/work/cppAlgorithms/utils/TreeNodeNArray.h

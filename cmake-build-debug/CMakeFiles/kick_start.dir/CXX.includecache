@@ -40,6 +40,14 @@ vector
 limits
 -
 
+/home/usman/work/cppAlgorithms/trees/LeastCommonAncestor.h
+../utils/Node.h
+/home/usman/work/cppAlgorithms/utils/Node.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
 ../utils/TreeNodeNArray.h
 /home/usman/work/cppAlgorithms/utils/TreeNodeNArray.h
@@ -60,6 +68,10 @@ queue
 ../utils/TreeNode.h
 /home/usman/work/cppAlgorithms/utils/TreeNode.h
 unordered_map
+-
+
+/home/usman/work/cppAlgorithms/trees/PrintAllPathsOfTree.h
+vector
 -
 
 /home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h
@@ -111,8 +123,18 @@ LongestUniValPath.h
 /home/usman/work/cppAlgorithms/trees/LongestUniValPath.h
 IsABST.h
 /home/usman/work/cppAlgorithms/trees/IsABST.h
+PrintAllPathsOfTree.h
+/home/usman/work/cppAlgorithms/trees/PrintAllPathsOfTree.h
+UpsideDown.h
+/home/usman/work/cppAlgorithms/trees/UpsideDown.h
+LeastCommonAncestor.h
+/home/usman/work/cppAlgorithms/trees/LeastCommonAncestor.h
 
 /home/usman/work/cppAlgorithms/trees/TreeProblems.h
+
+/home/usman/work/cppAlgorithms/trees/UpsideDown.h
+
+/home/usman/work/cppAlgorithms/utils/Node.h
 
 /home/usman/work/cppAlgorithms/utils/SinglyListNode.h
 

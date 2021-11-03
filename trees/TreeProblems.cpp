@@ -17,6 +17,9 @@
 #include "CountUnivalueSubtrees.h"
 #include "LongestUniValPath.h"
 #include "IsABST.h"
+#include "PrintAllPathsOfTree.h"
+#include "UpsideDown.h"
+#include "LeastCommonAncestor.h"
 
 void TreeProblems::runTreeProblems() {
 
