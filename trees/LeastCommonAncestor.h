@@ -14,8 +14,6 @@ using namespace std;
 class LeastCommonAncestor {
 public:
 
-
-
     int lca( Node * node, Node *a, Node *b)
     {
         typedef pair<Node *, int> ThePair;
@@ -42,7 +40,8 @@ public:
                         } else {
                             lca = pairV.first;
                         }
-                    } else if (!bFound && pairV.first->data == b->data) {
+                    }
+                    if (!bFound && pairV.first->data == b->data) {
                         bFound = true;
                         if(aFound) {
                             return lca->data;
@@ -55,6 +54,7 @@ public:
                         nodeStack.push(ThePair(pairV.first->left, NONE_DONE));
                     }
                 } else if (pairV.second == ONE_DONE) {
+
                     if (pairV.first->right != nullptr) {
                         nodeStack.push(ThePair(pairV.first->right, NONE_DONE));
                     }
