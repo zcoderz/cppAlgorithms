@@ -53,8 +53,8 @@ public:
     }
 
     void mergeLists(TreeNode *listA, TreeNode *listB, TreeNode *&listMerged) {
-        TreeNode * previous;
-
+        auto * dummy = new TreeNode(0);
+        TreeNode * previous = dummy;
         while (listA != nullptr || listB != nullptr) {
             if (listA == nullptr) {
                 previous->right_ptr = listB;
@@ -64,22 +64,16 @@ public:
                 previous->right_ptr = listA;
                 return;
             }
-            TreeNode *next;
             if (listA->label < listB->label) {
-                next = listA;
+                previous->right_ptr = listA;
                 listA = listA->right_ptr;
             } else {
-                next = listB;
+                previous->right_ptr = listB;
                 listB = listB->right_ptr;
             }
-
-            if (listMerged == nullptr) {
-                listMerged = next;
-            } else {
-                previous->right_ptr = next;
-            }
-            previous = next;
+            previous = previous->right_ptr;
         }
+        listMerged = dummy->right_ptr;
     }
 
     TreeNode * merge_two_BSTs(TreeNode *root1, TreeNode *root2) {

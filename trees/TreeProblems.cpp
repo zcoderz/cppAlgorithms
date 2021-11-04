@@ -22,6 +22,7 @@
 #include "LeastCommonAncestor.h"
 #include "BinaryTreeToDoubleLinkedList.h"
 #include "MergeBsts.h"
+#include "MergeBstsViaVector.h"
 
 void TreeProblems::runTreeProblems() {
 

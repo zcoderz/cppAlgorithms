@@ -285,6 +285,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/MergeBsts.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/MergeBstsViaVector.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h">
 			<Option target="kick_start"/>
 		</Unit>
