@@ -20,6 +20,8 @@
 #include "PrintAllPathsOfTree.h"
 #include "UpsideDown.h"
 #include "LeastCommonAncestor.h"
+#include "BinaryTreeToDoubleLinkedList.h"
+#include "MergeBsts.h"
 
 void TreeProblems::runTreeProblems() {
 

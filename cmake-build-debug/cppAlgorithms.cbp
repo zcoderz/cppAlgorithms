@@ -249,6 +249,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeToDoubleLinkedList.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeTraversal.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -279,7 +282,13 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/MaxPathSum.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/MergeBsts.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/PostOrderWithoutRecursion.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/PrintAllPathsOfTree.h">

@@ -16,7 +16,7 @@ public:
         return processBST(index, nums, 0, nums.size()-1);
     }
 
-    TreeNode * processBST(int & index, vector<int>& nums, int left, int right) {
+    TreeNode *  processBST(int & index, vector<int>& nums, int left, int right) {
         if (left > right) {
             return nullptr;
         }

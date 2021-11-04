@@ -20,6 +20,10 @@ limits
 stack
 -
 
+/home/usman/work/cppAlgorithms/trees/BinaryTreeToDoubleLinkedList.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
+
 /home/usman/work/cppAlgorithms/trees/BinaryTreeTraversal.h
 vector
 -
@@ -63,6 +67,10 @@ queue
 -
 
 /home/usman/work/cppAlgorithms/trees/LongestUniValPath.h
+
+/home/usman/work/cppAlgorithms/trees/MergeBsts.h
+../utils/TreeNode.h
+/home/usman/work/cppAlgorithms/utils/TreeNode.h
 
 /home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h
 ../utils/TreeNode.h
@@ -129,6 +137,10 @@ UpsideDown.h
 /home/usman/work/cppAlgorithms/trees/UpsideDown.h
 LeastCommonAncestor.h
 /home/usman/work/cppAlgorithms/trees/LeastCommonAncestor.h
+BinaryTreeToDoubleLinkedList.h
+/home/usman/work/cppAlgorithms/trees/BinaryTreeToDoubleLinkedList.h
+MergeBsts.h
+/home/usman/work/cppAlgorithms/trees/MergeBsts.h
 
 /home/usman/work/cppAlgorithms/trees/TreeProblems.h
 
