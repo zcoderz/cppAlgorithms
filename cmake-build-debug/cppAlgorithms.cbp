@@ -117,6 +117,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/CombinationSum.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/recursion/FindAllWellFormedBrackets.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/GenerateAllExpressions.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -157,6 +160,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/recursion/SumEqualToTarget.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/recursion/TowersOfHanoi.h">

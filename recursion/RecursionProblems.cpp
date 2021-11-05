@@ -23,11 +23,19 @@ using namespace std;
 #include "NQueens.h"
 #include "SolveSudoku.h"
 #include "GenerateAllExpressions.h"
+#include "SumEqualToTarget.h"
+#include "FindAllWellFormedBrackets.h"
 
 void RecursionProblems::runRecursionProblems() {
 
-    GenerateAllExpressions generateAllExpressions;
-    vector<string> vecRes = generateAllExpressions.generate_all_expressions("6666666666666", 6);
+    //FindAllWellFormedBrackets brackets;
+    //vector<string> vecRes = brackets.find_all_well_formed_brackets(3);
+    vector<long long int> vec = {-2,-1,3,-1,-1,-3,2,1,-1,1,-4,-2,3,0,4,2,-4,-4};
+    SumEqualToTarget sum;
+    bool  res = sum.check_if_sum_possible(vec, 16);
+    cout << res << endl;
+//    GenerateAllExpressions generateAllExpressions;
+//    vector<string> vecRes = generateAllExpressions.generate_all_expressions("6666666666666", 6);
 //    SolveSudoku solveSudoku;
 //    vector<vector<int>> board = {
 //    {8, 4, 9, 0, 0, 3, 5, 7, 0},
@@ -77,9 +85,9 @@ void RecursionProblems::runRecursionProblems() {
 //    vector<vector<int>> res = sumEqualToTarget.generate_all_combinations(v, 6);
 //    GetWordsFromNumbers phone;
 //    vector<string> vecRes = phone.getWordsFromPhoneNumber("1010101");
-    for (string & str: vecRes) {
-        cout << str << endl;
-    }
+//    for (string & str: vecRes) {
+//        cout << str << endl;
+//    }
 
 //    vector<int> vec = {1, 2, 2, 3};
 //    PermuteWithDuplicates permuteWithDuplicates;

@@ -20,6 +20,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
  ../recursion/AllCombinationsWithSumQualToTarget.h \
  ../recursion/BSTWithNodes.h \
  ../recursion/CombinationSum.h \
+ ../recursion/FindAllWellFormedBrackets.h \
  ../recursion/GenerateAllExpressions.h \
  ../recursion/GetWordsFromPhoneNumber.h \
  ../recursion/LetterCasePermutations.h \
@@ -34,6 +35,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o: \
  ../recursion/RunPermutations.h \
  ../recursion/SolveSudoku.h \
  ../recursion/SubSetsWithDuplicates.h \
+ ../recursion/SumEqualToTarget.h \
  ../recursion/TowersOfHanoi.h
 CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  /home/usman/boost/boost_1_77_0/boost/algorithm/string.hpp \
@@ -813,6 +815,7 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
  ../trees/LevelOrderTraversal.h \
  ../trees/LongestUniValPath.h \
  ../trees/MergeBsts.h \
+ ../trees/MergeBstsViaVector.h \
  ../trees/PathsEqualToTarget.h \
  ../trees/PrintAllPathsOfTree.h \
  ../trees/RightSideViewOfABinaryTree.h \

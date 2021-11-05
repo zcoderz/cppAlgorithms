@@ -20,6 +20,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o
  /home/usman/work/cppAlgorithms/recursion/AllCombinationsWithSumQualToTarget.h
  /home/usman/work/cppAlgorithms/recursion/BSTWithNodes.h
  /home/usman/work/cppAlgorithms/recursion/CombinationSum.h
+ /home/usman/work/cppAlgorithms/recursion/FindAllWellFormedBrackets.h
  /home/usman/work/cppAlgorithms/recursion/GenerateAllExpressions.h
  /home/usman/work/cppAlgorithms/recursion/GetWordsFromPhoneNumber.h
  /home/usman/work/cppAlgorithms/recursion/LetterCasePermutations.h
@@ -34,6 +35,7 @@ CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o
  /home/usman/work/cppAlgorithms/recursion/RunPermutations.h
  /home/usman/work/cppAlgorithms/recursion/SolveSudoku.h
  /home/usman/work/cppAlgorithms/recursion/SubSetsWithDuplicates.h
+ /home/usman/work/cppAlgorithms/recursion/SumEqualToTarget.h
  /home/usman/work/cppAlgorithms/recursion/TowersOfHanoi.h
 CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o
  /home/usman/boost/boost_1_77_0/boost/algorithm/string.hpp
@@ -813,6 +815,7 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o
  /home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h
  /home/usman/work/cppAlgorithms/trees/LongestUniValPath.h
  /home/usman/work/cppAlgorithms/trees/MergeBsts.h
+ /home/usman/work/cppAlgorithms/trees/MergeBstsViaVector.h
  /home/usman/work/cppAlgorithms/trees/PathsEqualToTarget.h
  /home/usman/work/cppAlgorithms/trees/PrintAllPathsOfTree.h
  /home/usman/work/cppAlgorithms/trees/RightSideViewOfABinaryTree.h
