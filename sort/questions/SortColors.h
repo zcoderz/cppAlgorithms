@@ -18,7 +18,6 @@ public:
         int leftColor = 0;
         int midColor = 1;
 
-
         while (curr <= right) {
             if (nums[curr] == midColor) {
                 curr++;

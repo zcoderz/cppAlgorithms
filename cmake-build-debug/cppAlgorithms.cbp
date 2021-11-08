@@ -252,6 +252,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/AllPathsThatSumToK.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/BalancedBstFromSortedArrayTryTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -270,7 +273,13 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/FindHeightOfTree.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/IsABST.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/KthSmallestFromBst.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/LeastCommonAncestor.h">
@@ -321,6 +330,15 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/UpsideDown.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trie/TrieProblems.cpp">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trie/TrieProblems.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trie/WordSearch.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/utils/Node.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -331,6 +349,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/utils/TreeNodeNArray.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/utils/TrieNode.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/CMakeLists.txt">

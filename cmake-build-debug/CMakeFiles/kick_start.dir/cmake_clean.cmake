@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o"
   "CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o"
   "CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o"
+  "CMakeFiles/kick_start.dir/trie/TrieProblems.cpp.o"
   "kick_start"
   "kick_start.pdb"
 )

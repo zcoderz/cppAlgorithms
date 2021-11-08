@@ -11,7 +11,8 @@ CMakeFiles/kick_start.dir/main.cpp.o: \
  ../operatorchecks/OperatorChecks.h \
  ../priorityqueue/PriorityQueueTest.h \
  ../recursion/RecursionProblems.h \
- ../sort/SortChecks.h
+ ../sort/SortChecks.h \
+ ../trees/TreeProblems.h
 CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o: \
  ../priorityqueue/PriorityQueue.h \
  ../priorityqueue/PriorityQueueTest.cpp \
@@ -803,13 +804,16 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  ../sort/questions/TwoSumNonSorted.h
 CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
  ../trees/AllPathsThatSumToK.h \
+ ../trees/BalancedBstFromSortedArrayTryTwo.h \
  ../trees/BinaryTreeFromPreOrder.h \
  ../trees/BinaryTreeToDoubleLinkedList.h \
  ../trees/BinaryTreeTraversal.h \
  ../trees/BstFromInOrderAndPostOrderTraversal.h \
  ../trees/CountUnivalueSubtrees.h \
  ../trees/DiameterOfABinaryTree.h \
+ ../trees/FindHeightOfTree.h \
  ../trees/IsABST.h \
+ ../trees/KthSmallestFromBst.h \
  ../trees/LeastCommonAncestor.h \
  ../trees/LevelOrderNArray.h \
  ../trees/LevelOrderTraversal.h \
@@ -828,3 +832,8 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o: \
  ../utils/SinglyListNode.h \
  ../utils/TreeNode.h \
  ../utils/TreeNodeNArray.h
+CMakeFiles/kick_start.dir/trie/TrieProblems.cpp.o: \
+ ../trie/TrieProblems.cpp \
+ ../trie/TrieProblems.h \
+ ../trie/WordSearch.h \
+ ../utils/TrieNode.h

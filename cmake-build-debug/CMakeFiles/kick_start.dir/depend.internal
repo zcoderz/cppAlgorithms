@@ -12,6 +12,7 @@ CMakeFiles/kick_start.dir/main.cpp.o
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.h
  /home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
  /home/usman/work/cppAlgorithms/sort/SortChecks.h
+ /home/usman/work/cppAlgorithms/trees/TreeProblems.h
 CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueue.h
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.cpp
@@ -803,13 +804,16 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o
  /home/usman/work/cppAlgorithms/sort/questions/TwoSumNonSorted.h
 CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o
  /home/usman/work/cppAlgorithms/trees/AllPathsThatSumToK.h
+ /home/usman/work/cppAlgorithms/trees/BalancedBstFromSortedArrayTryTwo.h
  /home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h
  /home/usman/work/cppAlgorithms/trees/BinaryTreeToDoubleLinkedList.h
  /home/usman/work/cppAlgorithms/trees/BinaryTreeTraversal.h
  /home/usman/work/cppAlgorithms/trees/BstFromInOrderAndPostOrderTraversal.h
  /home/usman/work/cppAlgorithms/trees/CountUnivalueSubtrees.h
  /home/usman/work/cppAlgorithms/trees/DiameterOfABinaryTree.h
+ /home/usman/work/cppAlgorithms/trees/FindHeightOfTree.h
  /home/usman/work/cppAlgorithms/trees/IsABST.h
+ /home/usman/work/cppAlgorithms/trees/KthSmallestFromBst.h
  /home/usman/work/cppAlgorithms/trees/LeastCommonAncestor.h
  /home/usman/work/cppAlgorithms/trees/LevelOrderNArray.h
  /home/usman/work/cppAlgorithms/trees/LevelOrderTraversal.h
@@ -828,3 +832,8 @@ CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.o
  /home/usman/work/cppAlgorithms/utils/SinglyListNode.h
  /home/usman/work/cppAlgorithms/utils/TreeNode.h
  /home/usman/work/cppAlgorithms/utils/TreeNodeNArray.h
+CMakeFiles/kick_start.dir/trie/TrieProblems.cpp.o
+ /home/usman/work/cppAlgorithms/trie/TrieProblems.cpp
+ /home/usman/work/cppAlgorithms/trie/TrieProblems.h
+ /home/usman/work/cppAlgorithms/trie/WordSearch.h
+ /home/usman/work/cppAlgorithms/utils/TrieNode.h

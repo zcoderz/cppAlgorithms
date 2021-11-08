@@ -23,7 +23,13 @@
 #include "BinaryTreeToDoubleLinkedList.h"
 #include "MergeBsts.h"
 #include "MergeBstsViaVector.h"
+#include "FindHeightOfTree.h"
+#include "BalancedBstFromSortedArrayTryTwo.h"
+#include "KthSmallestFromBst.h"
 
 void TreeProblems::runTreeProblems() {
-
+    vector<int> vec = {-10,-3,0,5,9};
+    BalancedBstFromSortedArrayTryTwo balanced;
+    TreeNode * root = balanced.build_balanced_bst(vec);
+    int j = 1;
 }

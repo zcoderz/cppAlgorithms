@@ -273,6 +273,30 @@ trees/TreeProblems.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/trees/TreeProblems.cpp.s
 .PHONY : trees/TreeProblems.cpp.s
 
+trie/TrieProblems.o: trie/TrieProblems.cpp.o
+.PHONY : trie/TrieProblems.o
+
+# target to build an object file
+trie/TrieProblems.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/trie/TrieProblems.cpp.o
+.PHONY : trie/TrieProblems.cpp.o
+
+trie/TrieProblems.i: trie/TrieProblems.cpp.i
+.PHONY : trie/TrieProblems.i
+
+# target to preprocess a source file
+trie/TrieProblems.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/trie/TrieProblems.cpp.i
+.PHONY : trie/TrieProblems.cpp.i
+
+trie/TrieProblems.s: trie/TrieProblems.cpp.s
+.PHONY : trie/TrieProblems.s
+
+# target to generate assembly for a file
+trie/TrieProblems.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/trie/TrieProblems.cpp.s
+.PHONY : trie/TrieProblems.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -300,6 +324,9 @@ help:
 	@echo "... trees/TreeProblems.o"
 	@echo "... trees/TreeProblems.i"
 	@echo "... trees/TreeProblems.s"
+	@echo "... trie/TrieProblems.o"
+	@echo "... trie/TrieProblems.i"
+	@echo "... trie/TrieProblems.s"
 .PHONY : help
 
 
