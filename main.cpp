@@ -8,8 +8,8 @@
 #include "trees/TreeProblems.h"
 #include "misc/MiscQuestions.h"
 int main() {
-    MiscQuestions miscQuestions;
-    miscQuestions.runMiscQuestions();
+    //MiscQuestions miscQuestions;
+    //miscQuestions.runMiscQuestions();
 //    TreeProblems treeProblems;
 //    treeProblems.runTreeProblems();
     //RecursionProblems recursionProblems;

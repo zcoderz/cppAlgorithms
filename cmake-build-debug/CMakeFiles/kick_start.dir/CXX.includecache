@@ -6,39 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/usman/work/cppAlgorithms/graph/GraphProblems.cpp
-GraphProblems.h
-/home/usman/work/cppAlgorithms/graph/GraphProblems.h
-../utils/graph/Vertex.h
-/home/usman/work/cppAlgorithms/utils/graph/Vertex.h
-../utils/graph/Edge.h
-/home/usman/work/cppAlgorithms/utils/graph/Edge.h
-../utils/graph/UnionFind.h
-/home/usman/work/cppAlgorithms/utils/graph/UnionFind.h
-../utils/graph/UnionFindNode.h
-/home/usman/work/cppAlgorithms/utils/graph/UnionFindNode.h
+/home/usman/work/cppAlgorithms/bits/BitsTests.h
 
-/home/usman/work/cppAlgorithms/graph/GraphProblems.h
+/home/usman/work/cppAlgorithms/main.cpp
+iostream
+-
+bits/BitsTests.h
+/home/usman/work/cppAlgorithms/bits/BitsTests.h
+sort/SortChecks.h
+/home/usman/work/cppAlgorithms/sort/SortChecks.h
+priorityqueue/PriorityQueueTest.h
+/home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.h
+operatorchecks/OperatorChecks.h
+/home/usman/work/cppAlgorithms/operatorchecks/OperatorChecks.h
+recursion/RecursionProblems.h
+/home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
+trees/TreeProblems.h
+/home/usman/work/cppAlgorithms/trees/TreeProblems.h
+misc/MiscQuestions.h
+/home/usman/work/cppAlgorithms/misc/MiscQuestions.h
 
-/home/usman/work/cppAlgorithms/utils/graph/Edge.h
-memory
--
+/home/usman/work/cppAlgorithms/misc/MiscQuestions.h
 
-/home/usman/work/cppAlgorithms/utils/graph/UnionFind.h
-vector
--
-unordered_set
--
+/home/usman/work/cppAlgorithms/operatorchecks/OperatorChecks.h
 algorithm
 -
-Vertex.h
-/home/usman/work/cppAlgorithms/utils/graph/Vertex.h
-
-/home/usman/work/cppAlgorithms/utils/graph/UnionFindNode.h
-memory
+set
+-
+vector
+-
+queue
 -
 
-/home/usman/work/cppAlgorithms/utils/graph/Vertex.h
-memory
--
+/home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.h
+
+/home/usman/work/cppAlgorithms/recursion/RecursionProblems.h
+
+/home/usman/work/cppAlgorithms/sort/SortChecks.h
+
+/home/usman/work/cppAlgorithms/trees/TreeProblems.h
 

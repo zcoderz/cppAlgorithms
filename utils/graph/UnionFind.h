@@ -78,7 +78,7 @@ public:
     static int constructMinSpanningTree(vector<VertexP> &vertices, vector<EdgeP> &edges) {
         int cost = 0;
         //sort the edges by the cost (smallest to largest)
-        auto comp = [](EdgeP &a, EdgeP &b) -> bool { return a->getCost() > b->getCost(); };
+        auto comp = [](EdgeP &a, EdgeP &b) -> bool { return a->getCost() < b->getCost(); };
         sort(edges.begin(), edges.end(), comp);
 
         int numVertices = vertices.size();
