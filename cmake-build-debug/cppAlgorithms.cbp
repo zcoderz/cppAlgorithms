@@ -372,6 +372,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/utils/graph/Edge.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/utils/graph/PrimsAlgoForMinSpanningTrees.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/utils/graph/UnionFind.h">
 			<Option target="kick_start"/>
 		</Unit>
