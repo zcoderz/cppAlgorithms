@@ -153,6 +153,30 @@ bits/BitTests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/bits/BitTests.cpp.s
 .PHONY : bits/BitTests.cpp.s
 
+graph/GraphProblems.o: graph/GraphProblems.cpp.o
+.PHONY : graph/GraphProblems.o
+
+# target to build an object file
+graph/GraphProblems.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/graph/GraphProblems.cpp.o
+.PHONY : graph/GraphProblems.cpp.o
+
+graph/GraphProblems.i: graph/GraphProblems.cpp.i
+.PHONY : graph/GraphProblems.i
+
+# target to preprocess a source file
+graph/GraphProblems.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/graph/GraphProblems.cpp.i
+.PHONY : graph/GraphProblems.cpp.i
+
+graph/GraphProblems.s: graph/GraphProblems.cpp.s
+.PHONY : graph/GraphProblems.s
+
+# target to generate assembly for a file
+graph/GraphProblems.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/graph/GraphProblems.cpp.s
+.PHONY : graph/GraphProblems.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -176,6 +200,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+misc/MiscQuestions.o: misc/MiscQuestions.cpp.o
+.PHONY : misc/MiscQuestions.o
+
+# target to build an object file
+misc/MiscQuestions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.o
+.PHONY : misc/MiscQuestions.cpp.o
+
+misc/MiscQuestions.i: misc/MiscQuestions.cpp.i
+.PHONY : misc/MiscQuestions.i
+
+# target to preprocess a source file
+misc/MiscQuestions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.i
+.PHONY : misc/MiscQuestions.cpp.i
+
+misc/MiscQuestions.s: misc/MiscQuestions.cpp.s
+.PHONY : misc/MiscQuestions.s
+
+# target to generate assembly for a file
+misc/MiscQuestions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.s
+.PHONY : misc/MiscQuestions.cpp.s
 
 priorityqueue/PriorityQueueTest.o: priorityqueue/PriorityQueueTest.cpp.o
 .PHONY : priorityqueue/PriorityQueueTest.o
@@ -309,9 +357,15 @@ help:
 	@echo "... bits/BitTests.o"
 	@echo "... bits/BitTests.i"
 	@echo "... bits/BitTests.s"
+	@echo "... graph/GraphProblems.o"
+	@echo "... graph/GraphProblems.i"
+	@echo "... graph/GraphProblems.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... misc/MiscQuestions.o"
+	@echo "... misc/MiscQuestions.i"
+	@echo "... misc/MiscQuestions.s"
 	@echo "... priorityqueue/PriorityQueueTest.o"
 	@echo "... priorityqueue/PriorityQueueTest.i"
 	@echo "... priorityqueue/PriorityQueueTest.s"

@@ -20,8 +20,6 @@ public:
                 traverseBoard( board, trieNode, vecWords, i, j);
             }
         }
-
-        traverseBoard(board, trieNode, vecWords);
         return vecWords;
     }
 

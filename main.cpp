@@ -6,9 +6,12 @@
 #include "operatorchecks/OperatorChecks.h"
 #include "recursion/RecursionProblems.h"
 #include "trees/TreeProblems.h"
+#include "misc/MiscQuestions.h"
 int main() {
-    TreeProblems treeProblems;
-    treeProblems.runTreeProblems();
+    MiscQuestions miscQuestions;
+    miscQuestions.runMiscQuestions();
+//    TreeProblems treeProblems;
+//    treeProblems.runTreeProblems();
     //RecursionProblems recursionProblems;
     //recursionProblems.runRecursionProblems();
     //BitTests bitTests;
