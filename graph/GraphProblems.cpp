@@ -15,10 +15,17 @@
 #include "SearchLargestIsland.h"
 #include "NumberOfConnectedComponents.h"
 #include "IsATree.h"
+#include "CourseDependencies.h"
 
 #include <iostream>
 using namespace std;
 void GraphProblems::runGraphProblems() {
+
+    CourseDependencies courseDependencies;
+    vector<int>  a = {1, 1, 3};
+    vector<int>  b = {0, 2, 1};
+    int res = courseDependencies.can_be_completed(4, a, b);
+    cout << res <<endl;
     CountIslands countIslands;
     vector<vector<int>> matrix = {{1, 1, 0, 0, 0},
     {0, 1, 0, 1, 1},
