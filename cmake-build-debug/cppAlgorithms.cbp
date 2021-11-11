@@ -93,13 +93,25 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/bits/FourBillion.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/CountConnectedComponents.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/CountIslands.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/GraphProblems.cpp">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/GraphProblems.h">
 			<Option target="kick_start"/>
 		</Unit>
-		<Unit filename="/home/usman/work/cppAlgorithms/interviews/katana/KatanaQuestions.h">
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/IsATree.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/NumberOfConnectedComponents.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/SearchLargestIsland.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/main.cpp">

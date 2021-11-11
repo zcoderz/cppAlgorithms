@@ -140,7 +140,7 @@ public:
         vector<VertexP> vertices;
         for (int i = 0; i < n; i++) {
             VertexP v = make_shared<Vertex>(Vertex(i, i, 0));
-            vertices[i] = v;
+            vertices.push_back(v);
         }
         return vertices;
     }
@@ -149,7 +149,7 @@ public:
         vector<EdgeP> edges;
         for (int i = 0; i < edgesParam.size(); i++) {
             EdgeP edge = make_shared<Edge>(Edge(edgesParam[i][0], edgesParam[i][1]));
-            edges[i] = edge;
+            edges.push_back(edge);
         }
         return edges;
     }

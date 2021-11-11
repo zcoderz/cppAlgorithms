@@ -6,14 +6,20 @@ CMakeFiles/kick_start.dir/bits/BitTests.cpp.o
  /home/usman/work/cppAlgorithms/bits/BitsTests.h
  /home/usman/work/cppAlgorithms/bits/FourBillion.h
 CMakeFiles/kick_start.dir/graph/GraphProblems.cpp.o
+ /home/usman/work/cppAlgorithms/graph/CountIslands.h
  /home/usman/work/cppAlgorithms/graph/GraphProblems.cpp
  /home/usman/work/cppAlgorithms/graph/GraphProblems.h
+ /home/usman/work/cppAlgorithms/graph/IsATree.h
+ /home/usman/work/cppAlgorithms/graph/NumberOfConnectedComponents.h
+ /home/usman/work/cppAlgorithms/graph/SearchLargestIsland.h
  /home/usman/work/cppAlgorithms/utils/graph/Edge.h
+ /home/usman/work/cppAlgorithms/utils/graph/PrimsAlgoForMinSpanningTrees.h
  /home/usman/work/cppAlgorithms/utils/graph/UnionFind.h
  /home/usman/work/cppAlgorithms/utils/graph/UnionFindNode.h
  /home/usman/work/cppAlgorithms/utils/graph/Vertex.h
 CMakeFiles/kick_start.dir/main.cpp.o
  /home/usman/work/cppAlgorithms/bits/BitsTests.h
+ /home/usman/work/cppAlgorithms/graph/GraphProblems.h
  /home/usman/work/cppAlgorithms/main.cpp
  /home/usman/work/cppAlgorithms/misc/MiscQuestions.h
  /home/usman/work/cppAlgorithms/operatorchecks/OperatorChecks.h

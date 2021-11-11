@@ -6,14 +6,20 @@ CMakeFiles/kick_start.dir/bits/BitTests.cpp.o: \
  ../bits/BitsTests.h \
  ../bits/FourBillion.h
 CMakeFiles/kick_start.dir/graph/GraphProblems.cpp.o: \
+ ../graph/CountIslands.h \
  ../graph/GraphProblems.cpp \
  ../graph/GraphProblems.h \
+ ../graph/IsATree.h \
+ ../graph/NumberOfConnectedComponents.h \
+ ../graph/SearchLargestIsland.h \
  ../utils/graph/Edge.h \
+ ../utils/graph/PrimsAlgoForMinSpanningTrees.h \
  ../utils/graph/UnionFind.h \
  ../utils/graph/UnionFindNode.h \
  ../utils/graph/Vertex.h
 CMakeFiles/kick_start.dir/main.cpp.o: \
  ../bits/BitsTests.h \
+ ../graph/GraphProblems.h \
  ../main.cpp \
  ../misc/MiscQuestions.h \
  ../operatorchecks/OperatorChecks.h \

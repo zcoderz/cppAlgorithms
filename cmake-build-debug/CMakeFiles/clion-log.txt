@@ -5,7 +5,7 @@ CMake Warning at /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBo
 Call Stack (most recent call first):
   /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:1476 (_Boost_COMPONENT_DEPENDENCIES)
   /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:2086 (_Boost_MISSING_DEPENDENCIES)
-  CMakeLists.txt:13 (find_package)
+  CMakeLists.txt:33 (find_package)
 
 
 CMake Warning at /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:1354 (message):
@@ -14,7 +14,7 @@ CMake Warning at /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBo
 Call Stack (most recent call first):
   /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:1476 (_Boost_COMPONENT_DEPENDENCIES)
   /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:2086 (_Boost_MISSING_DEPENDENCIES)
-  CMakeLists.txt:13 (find_package)
+  CMakeLists.txt:33 (find_package)
 
 
 -- Configuring done
