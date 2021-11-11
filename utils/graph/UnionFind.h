@@ -12,6 +12,17 @@
 
 using namespace std;
 
+
+/**
+ * Analysis : cost = (n-1) * cost of union + 2m * cost of find
+ * the amortized cost of find = O(1) due to path compression in find fold back.
+ * in absence of path compression weighted union by rank adjusts
+ * rank such that rank is analogous to height of the tree and thus each find operation runs in O(log N), where n is
+ * number of nodes in that tree. in addition, with path compression the amortized cost of a find operation
+ * becomes O(1) (inverse Ackermann function)
+ *
+ * Thus the total cost of union find is 2m --> O(m) where m is the number of edges
+ */
 class UnionFind {
 public:
     /**

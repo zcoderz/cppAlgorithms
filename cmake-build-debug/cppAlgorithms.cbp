@@ -99,6 +99,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/GraphProblems.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/interviews/katana/KatanaQuestions.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/main.cpp">
 			<Option target="kick_start"/>
 		</Unit>

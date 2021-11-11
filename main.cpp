@@ -7,7 +7,10 @@
 #include "recursion/RecursionProblems.h"
 #include "trees/TreeProblems.h"
 #include "misc/MiscQuestions.h"
+#include "interviews/katana/KatanaQuestions.h"
 int main() {
+    KatanaQuestions katana;
+    katana.interviewQuestions();
     //MiscQuestions miscQuestions;
     //miscQuestions.runMiscQuestions();
 //    TreeProblems treeProblems;
