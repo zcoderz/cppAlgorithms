@@ -23,8 +23,8 @@ public:
             vecPairs.emplace_back(diff, i);
         }
 
-        auto comp = [] (pair<double, int> &a, pair<double, int> &b) -> bool { return a.first < b.first; };
-        priority_queue<pair<int, int> , vector<pair<double,int>> , decltype(comp)> pQ (comp);
+        auto comp = [] (pair<int, int> &a, pair<int, int> &b) -> bool { return a.first < b.first; };
+        priority_queue<pair<int, int> , vector<pair<int,int>> , decltype(comp)> pQ (comp);
         for (pair<double, int> & p: vecPairs) {
             pQ.push(p);
             if (pQ.size() > k) {
