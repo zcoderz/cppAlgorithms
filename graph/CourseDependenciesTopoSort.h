@@ -2,14 +2,14 @@
 // Created by USMAN QADIR on 11/11/21.
 //
 
-#ifndef CPPALGORITHMS_COURSEDEPENDENCIES_H
-#define CPPALGORITHMS_COURSEDEPENDENCIES_H
+#ifndef CPPALGORITHMS_COURSEDEPENDENCIESTOPOSORT_H
+#define CPPALGORITHMS_COURSEDEPENDENCIESTOPOSORT_H
 
 #include <unordered_map>
 #include <unordered_set>
 #include <queue>
 using namespace std;
-class CourseDependencies {
+class CourseDependenciesTopoSort {
 public:
     //unordered_map<int, unordered_set<int>> courseDependencies;
     //unordered_map<int, unordered_set<int>> inverseDependencies;
@@ -41,4 +41,4 @@ public:
         return num==0;
     }
 };
-#endif //CPPALGORITHMS_COURSEDEPENDENCIES_H
+#endif //CPPALGORITHMS_COURSEDEPENDENCIESTOPOSORT_H
