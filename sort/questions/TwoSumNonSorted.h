@@ -23,6 +23,7 @@ class TwoSumNonSorted {
                 }
                 data.insert(make_pair(numbers[i], i));
         }
+        return {};
     }
 
     vector<int> two_sum_two_pass(vector<int> numbers, int target) {
