@@ -18,10 +18,17 @@
 #include "CourseDependenciesTopoSort.h"
 #include "CourseDependenciesArvDepTimes.h"
 #include "FriendlyGroups.h"
+#include "FloodFill.h"
+#include "KnightMoves.h"
 
 #include <iostream>
 using namespace std;
 void GraphProblems::runGraphProblems() {
+
+    KnightMoves knightMoves;
+
+    int kRes = knightMoves.find_minimum_number_of_moves(4999, 20, 4998, 0, 4998, 19);
+    cout << kRes << endl;
 
     vector<int> v1 = {7,6,6,4,4,0};
     vector<int> v2 = {5,5,3,3,5,5};
