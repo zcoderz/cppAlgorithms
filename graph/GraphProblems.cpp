@@ -20,13 +20,19 @@
 #include "FriendlyGroups.h"
 #include "FloodFill.h"
 #include "KnightMoves.h"
+#include "StringTransformation.h"
 
 #include <iostream>
 using namespace std;
 void GraphProblems::runGraphProblems() {
-
+    StringTransformation stringTransformation;
+    //vector<string> vec = {"cccw", "accc", "accw"};
+    vector<string> vecMappings = stringTransformation.string_transformation({}, "t", "t");
+    for (string str: vecMappings) {
+        cout << str << endl;
+    }
+    return;
     KnightMoves knightMoves;
-
     int kRes = knightMoves.find_minimum_number_of_moves(4999, 20, 4998, 0, 4998, 19);
     cout << kRes << endl;
 
