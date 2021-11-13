@@ -9,8 +9,6 @@
 #include "../utils/graph/UnionFind.h"
 #include "../utils/graph/UnionFindNode.h"
 #include "../utils/graph/PrimsAlgoForMinSpanningTrees.h"
-
-
 #include "CountIslands.h"
 #include "SearchLargestIsland.h"
 #include "NumberOfConnectedComponents.h"
@@ -21,10 +19,34 @@
 #include "FloodFill.h"
 #include "KnightMoves.h"
 #include "StringTransformation.h"
-
+#include "CourseSchedule.h"
+#include "ZombieClusters.h"
+#include "CriticalConnections.h"
 #include <iostream>
+
 using namespace std;
 void GraphProblems::runGraphProblems() {
+    CriticalConnections criticalConnections;
+    vector<vector<int>> vecCon = {{0, 1}, {0, 2},{0, 4},{1, 2},{1, 3}};
+    vector<vector<int>> resVec = criticalConnections.find_critical_connections(5, vecCon);
+    for (vector<int> val : resVec) {
+        for (int v : val) {cout << v << " , ";}
+        cout  << endl;
+    }
+    return;
+//    ZombieClusters zombieClusters;
+//    vector<string> vec = {"1100", "1110","0110", "0001"};
+//    int numZ = zombieClusters.zombieCluster(vec);
+//    cout << numZ << endl;
+//    return;
+//    CourseSchedule courseSchedule;
+//    //vector<vector<int>> prerqs = {{1, 0}, {2, 0}, {3, 1}, {3, 2}};
+//    vector<vector<int>> prerqs = {{1, 0}, {0, 1}};
+//    vector<int> cOrder = courseSchedule.course_schedule(2, prerqs);
+//    for (int course: cOrder) {
+//        cout << course << endl;
+//    }
+//    return;
     StringTransformation stringTransformation;
     //vector<string> vec = {"cccw", "accc", "accw"};
     vector<string> vecMappings = stringTransformation.string_transformation({}, "t", "t");
