@@ -23,23 +23,36 @@
 #include "ZombieClusters.h"
 #include "CriticalConnections.h"
 #include "KeysAndDoors.h"
-
-
+#include "AlienDictionary.h"
+#include "GraphCopy.h"
 #include <iostream>
 
 using namespace std;
 void GraphProblems::runGraphProblems() {
-    vector<string> vec = {"...B",".b#.","@#+."};
-    KeysAndDoors keysAndDoors;
-    vector<vector<int>> resVec = keysAndDoors.find_shortest_path(vec);
+    GraphCopy graphCopy;
+    GNode * node1 = new GNode(1);
+    GNode * node2 = new GNode(2);
+    GNode * node3 = new GNode(3);
+    node1->neighbours.push_back(node2);
+    node2->neighbours.push_back(node3);
+    node3->neighbours.push_back(node1);
+    GNode * copy = graphCopy.build_other_graph(node1);
+    int j = 1;
+    //    AlienDictionary alienDictionary;
+//    vector<string> vec = {"baa", "abcd", "abca", "cab", "cad"};
+//    string res = alienDictionary.find_order(vec);
+//    cout << res << endl;
+//    vector<string> vec = {"...B",".b#.","@#+."};
+//    KeysAndDoors keysAndDoors;
+//    vector<vector<int>> resVec = keysAndDoors.find_shortest_path(vec);
 
 //    CriticalConnections criticalConnections;
 //    vector<vector<int>> vecCon = {{0, 1}, {0, 2},{0, 4},{1, 2},{1, 3}};
 //    vector<vector<int>> resVec = criticalConnections.find_critical_connections(5, vecCon);
-    for (vector<int> val : resVec) {
-        for (int v : val) {cout << v << " , ";}
-        cout  << endl;
-    }
+//    for (vector<int> val : resVec) {
+//        for (int v : val) {cout << v << " , ";}
+//        cout  << endl;
+//    }
 //    return;
 //    ZombieClusters zombieClusters;
 //    vector<string> vec = {"1100", "1110","0110", "0001"};
