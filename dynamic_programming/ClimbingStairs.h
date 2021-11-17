@@ -5,6 +5,10 @@
 #ifndef CPPALGORITHMS_CLIMBINGSTAIRS_H
 #define CPPALGORITHMS_CLIMBINGSTAIRS_H
 
+/**
+ * IMP: Set base case as 1.
+ * Start from stair 2. You have already set your begin value as stair 2.
+ */
 class ClimbingStairs {
 public:
 
@@ -14,7 +18,6 @@ public:
         }
         int twoPrior = 1;
         int onePrior = 1;
-
         for (int i = 2; i <= n; i++) {
             int curr = twoPrior + onePrior;
             twoPrior = onePrior;
