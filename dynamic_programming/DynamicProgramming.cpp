@@ -3,12 +3,18 @@
 //
 #include "DynamicProgramming.h"
 #include "ClimbingStairs.h"
+#include "PascalTriangle.h"
+#include "DynamicProgramming.h"
+
 #include <iostream>
 
 using namespace std;
 
 void DynamicProgramming::runDpProblems() {
-    ClimbingStairs climbingStairs;
-    int res = climbingStairs.climbStairs(3);
-    cout << res;
+    PascalTriangle pascalTriangle;
+    int res = pascalTriangle.getPascalTriangleValue(4, 2);
+    cout << res << endl;
+//    ClimbingStairs climbingStairs;
+//    int res = climbingStairs.climbStairs(3);
+//    cout << res;
 }
