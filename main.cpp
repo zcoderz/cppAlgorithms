@@ -8,9 +8,12 @@
 #include "trees/TreeProblems.h"
 #include "misc/MiscQuestions.h"
 #include "graph/GraphProblems.h"
+#include "dynamic_programming/DynamicProgramming.h"
 int main() {
-    GraphProblems graphProblems;
-    graphProblems.runGraphProblems();
+    DynamicProgramming dynamicProgramming;
+    dynamicProgramming.runDpProblems();
+//    GraphProblems graphProblems;
+//    graphProblems.runGraphProblems();
     //MiscQuestions miscQuestions;
     //miscQuestions.runMiscQuestions();
 //    TreeProblems treeProblems;

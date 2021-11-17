@@ -153,6 +153,30 @@ bits/BitTests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/bits/BitTests.cpp.s
 .PHONY : bits/BitTests.cpp.s
 
+dynamic_programming/DynamicProgramming.o: dynamic_programming/DynamicProgramming.cpp.o
+.PHONY : dynamic_programming/DynamicProgramming.o
+
+# target to build an object file
+dynamic_programming/DynamicProgramming.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/dynamic_programming/DynamicProgramming.cpp.o
+.PHONY : dynamic_programming/DynamicProgramming.cpp.o
+
+dynamic_programming/DynamicProgramming.i: dynamic_programming/DynamicProgramming.cpp.i
+.PHONY : dynamic_programming/DynamicProgramming.i
+
+# target to preprocess a source file
+dynamic_programming/DynamicProgramming.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/dynamic_programming/DynamicProgramming.cpp.i
+.PHONY : dynamic_programming/DynamicProgramming.cpp.i
+
+dynamic_programming/DynamicProgramming.s: dynamic_programming/DynamicProgramming.cpp.s
+.PHONY : dynamic_programming/DynamicProgramming.s
+
+# target to generate assembly for a file
+dynamic_programming/DynamicProgramming.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/dynamic_programming/DynamicProgramming.cpp.s
+.PHONY : dynamic_programming/DynamicProgramming.cpp.s
+
 graph/GraphProblems.o: graph/GraphProblems.cpp.o
 .PHONY : graph/GraphProblems.o
 
@@ -357,6 +381,9 @@ help:
 	@echo "... bits/BitTests.o"
 	@echo "... bits/BitTests.i"
 	@echo "... bits/BitTests.s"
+	@echo "... dynamic_programming/DynamicProgramming.o"
+	@echo "... dynamic_programming/DynamicProgramming.i"
+	@echo "... dynamic_programming/DynamicProgramming.s"
 	@echo "... graph/GraphProblems.o"
 	@echo "... graph/GraphProblems.i"
 	@echo "... graph/GraphProblems.s"
