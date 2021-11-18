@@ -9,17 +9,22 @@
 #include "CoinChange.h"
 #include "CoinChangeTwo.h"
 #include "WordBreak.h"
+#include "Triangle.h"
 
 #include <iostream>
 
 using namespace std;
 
 void DynamicProgramming::runDpProblems() {
+    vector<vector<int>> vals = {{2},{3,4},{6,5,7},{4,1,8,3}};
+    Triangle triangle;
+    int res = triangle.minimumTotal(vals);
+    cout << res << endl;
     WordBreak wordBreak;
     vector<string> vec = {"leet","codes"};
     string strTest = "leetcode";
-    bool res = wordBreak.wordBreak(strTest, vec);
-    cout << res << endl;
+    bool bres = wordBreak.wordBreak(strTest, vec);
+    cout << bres << endl;
     CoinChangeTwo coinChangeTwo;
     CoinChange coinChange;
     vector<int> coins = {1,2,5};
