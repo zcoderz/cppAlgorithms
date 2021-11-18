@@ -6,12 +6,25 @@
 #include "PascalTriangle.h"
 #include "DynamicProgramming.h"
 #include "UniquePaths.h"
+#include "CoinChange.h"
+#include "CoinChangeTwo.h"
+#include "WordBreak.h"
 
 #include <iostream>
 
 using namespace std;
 
 void DynamicProgramming::runDpProblems() {
+    WordBreak wordBreak;
+    vector<string> vec = {"leet","codes"};
+    string strTest = "leetcode";
+    bool res = wordBreak.wordBreak(strTest, vec);
+    cout << res << endl;
+    CoinChangeTwo coinChangeTwo;
+    CoinChange coinChange;
+    vector<int> coins = {1,2,5};
+    int min = coinChange.coinChange(coins, 11);
+    cout << min << endl;
     vector<vector<int>> grid {{0,0,0},{0,1,0},{0,0,0}};
     UniquePaths uniquePaths;
     int paths = uniquePaths.uniquePathsWithObstacles(grid);
