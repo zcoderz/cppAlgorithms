@@ -3,7 +3,7 @@ project(cppAlgorithms)
 set(Boost_INCLUDE_DIR /home/usman/boost/boost_1_77_0)
 set(Boost_LIBRARY_DIR /home/usman/boost/boost_1_77_0/stage/lib)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 #find_package(Threads REQUIRED)
 #target_link_libraries(${PROJECT_NAME} Threads::Threads)
 SET( CMAKE_CXX_FLAGS  " -pthread")
@@ -29,7 +29,7 @@ add_executable(kick_start main.cpp sort/SelectionSort.h sort/SortChecks.cpp sort
         recursion/FindAllWellFormedBrackets.h trees/FindHeightOfTree.h trees/BalancedBstFromSortedArrayTryTwo.h trees/KthSmallestFromBst.h
         utils/TrieNode.h trie/WordSearch.h trie/TrieProblems.cpp trie/TrieProblems.h misc/MiscQuestions.h misc/Ipv6Compress.h misc/MiscQuestions.cpp
         utils/graph/Edge.h utils/graph/Vertex.h utils/graph/UnionFind.h graph/GraphProblems.h graph/GraphProblems.cpp utils/graph/UnionFindNode.h
-        utils/graph/PrimsAlgoForMinSpanningTrees.h graph/CountIslands.h graph/SearchLargestIsland.h graph/CountConnectedComponents.h graph/NumberOfConnectedComponents.h graph/IsATree.h)
+        utils/graph/PrimsAlgoForMinSpanningTrees.h graph/CountIslands.h graph/SearchLargestIsland.h graph/CountConnectedComponents.h graph/NumberOfConnectedComponents.h graph/IsATree.h graph/CourseDependenciesArvDepTimes.h graph/FriendlyGroups.h graph/FloodFill.h graph/KnightMoves.h graph/StringTransformation.h graph/CourseSchedule.h graph/ZombieClusters.h graph/CriticalConnections.h graph/KeysAndDoors.h graph/AlienDictionary.h graph/GraphCopy.h utils/GraphNode.h dynamic_programming/DynamicProgramming.h dynamic_programming/DynamicProgramming.cpp dynamic_programming/ClimbingStairs.h dynamic_programming/PascalTriangle.h dynamic_programming/UniquePaths.h dynamic_programming/CoinChange.h dynamic_programming/CoinChangeTwo.h dynamic_programming/WordBreak.h dynamic_programming/Triangle.h dynamic_programming/PartitionEqualSubset.h)
 find_package(Boost REQUIRED COMPONENTS system filesystem REQUIRED)
 
 include_directories(${Boost_INCLUDE_DIR})

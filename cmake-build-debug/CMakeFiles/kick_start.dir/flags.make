@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/usman/boost/boost_1_77_0
 
-CXX_FLAGS =  -pthread -g -std=gnu++14
+CXX_FLAGS =  -pthread -g -std=gnu++2a
 

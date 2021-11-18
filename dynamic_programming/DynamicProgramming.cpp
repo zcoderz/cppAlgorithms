@@ -10,12 +10,16 @@
 #include "CoinChangeTwo.h"
 #include "WordBreak.h"
 #include "Triangle.h"
-
+#include "PartitionEqualSubset.h"
 #include <iostream>
 
 using namespace std;
 
 void DynamicProgramming::runDpProblems() {
+    PartitionEqualSubset partition;
+    vector<int> vecP = {3,4,2,1};
+    bool  resB = partition.canPartition(vecP);
+    cout << resB << endl;
     vector<vector<int>> vals = {{2},{3,4},{6,5,7},{4,1,8,3}};
     Triangle triangle;
     int res = triangle.minimumTotal(vals);
