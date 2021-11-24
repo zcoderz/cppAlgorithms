@@ -46,7 +46,7 @@ public:
     /**
      * memorization based approach. you calculate whether a certain sum is possible or not at a given index in nums
      * and reuse the previously calculated value.
-     * other than memorization , this is a simple call include/exclude current number from target subset
+     * other than memorization , this is a simple call  include/exclude current number from target subset
      * @param nums
      * @param possibles
      * @param index

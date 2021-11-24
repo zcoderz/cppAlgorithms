@@ -11,11 +11,29 @@
 #include "WordBreak.h"
 #include "Triangle.h"
 #include "PartitionEqualSubset.h"
+#include "BurstBaloons.h"
+#include "MinCostToCutSticks.h"
+#include "LongestCommonSubsequence.h"
 #include <iostream>
 
 using namespace std;
 
 void DynamicProgramming::runDpProblems() {
+    LongestCommonSubsequence longestCommonSubsequence;
+    int sz = longestCommonSubsequence.longestCommonSubsequence("ace", "abcde");
+    cout << sz << endl;
+    return;
+
+    MinCostToCutSticks minCostToCutSticks;
+    vector<int> cuts = {1,3,4,5};
+    int theCost = minCostToCutSticks.minCost(7, cuts);
+    cout << theCost << endl;
+    return;
+
+    BurstBaloons burstBaloons;
+    vector<int> nums = {3,1,5,8};
+    int coinsV = burstBaloons.maxCoins(nums);
+    cout << coinsV << endl;
     PartitionEqualSubset partition;
     vector<int> vecP = {3,4,2,1};
     bool  resB = partition.canPartition(vecP);
