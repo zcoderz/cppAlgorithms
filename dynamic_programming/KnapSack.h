@@ -13,7 +13,6 @@ public:
     int calculateOptimal(vector<pair<int, int>> & vecVals, int totalCapacity) {
         vector<vector<int>> dp(vecVals.size() +1 , vector<int> (totalCapacity +1, 0));
         _dp = move(dp);
-
         for (int i =1; i <= vecVals.size(); i++) {
             for (int c =0; c <= totalCapacity; c++) {
                 pair<int, int> & dataPoint = vecVals[i-1];
