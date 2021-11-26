@@ -35,6 +35,9 @@ public:
         sumsPossible[0] = true;
         for (int i =1; i < nums.size(); i++) {
             int currNum = nums[i];
+            //you have to walk in reverse rather than forward to prevent double counting
+            //imagine having 1 as a number. that one can only be used once but if you start from left
+            //it will get used to fill 1, then 2, then 3 and so on.
             for (int j=desiredSum; (j-currNum) >= 0; j--) {
                 sumsPossible[j] = sumsPossible[j] | sumsPossible[j-currNum];
             }

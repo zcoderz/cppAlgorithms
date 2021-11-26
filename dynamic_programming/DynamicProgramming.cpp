@@ -14,11 +14,33 @@
 #include "BurstBaloons.h"
 #include "MinCostToCutSticks.h"
 #include "LongestCommonSubsequence.h"
+#include "EditDistance.h"
+#include "KnapSack.h"
+
 #include <iostream>
 
 using namespace std;
 
 void DynamicProgramming::runDpProblems() {
+    vector<pair<int, int>> vecVals = {{3,2}, {4,5}, {2,1}, {7,2}, {5,3}};
+    KnapSack knapSack;
+
+    int val = knapSack.calculateOptimal(vecVals, 9);
+    cout << val << endl;
+    string path = knapSack.reconstructPath();
+    cout << path << endl;
+    return;
+    PartitionEqualSubset partitionEqualSubset;
+    vector<int> tnums = {1,2,5};
+    bool rB = partitionEqualSubset.canPartition(tnums);
+    cout << rB << endl;
+    return;
+    EditDistance editDistance;
+    //int diff = editDistance.minDistance("horse", "ros");
+    int diff = editDistance.minDistance("", "a");
+    cout << diff << endl;
+    return;
+
     LongestCommonSubsequence longestCommonSubsequence;
     int sz = longestCommonSubsequence.longestCommonSubsequence("ace", "abcde");
     cout << sz << endl;
