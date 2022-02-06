@@ -13,6 +13,4 @@ void BitTests::runBitTests() {
     vector<long> vec = {4294967295,399999999,0};
     int v = fourBillion.find_integer_one_gb(vec);
     cout << v << endl;
-
-
 }
