@@ -1,19 +1,19 @@
-/snap/clion/169/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/usman/work/cppAlgorithms
-CMake Warning at /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:1354 (message):
+/snap/clion/180/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/usman/work/cppAlgorithms
+CMake Warning at /snap/clion/180/bin/cmake/linux/share/cmake-3.21/Modules/FindBoost.cmake:1354 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:1476 (_Boost_COMPONENT_DEPENDENCIES)
-  /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:2086 (_Boost_MISSING_DEPENDENCIES)
+  /snap/clion/180/bin/cmake/linux/share/cmake-3.21/Modules/FindBoost.cmake:1477 (_Boost_COMPONENT_DEPENDENCIES)
+  /snap/clion/180/bin/cmake/linux/share/cmake-3.21/Modules/FindBoost.cmake:2087 (_Boost_MISSING_DEPENDENCIES)
   CMakeLists.txt:33 (find_package)
 
 
-CMake Warning at /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:1354 (message):
+CMake Warning at /snap/clion/180/bin/cmake/linux/share/cmake-3.21/Modules/FindBoost.cmake:1354 (message):
   New Boost version may have incorrect or missing dependencies and imported
   targets
 Call Stack (most recent call first):
-  /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:1476 (_Boost_COMPONENT_DEPENDENCIES)
-  /snap/clion/169/bin/cmake/linux/share/cmake-3.20/Modules/FindBoost.cmake:2086 (_Boost_MISSING_DEPENDENCIES)
+  /snap/clion/180/bin/cmake/linux/share/cmake-3.21/Modules/FindBoost.cmake:1477 (_Boost_COMPONENT_DEPENDENCIES)
+  /snap/clion/180/bin/cmake/linux/share/cmake-3.21/Modules/FindBoost.cmake:2087 (_Boost_MISSING_DEPENDENCIES)
   CMakeLists.txt:33 (find_package)
 
 
