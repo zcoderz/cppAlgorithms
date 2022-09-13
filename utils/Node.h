@@ -12,8 +12,8 @@ public:
     Node(int d)
     {
         data = d;
-        left = NULL;
-        right = NULL;
+        left = nullptr;
+        right = nullptr;
     }
 };
 #endif //CPPALGORITHMS_NODE_H
