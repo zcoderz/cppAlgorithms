@@ -207,6 +207,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/operatorchecks/OperatorChecks.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/practice/Practice.cpp">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/practice/Practice.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/priorityqueue/PriorityQueue.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -339,7 +345,7 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/MergeVectors.h">
 			<Option target="kick_start"/>
 		</Unit>
-		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/NearrestNeighbors.h">
+		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/OnlineMedian.h">

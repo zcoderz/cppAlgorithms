@@ -53,6 +53,7 @@ CMakeFiles/kick_start.dir/main.cpp.o: \
  /home/usman/work/cppAlgorithms/main.cpp \
  /home/usman/work/cppAlgorithms/misc/MiscQuestions.h \
  /home/usman/work/cppAlgorithms/operatorchecks/OperatorChecks.h \
+ /home/usman/work/cppAlgorithms/practice/Practice.h \
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.h \
  /home/usman/work/cppAlgorithms/recursion/Power.h \
  /home/usman/work/cppAlgorithms/recursion/RecursionProblems.h \
@@ -645,6 +646,10 @@ CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.o: \
  /home/usman/work/cppAlgorithms/misc/Ipv6Compress.h \
  /home/usman/work/cppAlgorithms/misc/MiscQuestions.cpp \
  /home/usman/work/cppAlgorithms/misc/MiscQuestions.h
+CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
+ /home/usman/work/cppAlgorithms/practice/NearestNeighbors.h \
+ /home/usman/work/cppAlgorithms/practice/Practice.cpp \
+ /home/usman/work/cppAlgorithms/practice/Practice.h
 CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o: \
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueue.h \
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.cpp \
@@ -1426,7 +1431,7 @@ CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o: \
  /home/usman/work/cppAlgorithms/sort/questions/KthLargestInStream.h \
  /home/usman/work/cppAlgorithms/sort/questions/MergeSortedSinglyLinkedLists.h \
  /home/usman/work/cppAlgorithms/sort/questions/MergeVectors.h \
- /home/usman/work/cppAlgorithms/sort/questions/NearrestNeighbors.h \
+ /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h \
  /home/usman/work/cppAlgorithms/sort/questions/OnlineMedian.h \
  /home/usman/work/cppAlgorithms/sort/questions/SortAllCharacters.h \
  /home/usman/work/cppAlgorithms/sort/questions/SortColors.h \

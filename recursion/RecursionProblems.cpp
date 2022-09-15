@@ -27,6 +27,15 @@ using namespace std;
 #include "FindAllWellFormedBrackets.h"
 
 void RecursionProblems::runRecursionProblems() {
+    Tower towerA("src");
+    towerA.disks.push_back(4);
+    towerA.disks.push_back(3);
+    towerA.disks.push_back(2);
+    towerA.disks.push_back(1);
+
+    Tower towerB("aux");
+    Tower towerC("dest");
+    TowersOfHanoi::move(4, towerA, towerB, towerC);
 
     //FindAllWellFormedBrackets brackets;
     //vector<string> vecRes = brackets.find_all_well_formed_brackets(3);

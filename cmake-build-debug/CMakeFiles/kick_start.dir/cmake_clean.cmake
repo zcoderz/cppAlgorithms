@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/kick_start.dir/graph/GraphProblems.cpp.o"
   "CMakeFiles/kick_start.dir/main.cpp.o"
   "CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.o"
+  "CMakeFiles/kick_start.dir/practice/Practice.cpp.o"
   "CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o"
   "CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o"
   "CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o"

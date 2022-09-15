@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/usman/work/cppAlgorithms/graph/GraphProblems.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/graph/GraphProblems.cpp.o"
   "/home/usman/work/cppAlgorithms/main.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/main.cpp.o"
   "/home/usman/work/cppAlgorithms/misc/MiscQuestions.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.o"
+  "/home/usman/work/cppAlgorithms/practice/Practice.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/practice/Practice.cpp.o"
   "/home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o"
   "/home/usman/work/cppAlgorithms/recursion/RecursionProblems.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/recursion/RecursionProblems.cpp.o"
   "/home/usman/work/cppAlgorithms/sort/SortChecks.cpp" "/home/usman/work/cppAlgorithms/cmake-build-debug/CMakeFiles/kick_start.dir/sort/SortChecks.cpp.o"

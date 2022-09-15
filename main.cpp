@@ -13,19 +13,12 @@
 #include "recursion/Power.h"
 #include "recursion/StringsFromWildChar.h"
 #include "recursion/TowersOfHanoi.h"
+#include "practice/Practice.h"
 
 int main() {
+    Practice practice;
+    practice.runPracticeCode();
 
-    Tower towerA("src");
-    towerA.disks.push_back(4);
-    towerA.disks.push_back(3);
-    towerA.disks.push_back(2);
-    towerA.disks.push_back(1);
-
-    Tower towerB("aux");
-    Tower towerC("dest");
-    TowersOfHanoi::move(4, towerA, towerB, towerC);
-    int j = 1;
     //    std::string str("?11?");
     //    vector<string> ret= StringTest::find_all_possibilities(str);
     //    std::copy(ret.begin(), ret.end(),  std::ostream_iterator<string> (std::cout, ", "));
@@ -46,8 +39,8 @@ int main() {
     //bitTests.runBitTests();
     //OperatorChecks opChecks;
     //opChecks.testOperators();
-//    SortChecks sortChecks;
-//    sortChecks.runSortChecks();
+    //SortChecks sortChecks;
+    //sortChecks.runSortChecks();
 //    PriorityQueueTest pQTest;
 //    pQTest.testPQ();
     return 0;

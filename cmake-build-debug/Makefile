@@ -249,6 +249,30 @@ misc/MiscQuestions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.s
 .PHONY : misc/MiscQuestions.cpp.s
 
+practice/Practice.o: practice/Practice.cpp.o
+.PHONY : practice/Practice.o
+
+# target to build an object file
+practice/Practice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/practice/Practice.cpp.o
+.PHONY : practice/Practice.cpp.o
+
+practice/Practice.i: practice/Practice.cpp.i
+.PHONY : practice/Practice.i
+
+# target to preprocess a source file
+practice/Practice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/practice/Practice.cpp.i
+.PHONY : practice/Practice.cpp.i
+
+practice/Practice.s: practice/Practice.cpp.s
+.PHONY : practice/Practice.s
+
+# target to generate assembly for a file
+practice/Practice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kick_start.dir/build.make CMakeFiles/kick_start.dir/practice/Practice.cpp.s
+.PHONY : practice/Practice.cpp.s
+
 priorityqueue/PriorityQueueTest.o: priorityqueue/PriorityQueueTest.cpp.o
 .PHONY : priorityqueue/PriorityQueueTest.o
 
@@ -393,6 +417,9 @@ help:
 	@echo "... misc/MiscQuestions.o"
 	@echo "... misc/MiscQuestions.i"
 	@echo "... misc/MiscQuestions.s"
+	@echo "... practice/Practice.o"
+	@echo "... practice/Practice.i"
+	@echo "... practice/Practice.s"
 	@echo "... priorityqueue/PriorityQueueTest.o"
 	@echo "... priorityqueue/PriorityQueueTest.i"
 	@echo "... priorityqueue/PriorityQueueTest.s"
