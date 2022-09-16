@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <algorithm>
+#include "math.h"
 using namespace std;
 
 /**
@@ -60,6 +61,43 @@ public:
      * find first index that is missing in the chunk and return.
      * @return
      */
+    static long find_integer(vector<long> &arr) {
+        int MAX_SZ = pow(2,16);
+        ushort * buckets =  new ushort[MAX_SZ];
+        std::fill_n(buckets, MAX_SZ, 0);
+        for (long val : arr) {
+            val = val >> 16;
+            buckets[val]++;
+        }
+
+        bool * valBucket =  new bool [MAX_SZ];
+        std::fill_n(valBucket, MAX_SZ, 0);
+
+        for (int i =0; i < MAX_SZ; i++) {
+            if (buckets[i] < MAX_SZ) {
+                for (long val : arr) {
+                    int bucketIndex = val >> 16;
+                    if (bucketIndex == i) {
+                        ushort index = val & (MAX_SZ-1);
+                        valBucket[index]= true;
+                    }
+                }
+
+                for (int j = 0; j < MAX_SZ ; j++) {
+                    if (!valBucket[j]) {
+                        long val = i << 16;
+                        val += j;
+                        delete [] buckets;
+                        delete [] valBucket;
+                        return val;
+                    }
+                }
+            }
+        }
+
+        delete [] buckets;
+        delete [] valBucket;
+    }
 
 };
 #endif //CPPALGORITHMS_FOURBILLION_H

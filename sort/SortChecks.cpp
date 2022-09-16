@@ -120,7 +120,7 @@ void SortChecks::runSortChecks(){
     vector<int> v3 {0, 1};
 //    vector<int> v4 {0, -1};
     vector<vector<int>> n_points {v5, v4, v2, v1, v3};
-    vector<vector<int>> theP = nearest.nearest_neighbours_qs(0, 0, 3, n_points);
+    vector<vector<int>> theP = nearest.nearest_neighbours(0, 0, 3, n_points);
     sort(n_points.begin(), n_points.end());
     for (vector<int> v : theP) {
         for (int i : v) {

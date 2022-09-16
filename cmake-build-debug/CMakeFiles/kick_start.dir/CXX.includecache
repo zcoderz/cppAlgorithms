@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/usman/work/cppAlgorithms/practice/NearestNeighbors.h
-math.h
--
+/home/usman/work/cppAlgorithms/bits/FourBillion.h
 vector
 -
-queue
+algorithm
 -
-tuple
--
+math.h
+/home/usman/work/cppAlgorithms/bits/math.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.cpp
 algorithm
@@ -23,8 +21,22 @@ iostream
 -
 Practice.h
 /home/usman/work/cppAlgorithms/practice/Practice.h
-NearestNeighbors.h
-/home/usman/work/cppAlgorithms/practice/NearestNeighbors.h
+../sort/questions/NearestNeighbors.h
+/home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h
+../bits/FourBillion.h
+/home/usman/work/cppAlgorithms/bits/FourBillion.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
+
+/home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h
+math.h
+-
+vector
+-
+queue
+-
+tuple
+-
+c++/11/random
+-
 
