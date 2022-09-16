@@ -648,9 +648,12 @@ CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.o: \
  /home/usman/work/cppAlgorithms/misc/MiscQuestions.h
 CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/bits/FourBillion.h \
+ /home/usman/work/cppAlgorithms/practice/LargestBST.h \
  /home/usman/work/cppAlgorithms/practice/Practice.cpp \
  /home/usman/work/cppAlgorithms/practice/Practice.h \
- /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h
+ /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h \
+ /home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h \
+ /home/usman/work/cppAlgorithms/trees/TreeMirrorImage.h
 CMakeFiles/kick_start.dir/priorityqueue/PriorityQueueTest.cpp.o: \
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueue.h \
  /home/usman/work/cppAlgorithms/priorityqueue/PriorityQueueTest.cpp \

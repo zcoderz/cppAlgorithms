@@ -14,6 +14,12 @@ algorithm
 math.h
 /home/usman/work/cppAlgorithms/bits/math.h
 
+/home/usman/work/cppAlgorithms/practice/LargestBST.h
+algorithm
+-
+limits
+-
+
 /home/usman/work/cppAlgorithms/practice/Practice.cpp
 algorithm
 -
@@ -25,6 +31,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h
 ../bits/FourBillion.h
 /home/usman/work/cppAlgorithms/bits/FourBillion.h
+../trees/TreeMirrorImage.h
+/home/usman/work/cppAlgorithms/trees/TreeMirrorImage.h
+../trees/BinaryTreeFromPreAndInOrder.h
+/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h
+LargestBST.h
+/home/usman/work/cppAlgorithms/practice/LargestBST.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
@@ -39,4 +51,14 @@ tuple
 -
 c++/11/random
 -
+
+/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h
+vector
+-
+map
+-
+unordered_map
+-
+
+/home/usman/work/cppAlgorithms/trees/TreeMirrorImage.h
 

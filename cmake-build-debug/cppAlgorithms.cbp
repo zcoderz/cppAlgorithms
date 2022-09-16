@@ -375,6 +375,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BalancedBstFromSortedArrayTryTwo.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreOrder.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -385,6 +388,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/BstFromInOrderAndPostOrderTraversal.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/CloneBinaryTree.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/CountUnivalueSubtrees.h">
@@ -400,6 +406,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/KthSmallestFromBst.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/LargestBST.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/LeastCommonAncestor.h">
@@ -439,6 +448,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/SortedListToBinarySearchTree.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/trees/TreeMirrorImage.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/TreeProblems.cpp">
