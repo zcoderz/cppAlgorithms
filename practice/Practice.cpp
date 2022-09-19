@@ -14,15 +14,23 @@
 #include "../lists/LinkedListGroupReverse.h"
 #include "../lists/SlidingWindowMax.h"
 #include "../lists/LRUCache.h"
+#include "../lists/MergeSortLinkedList.h"
 
 void Practice::runPracticeCode() {
 
-    LRUCache cache(1);
-    cache.put(2,1);
-    cache.get(2);
-    cache.put(3,2);
-    cache.get(2);
-    cache.get(3);
+    MergeSortLinkedList::ListNode node1(7);
+    MergeSortLinkedList::ListNode node2(1); node1.next = &node2;
+    MergeSortLinkedList::ListNode node3(5); node2.next = &node3;
+    MergeSortLinkedList::ListNode node4(3); node3.next = &node4;
+
+    auto  sortedList = MergeSortLinkedList::sortList(&node1);
+    int j = 2;
+//    LRUCache cache(1);
+//    cache.put(2,1);
+//    cache.get(2);
+//    cache.put(3,2);
+//    cache.get(2);
+//    cache.get(3);
 
 //    vector<int> data = {-7,-8,7,5,7,1,6,0};
 //    vector<int> res = SlidingWindowMax::maxSlidingWindow(data, 4);
