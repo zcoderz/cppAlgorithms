@@ -14,10 +14,24 @@ algorithm
 math.h
 /home/usman/work/cppAlgorithms/bits/math.h
 
-/home/usman/work/cppAlgorithms/practice/LargestBST.h
-algorithm
+/home/usman/work/cppAlgorithms/lists/LRUCache.h
+unordered_map
+-
+
+/home/usman/work/cppAlgorithms/lists/LinkedListGroupReverse.h
+
+/home/usman/work/cppAlgorithms/lists/SlidingWindowMax.h
+vector
 -
 limits
+-
+set
+-
+deque
+-
+
+/home/usman/work/cppAlgorithms/lists/ZipLinkedList.h
+vector
 -
 
 /home/usman/work/cppAlgorithms/practice/Practice.cpp
@@ -35,8 +49,16 @@ Practice.h
 /home/usman/work/cppAlgorithms/trees/TreeMirrorImage.h
 ../trees/BinaryTreeFromPreAndInOrder.h
 /home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h
-LargestBST.h
-/home/usman/work/cppAlgorithms/practice/LargestBST.h
+../trees/LargestBST.h
+/home/usman/work/cppAlgorithms/trees/LargestBST.h
+../lists/ZipLinkedList.h
+/home/usman/work/cppAlgorithms/lists/ZipLinkedList.h
+../lists/LinkedListGroupReverse.h
+/home/usman/work/cppAlgorithms/lists/LinkedListGroupReverse.h
+../lists/SlidingWindowMax.h
+/home/usman/work/cppAlgorithms/lists/SlidingWindowMax.h
+../lists/LRUCache.h
+/home/usman/work/cppAlgorithms/lists/LRUCache.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
@@ -58,6 +80,12 @@ vector
 map
 -
 unordered_map
+-
+
+/home/usman/work/cppAlgorithms/trees/LargestBST.h
+algorithm
+-
+limits
 -
 
 /home/usman/work/cppAlgorithms/trees/TreeMirrorImage.h
