@@ -648,9 +648,13 @@ CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.o
  /home/usman/work/cppAlgorithms/misc/MiscQuestions.h
 CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/bits/FourBillion.h
+ /home/usman/work/cppAlgorithms/data_structures/SkipList.h
+ /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
  /home/usman/work/cppAlgorithms/lists/LRUCache.h
  /home/usman/work/cppAlgorithms/lists/LinkedListGroupReverse.h
+ /home/usman/work/cppAlgorithms/lists/MergeSortLinkedList.h
  /home/usman/work/cppAlgorithms/lists/SlidingWindowMax.h
+ /home/usman/work/cppAlgorithms/lists/ValidateExpression.h
  /home/usman/work/cppAlgorithms/lists/ZipLinkedList.h
  /home/usman/work/cppAlgorithms/practice/Practice.cpp
  /home/usman/work/cppAlgorithms/practice/Practice.h

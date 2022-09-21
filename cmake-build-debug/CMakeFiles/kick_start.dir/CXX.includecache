@@ -14,11 +14,27 @@ algorithm
 math.h
 /home/usman/work/cppAlgorithms/bits/math.h
 
+/home/usman/work/cppAlgorithms/data_structures/SkipList.h
+iostream
+-
+cstdlib
+-
+cmath
+-
+cstring
+-
+
+/home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/lists/LRUCache.h
 unordered_map
 -
 
 /home/usman/work/cppAlgorithms/lists/LinkedListGroupReverse.h
+
+/home/usman/work/cppAlgorithms/lists/MergeSortLinkedList.h
 
 /home/usman/work/cppAlgorithms/lists/SlidingWindowMax.h
 vector
@@ -28,6 +44,26 @@ limits
 set
 -
 deque
+-
+
+/home/usman/work/cppAlgorithms/lists/ValidateExpression.h
+string
+-
+stack
+-
+vector
+-
+unordered_map
+-
+ranges
+-
+string_view
+-
+iostream
+-
+iomanip
+-
+list
 -
 
 /home/usman/work/cppAlgorithms/lists/ZipLinkedList.h
@@ -59,6 +95,14 @@ Practice.h
 /home/usman/work/cppAlgorithms/lists/SlidingWindowMax.h
 ../lists/LRUCache.h
 /home/usman/work/cppAlgorithms/lists/LRUCache.h
+../lists/MergeSortLinkedList.h
+/home/usman/work/cppAlgorithms/lists/MergeSortLinkedList.h
+../lists/ValidateExpression.h
+/home/usman/work/cppAlgorithms/lists/ValidateExpression.h
+../lists/CloneRandomLinkedList.h
+/home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
+../data_structures/SkipList.h
+/home/usman/work/cppAlgorithms/data_structures/SkipList.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

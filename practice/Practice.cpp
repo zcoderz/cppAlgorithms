@@ -15,16 +15,48 @@
 #include "../lists/SlidingWindowMax.h"
 #include "../lists/LRUCache.h"
 #include "../lists/MergeSortLinkedList.h"
+#include "../lists/ValidateExpression.h"
+#include "../lists/CloneRandomLinkedList.h"
+
+#include "../data_structures/SkipList.h"
 
 void Practice::runPracticeCode() {
 
-    MergeSortLinkedList::ListNode node1(7);
-    MergeSortLinkedList::ListNode node2(1); node1.next = &node2;
-    MergeSortLinkedList::ListNode node3(5); node2.next = &node3;
-    MergeSortLinkedList::ListNode node4(3); node3.next = &node4;
+    SkipList<int> skipList;
+    skipList.insert_element(1);
+    skipList.insert_element(100);
+    skipList.insert_element(1000);
+    skipList.insert_element(770);
+    skipList.insert_element(10);
 
-    auto  sortedList = MergeSortLinkedList::sortList(&node1);
-    int j = 2;
+    bool contains = skipList.contains(10);
+    cout << "element 10 is " << contains << endl;
+    cout << "-----------------------" << endl;
+    skipList.display();
+    cout << "-----------------------" << endl;
+    skipList.delete_element(1);
+    skipList.display();
+
+
+//     auto * node7 = new CloneRandomLinkedList::Node(7);
+//     auto * node13 = new CloneRandomLinkedList::Node(13); node7->next = node13; node13->random = node7;
+//     auto * node11 = new CloneRandomLinkedList::Node(11); node13->next = node11;
+//     auto * node10 = new CloneRandomLinkedList::Node(10); node11->next = node10; node10->random = node11;
+//     auto * node1 = new CloneRandomLinkedList::Node(1);   node10->next = node1; node11->random = node1; node1->random = node7;
+//
+//    auto * newNodes = CloneRandomLinkedList::copyRandomList(node7);
+//    int j = 1;
+    //string exp = "{2+1+(3+4)}";
+//    string exp = "{(1+2)*3}+4";
+//    bool res = ValidateExpression::is_valid(exp);
+//    cout << res << endl;
+//    MergeSortLinkedList::ListNode node1(7);
+//    MergeSortLinkedList::ListNode node2(1); node1.next = &node2;
+//    MergeSortLinkedList::ListNode node3(5); node2.next = &node3;
+//    MergeSortLinkedList::ListNode node4(3); node3.next = &node4;
+//
+//    auto  sortedList = MergeSortLinkedList::sortList(&node1);
+//    int j = 2;
 //    LRUCache cache(1);
 //    cache.put(2,1);
 //    cache.get(2);

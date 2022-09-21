@@ -17,18 +17,6 @@ public:
         ListNode(int x, ListNode *next) : val(x), next(next) {}
     };
 
-    static ListNode * sortListIterative(ListNode * head) {
-        if (head== nullptr || head->next== nullptr) return head;
-
-        ListNode * mid = split(head);
-        ListNode * nextHalf = mid->next;
-        mid->next = nullptr;
-
-        ListNode * leftList = sortList(head);
-        ListNode * rightList = sortList(nextHalf);
-
-        return merge(leftList, rightList);
-    }
 
     static ListNode * sortList(ListNode * head) {
         if (head== nullptr || head->next== nullptr) return head;
