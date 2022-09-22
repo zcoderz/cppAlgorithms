@@ -222,6 +222,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/lists/OddEvenList.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/lists/PartitionList.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/lists/ReOrderList.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/lists/SlidingWindowMax.h">
 			<Option target="kick_start"/>
 		</Unit>

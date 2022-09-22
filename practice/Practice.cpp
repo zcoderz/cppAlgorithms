@@ -17,25 +17,41 @@
 #include "../lists/MergeSortLinkedList.h"
 #include "../lists/ValidateExpression.h"
 #include "../lists/CloneRandomLinkedList.h"
+#include "../lists/PartitionList.h"
+#include "../lists/ReOrderList.h"
 
 #include "../data_structures/SkipList.h"
 
 void Practice::runPracticeCode() {
+    ReorderList::ListNode node1(1);
+    ReorderList::ListNode node2(2); node1.next = &node2;
+    ReorderList::ListNode node3(3); node2.next = &node3;
+    ReorderList::ListNode node4(4); node3.next = &node4;
+    ReorderList::reorderList(&node1);
+    int j = 1;
 
-    SkipList<int> skipList;
-    skipList.insert_element(1);
-    skipList.insert_element(100);
-    skipList.insert_element(1000);
-    skipList.insert_element(770);
-    skipList.insert_element(10);
+//    PartitionList::ListNode node1(1);
+//    PartitionList::ListNode node4(4); node1.next = &node4;
+//    PartitionList::ListNode node3(3); node4.next = &node3;
+//    PartitionList::ListNode node2(2); node3.next = &node2;
+//    PartitionList::ListNode node5(5); node2.next = &node5;
+//    PartitionList::ListNode node2a(2); node5.next = &node2a;
+//    auto * temp = PartitionList::partition(&node1, 3);
 
-    bool contains = skipList.contains(10);
-    cout << "element 10 is " << contains << endl;
-    cout << "-----------------------" << endl;
-    skipList.display();
-    cout << "-----------------------" << endl;
-    skipList.delete_element(1);
-    skipList.display();
+//    SkipList<int> skipList;
+//    skipList.insert_element(1);
+//    skipList.insert_element(100);
+//    skipList.insert_element(1000);
+//    skipList.insert_element(770);
+//    skipList.insert_element(10);
+//
+//    bool contains = skipList.contains(10);
+//    cout << "element 10 is " << contains << endl;
+//    cout << "-----------------------" << endl;
+//    skipList.display();
+//    cout << "-----------------------" << endl;
+//    skipList.delete_element(1);
+//    skipList.display();
 
 
 //     auto * node7 = new CloneRandomLinkedList::Node(7);
