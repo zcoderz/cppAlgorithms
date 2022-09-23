@@ -19,16 +19,32 @@
 #include "../lists/CloneRandomLinkedList.h"
 #include "../lists/PartitionList.h"
 #include "../lists/ReOrderList.h"
-
 #include "../data_structures/SkipList.h"
+#include "../strings/ZigZagWords.h"
+#include "../strings/LongestSubstringWithAtMostKDistinctChars.h"
+#include "../strings/ShortestPalindrome.h"
+#include "../strings/GenerateNumeronyms.h"
 
 void Practice::runPracticeCode() {
-    ReorderList::ListNode node1(1);
-    ReorderList::ListNode node2(2); node1.next = &node2;
-    ReorderList::ListNode node3(3); node2.next = &node3;
-    ReorderList::ListNode node4(4); node3.next = &node4;
-    ReorderList::reorderList(&node1);
-    int j = 1;
+
+    string word = "nailed";
+    vector<string> res = Numeronyms::generate_all_numeronyms(word);
+    std::ostringstream oss;
+    std::copy(res.begin(), res.end() , std::ostream_iterator<string>(oss, ", "));
+    cout << oss.str() << endl;
+    //string res = ShortestPalindrome::shortestPalindromeKPM("aacecaaa");
+    //string res = ShortestPalindrome::shortestPalindrome("adcaee");
+    //cout << res << endl;
+    //int sz = LongestSubstrWithDistinct::lengthOfLongestSubstringKDistinct("eceba", 2);
+    //cout << sz << endl;
+    //string res = ZigZagWords::convertTwo("PAYPAYISHIRING", 4);
+    //cout << res << endl;
+//    ReorderList::ListNode node1(1);
+//    ReorderList::ListNode node2(2); node1.next = &node2;
+//    ReorderList::ListNode node3(3); node2.next = &node3;
+//    ReorderList::ListNode node4(4); node3.next = &node4;
+//    ReorderList::reorderList(&node1);
+//    int j = 1;
 
 //    PartitionList::ListNode node1(1);
 //    PartitionList::ListNode node4(4); node1.next = &node4;

@@ -661,6 +661,10 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/practice/Practice.cpp \
  /home/usman/work/cppAlgorithms/practice/Practice.h \
  /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h \
+ /home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h \
+ /home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h \
+ /home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h \
+ /home/usman/work/cppAlgorithms/strings/ZigZagWords.h \
  /home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h \
  /home/usman/work/cppAlgorithms/trees/LargestBST.h \
  /home/usman/work/cppAlgorithms/trees/TreeMirrorImage.h

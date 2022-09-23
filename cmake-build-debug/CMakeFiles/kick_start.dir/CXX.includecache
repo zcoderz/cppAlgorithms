@@ -103,6 +103,14 @@ Practice.h
 /home/usman/work/cppAlgorithms/lists/ReOrderList.h
 ../data_structures/SkipList.h
 /home/usman/work/cppAlgorithms/data_structures/SkipList.h
+../strings/ZigZagWords.h
+/home/usman/work/cppAlgorithms/strings/ZigZagWords.h
+../strings/LongestSubstringWithAtMostKDistinctChars.h
+/home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h
+../strings/ShortestPalindrome.h
+/home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h
+../strings/GenerateNumeronyms.h
+/home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
@@ -116,6 +124,32 @@ queue
 tuple
 -
 c++/11/random
+-
+
+/home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h
+vector
+-
+string
+-
+
+/home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h
+string
+-
+set
+-
+map
+-
+
+/home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h
+string
+-
+algorithm
+-
+
+/home/usman/work/cppAlgorithms/strings/ZigZagWords.h
+string
+-
+sstream
 -
 
 /home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h

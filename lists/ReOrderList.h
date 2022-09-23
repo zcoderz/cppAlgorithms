@@ -23,7 +23,7 @@ public:
                 crossed = true;
             }
             return;
-        }//bilal was here
+        }
         ListNode * tmp = left->next;
         left->next = right;
         left = tmp;

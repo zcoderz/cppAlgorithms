@@ -414,6 +414,18 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/TwoSumNonSorted.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/ZigZagWords.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/trees/AllPathsThatSumToK.h">
 			<Option target="kick_start"/>
 		</Unit>
