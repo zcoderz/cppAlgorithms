@@ -24,14 +24,26 @@
 #include "../strings/LongestSubstringWithAtMostKDistinctChars.h"
 #include "../strings/ShortestPalindrome.h"
 #include "../strings/GenerateNumeronyms.h"
+#include "../strings/LongestRepeatedSubstring.h"
+#include "../strings/LongestRepeatedSubstringSuffixTree.h"
+const string LongestRepeatedSubstringSuffixTree::ALPHABET = "abcdefghijklmnopqrstuvwxyz\1";
+int LongestRepeatedSubstringSuffixTree::lrsLength = 0;
+int LongestRepeatedSubstringSuffixTree::lrsSuffixIndex =0;
+string LongestRepeatedSubstringSuffixTree::suffixTreeString = "";
 
 void Practice::runPracticeCode() {
 
-    string word = "nailed";
-    vector<string> res = Numeronyms::generate_all_numeronyms(word);
-    std::ostringstream oss;
-    std::copy(res.begin(), res.end() , std::ostream_iterator<string>(oss, ", "));
-    cout << oss.str() << endl;
+
+    string res = LongestRepeatedSubstringSuffixTree::get_longest_repeated_substring("efabcdhefhabcdiefi");
+    cout << res << endl;
+
+//    string res = LongestRepeatedSubstring::get_longest_repeated_substring("efabcdhefhabcdiefi");
+//    cout << res << endl;
+//    string word = "nailed";
+//    vector<string> res = Numeronyms::generate_all_numeronyms(word);
+//    std::ostringstream oss;
+//    std::copy(res.begin(), res.end() , std::ostream_iterator<string>(oss, ", "));
+//    cout << oss.str() << endl;
     //string res = ShortestPalindrome::shortestPalindromeKPM("aacecaaa");
     //string res = ShortestPalindrome::shortestPalindrome("adcaee");
     //cout << res << endl;

@@ -8,7 +8,7 @@
 #include <stack>
 #include <vector>
 #include <unordered_map>
-#include <ranges>
+//#include <ranges>
 #include <string_view>
 #include <iostream>
 #include <iomanip>
@@ -123,7 +123,7 @@ public:
     }
 
 
-    static vector<string> split(string &expression, auto  delims) {
+    static vector<string> split(string &expression, string   delims) {
         vector<string> res;
         size_t beg, pos = 0;
         while ((beg = expression.find_first_not_of(delims, pos)) != std::string::npos) {
