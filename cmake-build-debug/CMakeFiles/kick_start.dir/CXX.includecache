@@ -14,6 +14,18 @@ algorithm
 math.h
 /home/usman/work/cppAlgorithms/bits/math.h
 
+/home/usman/work/cppAlgorithms/data_structures/GeneralizedSuffixTree.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+string
+-
+utility
+-
+
 /home/usman/work/cppAlgorithms/data_structures/SkipList.h
 
 /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
@@ -111,6 +123,14 @@ Practice.h
 /home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h
 ../strings/GenerateNumeronyms.h
 /home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h
+../strings/RegularExpressionMatching.h
+/home/usman/work/cppAlgorithms/strings/RegularExpressionMatching.h
+../strings/LongestRepeatedSubstring.h
+/home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstring.h
+../strings/LongestRepeatedSubstringSuffixTree.h
+/home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstringSuffixTree.h
+../data_structures/GeneralizedSuffixTree.h
+/home/usman/work/cppAlgorithms/data_structures/GeneralizedSuffixTree.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
@@ -132,12 +152,28 @@ vector
 string
 -
 
+/home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstring.h
+string
+-
+
+/home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstringSuffixTree.h
+string
+-
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h
 string
 -
 set
 -
 map
+-
+
+/home/usman/work/cppAlgorithms/strings/RegularExpressionMatching.h
+string
+-
+vector
 -
 
 /home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h

@@ -8,6 +8,12 @@
 #include <string>
 #include <unordered_map>
 using namespace std;
+
+/**
+ * Characteristics for performance are :
+ *
+ * 1 - Coalesce nodes --> a node handles a range from start to end , rather than an individual node for each of sub indexes
+ */
 class LongestRepeatedSubstringSuffixTree {
     /*
     * Asymptotic complexity in terms of length of `s` `n`:
@@ -17,83 +23,115 @@ class LongestRepeatedSubstringSuffixTree {
     */
 
 
+    int lrsLength =0;
+    int lrsSuffixIndex =0;
+    string suffixTreeString;
+    string ALPHABET = "abcdefghijklmnopqrstuvwxyz\1";
 
 public:
-    static const string ALPHABET;
 
     struct Node {
-            int begin;
-            int end;
-            int depth; // distance in characters from root to this node
-            Node *parent;
-            unordered_map<int, Node*> children;
-            Node * suffixLink;
+        int begin;
+        int end;
+        int depth; // distance in characters from root to this node
+        Node *parent;
+        unordered_map<int, Node*> children;
+        Node * suffixLink;
 
-            Node(int begin, int end, int depth, Node * parent) {
-                this->begin = begin;
-                this->end = end;
-                this->parent = parent;
-                this->depth = depth;
-            }
+        Node(int begin, int end, int depth, Node * parent) {
+            this->begin = begin;
+            this->end = end;
+            this->parent = parent;
+            this->depth = depth;
+        }
     };
 
-   static Node * buildSuffixTree(string suffixTreeString) {
-        int n = suffixTreeString.size();
-        vector<int> a(n, 0);
-        unordered_map<char, int> map;
-        for (int i = 0; i < ALPHABET.length(); i++) {
-            map[suffixTreeString[i]] = i;
+    void print(Node * node, int offset) {
+        for (int i =0 ; i < offset; i++) {
+            cout << " ";
         }
-        // Converting CharSequence s to byte array a, using index of that char in universal string ALPHABET
-        for (int i = 0; i < n; i++) a[i] = map[suffixTreeString[i]];
+        int index = suffixTreeString.size() - (node->depth + node->end - node->begin);
+        int length = node->end - node->begin;
+        cout << suffixTreeString.substr(index, length) << " , isLeaf : " << node->children.empty() << " depth " <<
+                    node->depth ;
+        cout << endl;
+
+        for (auto & iter  : node->children) {
+            print(iter.second, offset + 4);
+        }
+    }
+
+    Node * buildSuffixTree(string suffixTreeString) {
+        int n = suffixTreeString.size();
+        vector<int> charToAlphabetOffset(n, 0);
+        unordered_map<char, int> alphabetOffsetMap;
+        for (int i = 0; i < ALPHABET.length(); i++) {
+            alphabetOffsetMap[ALPHABET[i]] = i;
+        }
+        //charToAlphabetOffset contains index of the character in ALPHABET list
+        for (int i = 0; i < n; i++) {
+            charToAlphabetOffset[i] = alphabetOffsetMap[suffixTreeString[i]];
+        }
         Node *root = new Node(0, 0, 0, nullptr);
-        Node * node = root;
-        for (int i = 0, tail = 0; i < n; i++, tail++) {
-            Node *last = nullptr;
-            while (tail >= 0) {
-                Node *ch = node->children[a[i - tail]];
-                while (ch != nullptr && tail >= ch->end - ch->begin) {
-                    tail -= ch->end - ch->begin;
-                    node = ch;
-                    ch = ch->children[a[i - tail]];
+        Node * activeNode = root;
+        for (int textIndex = 0, activeLength = 0; textIndex < n; textIndex++, activeLength++) {
+            Node *lastSplitNode = nullptr;
+            while (activeLength >= 0) {
+                //cout << "at index " << textIndex << " char is " << suffixTreeString[textIndex] <<  " activeLength = " << activeLength << endl;
+                //print(root, 0);
+                Node *currentChild = activeNode->children[charToAlphabetOffset[textIndex - activeLength]];
+                while (currentChild != nullptr && activeLength >= currentChild->end - currentChild->begin) {
+                    activeLength -= currentChild->end - currentChild->begin;
+                    activeNode = currentChild;
+                    currentChild = currentChild->children[charToAlphabetOffset[textIndex - activeLength]];
                 }
-                if (ch == nullptr) {
-                    node->children[a[i]] = new Node(i, n, node->depth + node->end - node->begin, node);
-                    if (last != nullptr) last->suffixLink = node;
-                    last = nullptr;
+                if (currentChild == nullptr) {
+                    activeNode->children[charToAlphabetOffset[textIndex]] =
+                            new Node(textIndex, n, activeNode->depth + activeNode->end - activeNode->begin, activeNode);
+                    if (lastSplitNode != nullptr) lastSplitNode->suffixLink = activeNode;
+                    lastSplitNode = nullptr;
                 } else {
-                    int t = a[ch->begin + tail];
-                    if (t == a[i]) {
-                        if (last != nullptr) last->suffixLink = node;
+                    int activeEdge = charToAlphabetOffset[currentChild->begin + activeLength];
+                    if (activeEdge == charToAlphabetOffset[textIndex]) {
+                        ///*Extension Rule 3 (current character being processed is already on the edge)*/
+                        if (lastSplitNode != nullptr) {
+                            //If a newly created node waiting for its suffix link to be set, then set suffix link
+                            //of that waiting node to current active node
+                            lastSplitNode->suffixLink = activeNode;
+                        }
                         break;
                     } else {
-                        Node * splitNode = new Node(ch->begin, ch->begin + tail,
-                                                  node->depth + node->end - node->begin, node);
-                        splitNode->children[a[i]] = new Node(i, n, ch->depth + tail, splitNode);
-                        splitNode->children[t] = ch;
-                        ch->begin += tail;
-                        ch->depth += tail;
-                        ch->parent = splitNode;
-                        node->children[a[i - tail]] = splitNode;
-                        if (last != nullptr) last->suffixLink = splitNode;
-                        last = splitNode;
+                        Node * splitNode = new Node(currentChild->begin, currentChild->begin + activeLength,
+                                                    activeNode->depth + activeNode->end - activeNode->begin, activeNode);
+                        splitNode->children[charToAlphabetOffset[textIndex]] = new
+                                Node(textIndex, n, currentChild->depth + activeLength, splitNode);
+                        splitNode->children[activeEdge] = currentChild;
+                        currentChild->begin += activeLength;
+                        currentChild->depth += activeLength;
+                        currentChild->parent = splitNode;
+                        activeNode->children[charToAlphabetOffset[textIndex - activeLength]] = splitNode;
+                        if (lastSplitNode != nullptr) lastSplitNode->suffixLink = splitNode;
+                        lastSplitNode = splitNode;
                     }
                 }
-                if (node == root) {
-                    --tail;
+                if (activeNode == root) {
+                    --activeLength;
                 } else {
-                    node = node->suffixLink;
+                    activeNode = activeNode->suffixLink;
                 }
             }
         }
+        print(root, 0);
         return root;
     }
 
-    static int lrsLength;
-    static int lrsSuffixIndex;
-    static string suffixTreeString;
-
-    static void findLRS(Node * node) {
+    /**
+     *  longest repeated substring will end at the internal node which is farthest from the root
+     *  (i.e. deepest node in the tree),
+     *  because length of substring is the path label length from root to that internal node.
+     * @param node
+     */
+    void findLRS(Node * node) {
         bool isLeaf = true;
         for (const auto& iter : node->children) {
             isLeaf = false;
@@ -101,8 +139,7 @@ public:
         }
         // As name suggests, isLeaf will be true at this point, if it has no child
 
-        // If node is a leaf, then suffix string formed by path from root to it's parent node is a
-        // repeated substring
+        // If node is a leaf, then suffix string formed by path from root to it's parent node is a repeated substring
         // and a candidate for longest repeated substring
         if (isLeaf) {
             int currLength = node->depth;
@@ -111,15 +148,13 @@ public:
                 lrsLength = currLength;
                 lrsSuffixIndex = suffixTreeString.size() - (node->depth + node->end - node->begin);
                 // For a leaf node, suffixIndex(i.e. index of suffix that ends here) is nothing but (
-                // (length of given
-                // string s) - path length of current node)
+                // (length of given string s) - path length of current node)
             }
         }
     }
 
-    static string get_longest_repeated_substring(string s) {
-        // Adding a special character('\1' here) in the end of string to make it explicit suffix tree.
-        // In explicit suffix tree, all the suffixes ends at a leaf
+    string get_longest_repeated_substring(string s) {
+        //adding a unique character $ at the end ensures that all suffixes are at leaf nodes
         suffixTreeString = s + "\1";
         Node * tree = buildSuffixTree(suffixTreeString);
         lrsLength = 0;

@@ -93,6 +93,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/bits/FourBillion.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/GeneralizedSuffixTree.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/SkipList.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -418,6 +421,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/RegularExpressionMatching.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h">

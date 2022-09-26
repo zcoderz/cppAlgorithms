@@ -648,6 +648,7 @@ CMakeFiles/kick_start.dir/misc/MiscQuestions.cpp.o
  /home/usman/work/cppAlgorithms/misc/MiscQuestions.h
 CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/bits/FourBillion.h
+ /home/usman/work/cppAlgorithms/data_structures/GeneralizedSuffixTree.h
  /home/usman/work/cppAlgorithms/data_structures/SkipList.h
  /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
  /home/usman/work/cppAlgorithms/lists/LRUCache.h
@@ -662,7 +663,10 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/practice/Practice.h
  /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h
  /home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h
+ /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstring.h
+ /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstringSuffixTree.h
  /home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h
+ /home/usman/work/cppAlgorithms/strings/RegularExpressionMatching.h
  /home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h
  /home/usman/work/cppAlgorithms/strings/ZigZagWords.h
  /home/usman/work/cppAlgorithms/trees/BinaryTreeFromPreAndInOrder.h
