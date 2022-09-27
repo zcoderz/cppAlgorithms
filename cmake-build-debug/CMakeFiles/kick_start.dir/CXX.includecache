@@ -83,6 +83,8 @@ algorithm
 -
 iostream
 -
+iterator
+-
 Practice.h
 /home/usman/work/cppAlgorithms/practice/Practice.h
 ../sort/questions/NearestNeighbors.h
@@ -131,6 +133,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstringSuffixTree.h
 ../data_structures/GeneralizedSuffixTree.h
 /home/usman/work/cppAlgorithms/data_structures/GeneralizedSuffixTree.h
+../strings/KMPMatch.h
+/home/usman/work/cppAlgorithms/strings/KMPMatch.h
+../strings/MinWindowSubstring.h
+/home/usman/work/cppAlgorithms/strings/MinWindowSubstring.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
@@ -152,6 +158,12 @@ vector
 string
 -
 
+/home/usman/work/cppAlgorithms/strings/KMPMatch.h
+vector
+-
+string
+-
+
 /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstring.h
 string
 -
@@ -168,6 +180,14 @@ string
 set
 -
 map
+-
+
+/home/usman/work/cppAlgorithms/strings/MinWindowSubstring.h
+string
+-
+vector
+-
+limits
 -
 
 /home/usman/work/cppAlgorithms/strings/RegularExpressionMatching.h

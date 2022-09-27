@@ -663,9 +663,11 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/practice/Practice.h \
  /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h \
  /home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h \
+ /home/usman/work/cppAlgorithms/strings/KMPMatch.h \
  /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstring.h \
  /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstringSuffixTree.h \
  /home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h \
+ /home/usman/work/cppAlgorithms/strings/MinWindowSubstring.h \
  /home/usman/work/cppAlgorithms/strings/RegularExpressionMatching.h \
  /home/usman/work/cppAlgorithms/strings/ShortestPalindrome.h \
  /home/usman/work/cppAlgorithms/strings/ZigZagWords.h \

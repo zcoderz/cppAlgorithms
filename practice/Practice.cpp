@@ -4,6 +4,7 @@
 
 #include <algorithm>
 #include <iostream>
+#include <iterator>
 #include "Practice.h"
 #include "../sort/questions/NearestNeighbors.h"
 #include "../bits/FourBillion.h"
@@ -28,13 +29,18 @@
 #include "../strings/LongestRepeatedSubstring.h"
 #include "../strings/LongestRepeatedSubstringSuffixTree.h"
 #include "../data_structures/GeneralizedSuffixTree.h"
-
-
+#include "../strings/KMPMatch.h"
+#include "../strings/MinWindowSubstring.h"
 void Practice::runPracticeCode() {
-    LongestRepeatedSubstringSuffixTree longest;
-    //string res = longest.get_longest_repeated_substring("iabhabi");
-    string res = longest.get_longest_repeated_substring("abab");
+    string res = MinWindowSubstring::minimum_window("AYZABOBECODXBANC", "ABC");
     cout << res << endl;
+    //vector<int> res = KMPMatch::match_pattern_in_text("wwwwwwwwwwwwwww","ww");
+    //std::copy(res.begin(), res.end() , std::ostream_iterator<int>(cout, ", "));
+
+//    LongestRepeatedSubstringSuffixTree longest;
+//    //string res = longest.get_longest_repeated_substring("iabhabi");
+//    string res = longest.get_longest_repeated_substring("abab");
+//    cout << res << endl;
 
 //    SuffixTree suffixTree;
 //    suffixTree.buildSuffixTree("ababcfggghfhggg");

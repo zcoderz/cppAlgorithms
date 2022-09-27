@@ -33,7 +33,10 @@ public:
     struct Node {
         int begin;
         int end;
-        int depth; // distance in characters from root to this node
+
+        //when nodes split due to repeats the child nodes depth is set as the number of duplicate matched characters
+        //hence depth is used to determine the length of the largest repeat string
+        int depth;
         Node *parent;
         unordered_map<int, Node*> children;
         Node * suffixLink;
@@ -107,7 +110,7 @@ public:
                                 Node(textIndex, n, currentChild->depth + activeLength, splitNode);
                         splitNode->children[activeEdge] = currentChild;
                         currentChild->begin += activeLength;
-                        currentChild->depth += activeLength;
+                        currentChild->depth += activeLength; //activeLength indicates the number of repeated characters
                         currentChild->parent = splitNode;
                         activeNode->children[charToAlphabetOffset[textIndex - activeLength]] = splitNode;
                         if (lastSplitNode != nullptr) lastSplitNode->suffixLink = splitNode;

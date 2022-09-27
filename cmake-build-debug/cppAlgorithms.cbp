@@ -420,7 +420,13 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/KMPMatch.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/strings/LongestSubstringWithAtMostKDistinctChars.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/MinWindowSubstring.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/strings/RegularExpressionMatching.h">
