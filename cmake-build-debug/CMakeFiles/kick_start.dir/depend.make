@@ -650,6 +650,8 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/bits/FourBillion.h \
  /home/usman/work/cppAlgorithms/data_structures/GeneralizedSuffixTree.h \
  /home/usman/work/cppAlgorithms/data_structures/SkipList.h \
+ /home/usman/work/cppAlgorithms/data_structures/TrieBuilder.h \
+ /home/usman/work/cppAlgorithms/data_structures/TrieNode.h \
  /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h \
  /home/usman/work/cppAlgorithms/lists/LRUCache.h \
  /home/usman/work/cppAlgorithms/lists/LinkedListGroupReverse.h \
@@ -662,7 +664,9 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/practice/Practice.cpp \
  /home/usman/work/cppAlgorithms/practice/Practice.h \
  /home/usman/work/cppAlgorithms/sort/questions/NearestNeighbors.h \
+ /home/usman/work/cppAlgorithms/strings/BoggleSolver.h \
  /home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h \
+ /home/usman/work/cppAlgorithms/strings/IndicesOfWordsInTextString.h \
  /home/usman/work/cppAlgorithms/strings/KMPMatch.h \
  /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstring.h \
  /home/usman/work/cppAlgorithms/strings/LongestRepeatedSubstringSuffixTree.h \

@@ -99,6 +99,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/SkipList.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/TrieBuilder.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/TrieNode.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -417,7 +423,13 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/sort/questions/TwoSumNonSorted.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/BoggleSolver.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/strings/IndicesOfWordsInTextString.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/strings/KMPMatch.h">

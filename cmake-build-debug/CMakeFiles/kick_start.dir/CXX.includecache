@@ -28,6 +28,20 @@ utility
 
 /home/usman/work/cppAlgorithms/data_structures/SkipList.h
 
+/home/usman/work/cppAlgorithms/data_structures/TrieBuilder.h
+TrieNode.h
+/home/usman/work/cppAlgorithms/data_structures/TrieNode.h
+
+/home/usman/work/cppAlgorithms/data_structures/TrieNode.h
+unordered_map
+-
+string
+-
+vector
+-
+algorithm
+-
+
 /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
 unordered_map
 -
@@ -137,6 +151,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/strings/KMPMatch.h
 ../strings/MinWindowSubstring.h
 /home/usman/work/cppAlgorithms/strings/MinWindowSubstring.h
+../strings/IndicesOfWordsInTextString.h
+/home/usman/work/cppAlgorithms/strings/IndicesOfWordsInTextString.h
+../strings/BoggleSolver.h
+/home/usman/work/cppAlgorithms/strings/BoggleSolver.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
@@ -152,10 +170,32 @@ tuple
 c++/11/random
 -
 
+/home/usman/work/cppAlgorithms/strings/BoggleSolver.h
+string
+-
+vector
+-
+iostream
+-
+../data_structures/TrieBuilder.h
+/home/usman/work/cppAlgorithms/data_structures/TrieBuilder.h
+
 /home/usman/work/cppAlgorithms/strings/GenerateNumeronyms.h
 vector
 -
 string
+-
+
+/home/usman/work/cppAlgorithms/strings/IndicesOfWordsInTextString.h
+vector
+-
+string
+-
+unordered_set
+-
+unordered_map
+-
+algorithm
 -
 
 /home/usman/work/cppAlgorithms/strings/KMPMatch.h

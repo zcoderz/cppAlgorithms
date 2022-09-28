@@ -31,9 +31,22 @@
 #include "../data_structures/GeneralizedSuffixTree.h"
 #include "../strings/KMPMatch.h"
 #include "../strings/MinWindowSubstring.h"
+#include "../strings/IndicesOfWordsInTextString.h"
+#include "../strings/BoggleSolver.h"
+
 void Practice::runPracticeCode() {
-    string res = MinWindowSubstring::minimum_window("AYZABOBECODXBANC", "ABC");
-    cout << res << endl;
+    vector<string>  dictionary = {"hell", "lo", "lost", "ht"};
+    vector<string> mat = {"hellost"};
+    vector<string> res = BoggleSolver::boggle_solver(dictionary, mat);
+    std::copy(res.begin(), res.end() , std::ostream_iterator<string>(cout, ", "));
+
+//    vector<vector<int>> res = IndicesOfWordsInTextStrings::find_words("you are very very smart", {"you", "are", "very", "handsome"});
+//    for (vector<int> match : res) {
+//        std::copy(match.begin(), match.end() , std::ostream_iterator<int>(cout, ", "));
+//        cout << endl;
+//    }
+    //string res = MinWindowSubstring::minimum_window("AYZABOBECODXBANC", "ABC");
+    //cout << res << endl;
     //vector<int> res = KMPMatch::match_pattern_in_text("wwwwwwwwwwwwwww","ww");
     //std::copy(res.begin(), res.end() , std::ostream_iterator<int>(cout, ", "));
 
