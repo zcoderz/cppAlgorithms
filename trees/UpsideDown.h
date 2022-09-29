@@ -59,7 +59,7 @@ public:
         //swap left pointer nodes
         //this is tricky to think about at first. but its not that complicated.
         //you are unwinding on call stack. you are inverting the pointers on the stack unwind
-        //by assigning parent nodes as child nodes "root->left_ptr->right_ptr = root;"
+        //by assigning _parent nodes as child nodes "root->left_ptr->right_ptr = root;"
         root->left_ptr->left_ptr = root->right_ptr;
         root->left_ptr->right_ptr = root;
         //set the root pointers to null to prevent cycles

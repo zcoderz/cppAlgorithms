@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/usman/boost/boost_1_77_0
 
-CXX_FLAGS =  -pthread -g -fdiagnostics-color=always -std=gnu++20
+CXX_FLAGS =  -pthread -g -fdiagnostics-color=always -std=gnu++23
 

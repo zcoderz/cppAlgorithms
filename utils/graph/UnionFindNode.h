@@ -14,8 +14,8 @@ class UnionFindNode {
 public:
     UnionFindNode(T value) {
         this->value = value;
-        parent = this; // Make it its own set
-        rank = 0;
+        _parent = this; // Make it its own set
+        _rank = 0;
     }
 
     T getValue() {
@@ -34,10 +34,10 @@ public:
      */
      UnionFindNode<T> * find() {
         UnionFindNode<T> * node = this;
-        if (node != parent) {
-            node->parent = node->parent->find();
+        if (node != _parent) {
+            node->_parent = node->_parent->find();
         }
-        return parent;
+        return _parent;
     }
 
     /***
@@ -50,7 +50,7 @@ public:
      * @param other the subtree you want to join to this tree.
      */
     void join(UnionFindNode<T> * other) {
-        other->parent = this;
+        other->_parent = this;
     }
 
     /***
@@ -64,22 +64,22 @@ public:
         UnionFindNode<T> * p = find();
         UnionFindNode<T> * q = other.find();
         if (p == q) return;
-        if (p->rank < q->rank) {
+        if (p->_rank < q->_rank) {
             // Swaps like p,q = q,p would
             UnionFindNode<T> * temp = p;
             p = q;
             q = temp;
         }
-        // Always join a small rank (q) to a big rank (p)
-        // since rank(p.join(q)) = | p.rank     if p.rank > q.rank
-        //                         | p.rank+1   else
+        // Always join a small _rank (q) to a big _rank (p)
+        // since _rank(p.join(q)) = | p._rank     if p._rank > q._rank
+        //                         | p._rank+1   else
         p->join(q);
-        if (p->rank == q->rank) p->rank++;
+        if (p->_rank == q->_rank) p->_rank++;
     }
 private:
    T value;
-   UnionFindNode<T> * parent;
-   int rank;
+   UnionFindNode<T> * _parent;
+   int _rank;
 };
 
 #endif //CPPALGORITHMS_UNIONFINDNODE_H

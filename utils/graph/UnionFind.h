@@ -16,8 +16,8 @@ using namespace std;
 /**
  * Analysis : cost = (n-1) * cost of union + 2m * cost of find
  * the amortized cost of find = O(1) due to path compression in find fold back.
- * in absence of path compression weighted union by rank adjusts
- * rank such that rank is analogous to height of the tree and thus each find operation runs in O(log N), where n is
+ * in absence of path compression weighted union by _rank adjusts
+ * _rank such that _rank is analogous to height of the tree and thus each find operation runs in O(log N), where n is
  * number of nodes in that tree. in addition, with path compression the amortized cost of a find operation
  * becomes O(1) (inverse Ackermann function)
  *
@@ -26,11 +26,11 @@ using namespace std;
 class UnionFind {
 public:
     /**
-     * the method does union of the vertex x & y from wikipedia : For union by rank, a node stores its rank, which is an
-     * upper bound for its height. When a node is initialized, its rank is set to zero. To merge trees with roots x and
-     * y, first compare their ranks. If the ranks are different, then the larger rank tree becomes the parent, and the
-     * ranks of x and y do not change. If the ranks are the same, then either one can become the parent, but the new
-     * parent's rank is incremented by one. While the rank of a node is clearly related to its height, storing ranks is
+     * the method does union of the vertex x & y from wikipedia : For union by _rank, a node stores its _rank, which is an
+     * upper bound for its height. When a node is initialized, its _rank is set to zero. To merge trees with roots x and
+     * y, first compare their ranks. If the ranks are different, then the larger _rank tree becomes the _parent, and the
+     * ranks of x and y do not change. If the ranks are the same, then either one can become the _parent, but the new
+     * _parent's _rank is incremented by one. While the _rank of a node is clearly related to its height, storing ranks is
      * more efficient than storing heights. The height of a node can change during a Find operation, so storing ranks
      * avoids the extra effort of keeping the height correct.
      *
@@ -48,13 +48,13 @@ public:
             vertices[x]->setParent(y);
         } else {
             vertices[x]->setParent(y);
-            //rank increases only when two vertices of same rank are merged together.
+            //_rank increases only when two vertices of same _rank are merged together.
             vertices[y]->setRank(vertices[y]->getRank() + 1);
         }
     }
 
     /**
-     * The method recurses through parent of the vertex until it finds the root
+     * The method recurses through _parent of the vertex until it finds the root
      *
      * @param vertices
      * @param i
@@ -62,7 +62,7 @@ public:
      */
     static int find(vector<VertexP> &vertices, int i) {
         if (vertices[i]->getParent() != i) {
-            //compact the parent path so that next call to parent doesnt have to recuse as deep
+            //compact the _parent path so that next call to _parent doesnt have to recuse as deep
             vertices[i]->setParent(find(vertices, vertices[i]->getParent()));
         }
         return vertices[i]->getParent();
@@ -77,7 +77,7 @@ public:
         for (int i = 0; i < edges.size(); ++i) {
             int x = find(vertices, edges[i]->getSrc());
             int y = find(vertices, edges[i]->getDest());
-            //if two vertices that arent yet combined roll up to the same parent then the graph
+            //if two vertices that arent yet combined roll up to the same _parent then the graph
             //by definition must have a cycle.
             if (x == y)
                 return 1;

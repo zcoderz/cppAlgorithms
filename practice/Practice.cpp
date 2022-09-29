@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <iostream>
 #include <iterator>
+#include <memory>
 #include "Practice.h"
 #include "../sort/questions/NearestNeighbors.h"
 #include "../bits/FourBillion.h"
@@ -33,12 +34,16 @@
 #include "../strings/MinWindowSubstring.h"
 #include "../strings/IndicesOfWordsInTextString.h"
 #include "../strings/BoggleSolver.h"
+#include "../data_structures/graph/UnionFindAlgo.h"
+#include "../data_structures/graph/PrimsAlgorithm.h"
+
 
 void Practice::runPracticeCode() {
-    vector<string>  dictionary = {"hell", "lo", "lost", "ht"};
-    vector<string> mat = {"hellost"};
-    vector<string> res = BoggleSolver::boggle_solver(dictionary, mat);
-    std::copy(res.begin(), res.end() , std::ostream_iterator<string>(cout, ", "));
+    PrimsAlgorithm::testPrimsAlgo();
+//    vector<string>  dictionary = {"hell", "lo", "lost", "ht"};
+//    vector<string> mat = {"hellost"};
+//    vector<string> res = BoggleSolver::boggle_solver(dictionary, mat);
+//    std::copy(res.begin(), res.end() , std::ostream_iterator<string>(cout, ", "));
 
 //    vector<vector<int>> res = IndicesOfWordsInTextStrings::find_words("you are very very smart", {"you", "are", "very", "handsome"});
 //    for (vector<int> match : res) {

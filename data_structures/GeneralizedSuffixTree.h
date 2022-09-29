@@ -24,8 +24,8 @@ private:
         struct SuffixTreeNode *suffixLink;
 
         /*(start, end) interval specifies the edge, by which the
-        node is connected to its parent node. Each edge will
-        connect two nodes, one parent and one child, and
+        node is connected to its _parent node. Each edge will
+        connect two nodes, one _parent and one child, and
         (start, end) interval of a given edge will be stored
         in the child node. Lets say there are two nodes A and B
         connected by an edge with indices (5, 8) then this
@@ -265,7 +265,7 @@ private:
 
         if (n->start != -1) //A non-root node
         {
-            //Print the label on edge from parent to current node
+            //Print the label on edge from _parent to current node
             //print(n->start, *(n->end));
         }
         int leaf = 1;
@@ -387,7 +387,7 @@ public:
         *rootEnd = - 1;
 
         /*Root is a special node with start and end indices as -1,
-        as it has no parent from where an edge comes to root*/
+        as it has no _parent from where an edge comes to root*/
         root = newNode(-1, rootEnd);
 
         activeNode = root; //First activeNode will be root

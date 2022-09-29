@@ -72,7 +72,7 @@ public:
         if (node->data == a->data || node->data == b->data) {
             //this is TRICKY!
             //if you found a node with a given value then it must be that :
-            //1. this is the parent node and a child exists under it, in which case this is the LCA
+            //1. this is the _parent node and a child exists under it, in which case this is the LCA
             //2. this is one of the nodes and child doesnt exist under it
             //in any of the above cases, its correct to return this node here
             return node->data;

@@ -42,6 +42,32 @@ vector
 algorithm
 -
 
+/home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h
+vector
+-
+list
+-
+
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindAlgo.h
+UnionFindNode.h
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h
+UnionFindEdge.h
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h
+unordered_map
+-
+unordered_set
+-
+vector
+-
+
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h
+memory
+-
+
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h
+memory
+-
+
 /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
 unordered_map
 -
@@ -99,6 +125,8 @@ iostream
 -
 iterator
 -
+memory
+-
 Practice.h
 /home/usman/work/cppAlgorithms/practice/Practice.h
 ../sort/questions/NearestNeighbors.h
@@ -155,6 +183,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/strings/IndicesOfWordsInTextString.h
 ../strings/BoggleSolver.h
 /home/usman/work/cppAlgorithms/strings/BoggleSolver.h
+../data_structures/graph/UnionFindAlgo.h
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindAlgo.h
+../data_structures/graph/PrimsAlgorithm.h
+/home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

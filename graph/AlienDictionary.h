@@ -14,8 +14,8 @@ using namespace std;
  * To construct the adjacency list we are comparing at worst every character in every word. And this is
  * the equivalent to number of characters in all the words. Lets call that O(C).
  * Number of edges on each comparison that gets created is 1. Hence at most there are N-1 edges, where N is number of words.
- * Assuming V distinct characters and N-1 edges.
- * TopoSort complexity is (V + E), Hence topo sort will take O(V + N). Thus total complexity will be O(C+V+N).
+ * Assuming noOfVertices distinct characters and N-1 edges.
+ * TopoSort complexity is (noOfVertices + E), Hence topo sort will take O(noOfVertices + N). Thus total complexity will be O(C+noOfVertices+N).
  * The upper bound of this is determined more heavily by C --> number of characters in all the words.
  * So the time complexity will be O(C)
  *

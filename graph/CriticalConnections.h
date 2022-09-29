@@ -27,19 +27,19 @@ public:
                 //update the lowest time based on the lowest time from the child
                 lowestTimes[nodeId] = min(lowestTimes[nodeId], criticalDfs(child, adjacencyList));
             } else if (child != nodeParents[nodeId]) {
-                //for each child that's not parent and had already been visited,
+                //for each child that's not _parent and had already been visited,
                 //use its lowest time to set the current node's lowest time
                 lowestTimes[nodeId] = min(lowestTimes[nodeId], lowestTimes[child]);
             }
         }
-        //root node can't be a critical connection since it doesn't have any parent and hence excluding the parent
+        //root node can't be a critical connection since it doesn't have any _parent and hence excluding the _parent
         //"0" node.
         if (lowestTimes[nodeId] == arrivalTimes[nodeId] && nodeId !=0) {
-            //this is a critical edge since the child nodes dont have a back pointer to parent nodes
+            //this is a critical edge since the child nodes dont have a back pointer to _parent nodes
             criticalEdges.push_back({nodeParents[nodeId], nodeId});
         }
         departureTimes[nodeId]= ++time;
-        //the function needs to send the lowest time for it and its children back to parent (caller)
+        //the function needs to send the lowest time for it and its children back to _parent (caller)
         return lowestTimes[nodeId];
     }
 

@@ -105,6 +105,21 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/TrieNode.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindAlgo.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindHelper.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h">
 			<Option target="kick_start"/>
 		</Unit>

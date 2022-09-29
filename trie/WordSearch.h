@@ -39,7 +39,7 @@ public:
                     }
                     traverseBoard(board, trieNode, words, nRow, nCol);
                     if (trieNode->isEmpty()) {
-                        //prune the parent tree, once its only child has been visited
+                        //prune the _parent tree, once its only child has been visited
                         trieNodeParam->remove(nChar);
                     }
                 }

@@ -142,11 +142,11 @@ public:
         }
         // As name suggests, isLeaf will be true at this point, if it has no child
 
-        // If node is a leaf, then suffix string formed by path from root to it's parent node is a repeated substring
+        // If node is a leaf, then suffix string formed by path from root to it's _parent node is a repeated substring
         // and a candidate for longest repeated substring
         if (isLeaf) {
             int currLength = node->depth;
-            // currLength here denotes path length of node.parent. i.e. node.parent.pathLength == node.depth
+            // currLength here denotes path length of node._parent. i.e. node._parent.pathLength == node.depth
             if (currLength > lrsLength) {
                 lrsLength = currLength;
                 lrsSuffixIndex = suffixTreeString.size() - (node->depth + node->end - node->begin);
