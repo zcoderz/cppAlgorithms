@@ -6,9 +6,11 @@
 #define CPPALGORITHMS_UNIONFINDALGO_H
 #include "UnionFindNode.h"
 #include "UnionFindEdge.h"
+#include "UnionFindHelper.h"
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
+#include <assert.h>
 
 class UnionFindAlgo {
 public:
@@ -71,7 +73,8 @@ public:
     template<class T>
     static bool isCycle(std::vector<typename UnionFindNode<T>::UnionFindNodePtr> & vertices,
                         std::vector<typename UnionFindEdge<T>::UnionFindEdgePtr> & edges) {
-        std::unordered_map<T, UnionFindNode<T> *> vertexMap;
+        using UnionPtr = typename UnionFindNode<T>::UnionFindNodePtr ;
+        std::unordered_map<T, UnionPtr> vertexMap;
         for (auto & vert: vertices) {
             vertexMap[vert->getValue()] = vert;
         }
@@ -80,8 +83,8 @@ public:
         // vertices of every edge, if both subsets are same, then
         // there is cycle in graph.
         for (int i = 0; i < edges.size(); ++i) {
-            UnionFindNode<T> * x = find(vertexMap[edges[i]->getSrc()]);
-            UnionFindNode<T> * y = find(vertexMap[edges[i]->getDest()]);
+            UnionFindNode<T> * x = find(vertexMap[edges[i]->getSrc()].get());
+            UnionFindNode<T> * y = find(vertexMap[edges[i]->getDest()].get());
             //if two vertices that aren't yet combined roll up to the same parent then the graph
             //by definition must have a cycle.
             if (x == y)
@@ -93,9 +96,10 @@ public:
 
     template<class T>
     static int numConnectedVertices(std::vector<typename UnionFindNode<T>::UnionFindNodePtr> & vertices) {
-        std::unordered_set<UnionFindNode<T>*> connectedComponents;
-        for (int i = 0; i < vertices.length; i++) {
-            UnionFindNode<T> * parent = find(vertices[i]);
+        using UnionPtr = typename UnionFindNode<T>::UnionFindNodePtr ;
+        std::unordered_set<UnionFindNode<T> *> connectedComponents;
+        for (int i = 0; i < vertices.size(); i++) {
+            UnionFindNode<T> * parent = find(vertices[i].get());
             connectedComponents.insert(parent);
         }
         return connectedComponents.size();
@@ -106,10 +110,11 @@ public:
                                         std::vector<typename UnionFindEdge<T>::UnionFindEdgePtr> & edges) {
         int cost = 0;
         using UnionPtr = typename UnionFindEdge<T>::UnionFindEdgePtr ;
+        using VertexPtr = typename UnionFindNode<T>::UnionFindNodePtr ;
         //sort the edges by the cost (smallest to largest)
         auto comp = [](UnionPtr &a, UnionPtr &b) -> bool { return a->getCost() < b->getCost(); };
         sort(edges.begin(), edges.end(), comp);
-        std::unordered_map<T, UnionFindNode<T> *> vertexMap;
+        std::unordered_map<T, VertexPtr> vertexMap;
         for (auto & vert: vertices) {
             vertexMap[vert->getValue()] = vert;
         }
@@ -117,8 +122,8 @@ public:
         int seenVertices = 0;
         //break when either all edges are exhausted or when all vertices have been joined
         for (int i = 0; i < edges.size() && seenVertices < (numVertices - 1); i++) {
-            UnionFindNode<T> * x = find(vertexMap[edges[i]->getSrc()]);
-            UnionFindNode<T> * y = find(vertexMap[edges[i]->getDest()]);
+            UnionFindNode<T> * x = find(vertexMap[edges[i]->getSrc()].get());
+            UnionFindNode<T> * y = find(vertexMap[edges[i]->getDest()].get());
             //if the two vertices belong to diff parents then union them together
             if (x != y) {
                 unionNodes(x, y);
@@ -133,6 +138,32 @@ public:
         }
     }
 
+    static void testAlgo() {
+        vector<vector<int>> connections = {{0, 1, 5}, {0, 2, 6}, {1, 2, 1}};
+        using EdgePtr = typename UnionFindEdge<int>::UnionFindEdgePtr;
+        auto edges = UnionFindHelper::createUnionFindEdgesViaVector<int>(connections);
+        using VertexPtr = typename UnionFindNode<int>::UnionFindNodePtr;
+        auto vertexes = UnionFindHelper::createUnionFindNodes<int>(3);
+        const int cost = constructMinSpanningTree<int>(vertexes, edges);
+        cout << "cost of the min spanning tree = " << cost << endl;
+        assert(cost == 6);
+        vector<vector<int>> edgeTreeVec = {{0, 1}, {0, 2}, {0, 3},  {1, 4}};
+        auto edgesTree = UnionFindHelper::createUnionFindEdgesViaVector<int>(edgeTreeVec);
+        auto vertexesTree = UnionFindHelper::createUnionFindNodes<int>(5);
+        bool isACycle = isCycle<int>(vertexesTree, edgesTree);
+        assert(isACycle == false);
+        int noConnections = numConnectedVertices<int> (vertexesTree);
+        assert(noConnections == 1);
+
+        //1->3 creates a cycle
+        vector<vector<int>> edgeTreeVecWithCycle  = {{0, 1}, {1, 2}, {2, 3}, {1, 3}, {1, 4}};
+        auto edgesTreeCycle = UnionFindHelper::createUnionFindEdgesViaVector<int>(edgeTreeVecWithCycle);
+        auto vertexesTreeCycle = UnionFindHelper::createUnionFindNodes<int>(5);
+        isACycle = isCycle<int>(vertexesTree, edgesTree);
+        assert(isACycle == true);
+
+    }
+    
 };
 
 #endif //CPPALGORITHMS_UNIONFINDALGO_H

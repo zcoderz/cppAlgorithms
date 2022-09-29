@@ -39,7 +39,8 @@
 
 
 void Practice::runPracticeCode() {
-    PrimsAlgorithm::testPrimsAlgo();
+    UnionFindAlgo::testAlgo();
+    //PrimsAlgorithm::testPrimsAlgo();
 //    vector<string>  dictionary = {"hell", "lo", "lost", "ht"};
 //    vector<string> mat = {"hellost"};
 //    vector<string> res = BoggleSolver::boggle_solver(dictionary, mat);

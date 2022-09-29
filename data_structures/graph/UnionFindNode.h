@@ -10,9 +10,8 @@
 template <typename T>
 class UnionFindNode {
 
-    using UnionFindNodePtr = shared_ptr<UnionFindNode<T>>;
-
 private:
+
     T _value;
     /* This structure can contain heterogeneous template types
      *  since no operation is performed between the nodes values themselves.
@@ -21,6 +20,7 @@ private:
     int _rank;
 
 public:
+    using UnionFindNodePtr = shared_ptr<UnionFindNode<T>>;
     UnionFindNode(T & value) : _value(value){
         _parent = this;
         _rank = 0;

@@ -53,16 +53,28 @@ UnionFindNode.h
 /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h
 UnionFindEdge.h
 /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h
+UnionFindHelper.h
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindHelper.h
 unordered_map
 -
 unordered_set
 -
 vector
 -
+assert.h
+-
 
 /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h
 memory
 -
+
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindHelper.h
+vector
+-
+UnionFindNode.h
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h
+UnionFindEdge.h
+/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h
 
 /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h
 memory

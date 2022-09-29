@@ -655,6 +655,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h \
  /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindAlgo.h \
  /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h \
+ /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindHelper.h \
  /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h \
  /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h \
  /home/usman/work/cppAlgorithms/lists/LRUCache.h \

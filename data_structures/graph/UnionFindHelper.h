@@ -12,27 +12,45 @@
 class UnionFindHelper {
 public:
     template<class T>
-    static std::vector<typename UnionFindNode<T>::UnionFindNodePtr> createUnionFindNodes(std::vector<T> & vec) {
-        std::vector<typename UnionFindNode<T>::UnionFindNodePtr> vecNodes;
-        for (int i =0; i < vec.size(); i++) {
-            vecNodes.push_back(new UnionFindNode<T> (vec[i]));
+    static std::vector<typename UnionFindNode<T>::UnionFindNodePtr> createUnionFindNodes(int noOfVertexes) {
+        using VertexPtr = typename UnionFindNode<T>::UnionFindNodePtr;
+        std::vector<VertexPtr> vecNodes;
+        for (int i =0; i < noOfVertexes; i++) {
+            vecNodes.push_back(VertexPtr(new UnionFindNode<T> (i)));
         }
         return vecNodes;
     }
 
     template<class T>
-    static std::vector<UnionFindEdge<T>> createUnionFindNodes(std::vector<std::pair<T, T>> & vec) {
-        std::vector<typename UnionFindNode<T>::UnionFindEdgePtr> vecEdges;
+    static std::vector<typename UnionFindNode<T>::UnionFindNodePtr> createUnionFindNodesViaVector(std::vector<T> & vec) {
+        using VertexPtr = typename UnionFindNode<T>::UnionFindNodePtr;
+        std::vector<VertexPtr> vecNodes;
+        for (int i =0; i < vec.size(); i++) {
+            vecNodes.push_back(VertexPtr(new UnionFindNode<T> (vec[i])));
+        }
+        return vecNodes;
+    }
+
+    template<class T>
+    static std::vector<typename UnionFindEdge<T>::UnionFindEdgePtr> createUnionFindEdgesViaPair(std::vector<std::pair<T, T>> & vec) {
+        std::vector<typename UnionFindEdge<T>::UnionFindEdgePtr> vecEdges;
         for (int i =0; i < vec.size(); i++) {
             vecEdges.push_back(new UnionFindEdge<T> (vec[i].first, vec[i].second));
         }
         return vecEdges;
     }
+
     template<class T>
-    static std::vector<UnionFindEdge<T>> createUnionFindNodes(std::vector<std::vector<T>> & vec) {
-        std::vector<typename UnionFindNode<T>::UnionFindEdgePtr> vecEdges;
+    static std::vector<typename UnionFindEdge<T>::UnionFindEdgePtr> createUnionFindEdgesViaVector(std::vector<std::vector<T>> & vec) {
+        using EdgePtr = typename UnionFindEdge<T>::UnionFindEdgePtr;
+        std::vector<EdgePtr> vecEdges;
         for (int i =0; i < vec.size(); i++) {
-            vecEdges.push_back(new UnionFindEdge<T> (vec[i][0], vec[i][0][1]));
+            int vecSize = vec[0].size();
+            if (vecSize == 2) {
+                vecEdges.push_back(EdgePtr (new UnionFindEdge<T>(vec[i][0], vec[i][1])));
+            } else if (vecSize == 3) {
+                vecEdges.push_back(EdgePtr (new UnionFindEdge<T>(vec[i][0], vec[i][1], vec[i][2])));
+            }
         }
         return vecEdges;
     }

@@ -147,8 +147,8 @@ public:
 
     static vector<EdgeP> constructEdges(vector<vector<int>> &edgesParam) {
         vector<EdgeP> edges;
-        for (int i = 0; i < edgesParam.size(); i++) {
-            EdgeP edge = make_shared<Edge>(Edge(edgesParam[i][0], edgesParam[i][1]));
+        for (auto & anEdge : edgesParam) {
+            EdgeP edge = make_shared<Edge>(Edge(anEdge[0], anEdge[1]));
             edges.push_back(edge);
         }
         return edges;
