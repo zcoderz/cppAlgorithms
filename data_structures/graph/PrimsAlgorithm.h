@@ -10,7 +10,7 @@
 
 using namespace std;
 
-typedef pair<int, int> iPair;
+typedef pair<int, int> IPair;
 
 // This class represents a directed graph using
 // adjacency list representation
@@ -24,7 +24,7 @@ class PrimsAlgorithm {
 public:
     PrimsAlgorithm(int noOfVertices_) {
         noOfVertices = noOfVertices_;
-        adj = new list<iPair> [noOfVertices_];
+        adj = new list<IPair> [noOfVertices_];
     }
 
     ~PrimsAlgorithm() {
@@ -41,11 +41,9 @@ public:
     // Print MST using Prim's algorithm
     // Prints shortest paths from src to all other vertices
     void primMST() {
-        // Create a priority queue to store vertices that
-        // are being primMST. This is weird syntax in C++.
-        // Refer below link for details of this syntax
-        // http://geeksquiz.com/implement-min-heap-using-stl/
-        priority_queue<iPair, vector<iPair>, greater<iPair>> pq;
+
+        auto comp = [] (pair<int, int> &a, pair<int, int> &b) -> bool { return a.second > b.second; };
+        priority_queue<IPair, vector<IPair>, decltype(comp)> pq;
 
         int src = 0; // Taking vertex 0 as source
 
@@ -139,12 +137,5 @@ public:
     }
 
 };
-
-
-
-
-
-
-//// Driver program to test methods of graph class
 
 #endif //CPPALGORITHMS_PRIMSALGORITHM_H
