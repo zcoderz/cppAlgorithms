@@ -42,6 +42,18 @@ vector
 algorithm
 -
 
+/home/usman/work/cppAlgorithms/data_structures/graph/DijkstrasShortestPath.h
+vector
+-
+list
+-
+queue
+-
+limits
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h
 vector
 -
@@ -199,6 +211,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindAlgo.h
 ../data_structures/graph/PrimsAlgorithm.h
 /home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h
+../data_structures/graph/DijkstrasShortestPath.h
+/home/usman/work/cppAlgorithms/data_structures/graph/DijkstrasShortestPath.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

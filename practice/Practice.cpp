@@ -36,10 +36,11 @@
 #include "../strings/BoggleSolver.h"
 #include "../data_structures/graph/UnionFindAlgo.h"
 #include "../data_structures/graph/PrimsAlgorithm.h"
-
+#include "../data_structures/graph/DijkstrasShortestPath.h"
 
 void Practice::runPracticeCode() {
-    UnionFindAlgo::testAlgo();
+    DijkstraShortestPath::testDijkstrasShortestPathAlgo();
+    //UnionFindAlgo::testAlgo();
     //PrimsAlgorithm::testPrimsAlgo();
 //    vector<string>  dictionary = {"hell", "lo", "lost", "ht"};
 //    vector<string> mat = {"hellost"};

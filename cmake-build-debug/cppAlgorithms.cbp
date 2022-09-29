@@ -105,6 +105,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/TrieNode.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/DijkstrasShortestPath.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h">
 			<Option target="kick_start"/>
 		</Unit>
