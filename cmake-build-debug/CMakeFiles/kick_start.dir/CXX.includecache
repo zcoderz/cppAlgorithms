@@ -92,6 +92,20 @@ UnionFindEdge.h
 memory
 -
 
+/home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h
+vector
+-
+queue
+-
+limits
+-
+tuple
+-
+list
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
 unordered_map
 -
@@ -213,6 +227,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h
 ../data_structures/graph/DijkstrasShortestPath.h
 /home/usman/work/cppAlgorithms/data_structures/graph/DijkstrasShortestPath.h
+../graph/CheapestFlightsWithKStops.h
+/home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

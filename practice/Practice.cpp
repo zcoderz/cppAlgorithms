@@ -37,9 +37,11 @@
 #include "../data_structures/graph/UnionFindAlgo.h"
 #include "../data_structures/graph/PrimsAlgorithm.h"
 #include "../data_structures/graph/DijkstrasShortestPath.h"
+#include "../graph/CheapestFlightsWithKStops.h"
 
 void Practice::runPracticeCode() {
-    DijkstraShortestPath::testDijkstrasShortestPathAlgo();
+    CheapestFlightsWithinKStops::testFlights();
+    //DijkstraShortestPath::testDijkstrasShortestPathAlgo();
     //UnionFindAlgo::testAlgo();
     //PrimsAlgorithm::testPrimsAlgo();
 //    vector<string>  dictionary = {"hell", "lo", "lost", "ht"};

@@ -171,6 +171,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/AlienDictionary.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CountConnectedComponents.h">
 			<Option target="kick_start"/>
 		</Unit>
