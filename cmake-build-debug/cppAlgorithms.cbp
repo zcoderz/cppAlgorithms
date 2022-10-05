@@ -105,7 +105,19 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/TrieNode.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/BellmanFordShortestPath.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/DijkstrasShortestPath.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/EdgeWeightedDigraph.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/EdgeWeightedDirectedCycle.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/KosarajuStronglyConnected.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/PrimsAlgorithm.h">
