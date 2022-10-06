@@ -38,9 +38,11 @@
 #include "../data_structures/graph/PrimsAlgorithm.h"
 #include "../data_structures/graph/DijkstrasShortestPath.h"
 #include "../graph/CheapestFlightsWithKStops.h"
+#include "../graph/KnightMoves.h"
 
 void Practice::runPracticeCode() {
-    CheapestFlightsWithinKStops::testFlights();
+    KnightMoves::testMe();
+    //CheapestFlightsWithinKStops::testFlights();
     //DijkstraShortestPath::testDijkstrasShortestPathAlgo();
     //UnionFindAlgo::testAlgo();
     //PrimsAlgorithm::testPrimsAlgo();

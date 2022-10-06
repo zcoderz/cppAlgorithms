@@ -6,7 +6,7 @@
 #define CPPALGORITHMS_PRACTICE_H
 class Practice {
 public:
-    static void runPracticeCode ();
+    void runPracticeCode ();
 
 };
 #endif //CPPALGORITHMS_PRACTICE_H

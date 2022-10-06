@@ -20,62 +20,72 @@ using namespace std;
  */
 class KnightMoves {
 public:
-    vector<vector<int>> moves = {{2,  1},
-                                 {2,  -1},
-                                 {1,  2},
-                                 {1,  -2},
-                                 {-2, 1},
-                                 {-2, -1},
-                                 {-1, 2},
-                                 {-1, -2}};
-    int totalRows;
-    int totalCols;
-    int destRow;
-    int destCol;
 
-    bool isValid(int row, int col) {
-        if (row < 0 || row >= totalRows || col < 0 || col >= totalCols) {
+    static bool isValid(pair<int, int> & location) {
+        if (location.first < 0 || location.first > 600 || location.second < 0 || location.second > 600) {
             return false;
         }
         return true;
     }
 
-    int processMove(int row, int col) {
+    static int minKnightMoves(int x, int y) {
+        x = x + 300; y = y + 300;
+        vector<vector<int>> moves = {{2,  1},
+                                     {2,  -1},
+                                     {1,  2},
+                                     {1,  -2},
+                                     {-2, 1},
+                                     {-2, -1},
+                                     {-1, 2},
+                                     {-1, -2}};
         int numMoves = 0;
-        queue<pair<int, int>> queue;
-        unordered_set<int> seen;
-        queue.push(make_pair(row, col));
-        while (!queue.empty()) {
-            int sz = queue.size();
+        queue<pair<int, int>> queueA;
+        queue<pair<int, int>> queueB;
+        vector<vector<bool>> seenA (601, vector<bool> (601));
+        vector<vector<bool>> seenB(601, vector<bool> (601));
+        bool turnA = true;
+        queueA.emplace(300, 300); seenA[300][300] = true;
+        queueB.emplace(x, y); seenB[x][y] = true;
+
+        while (!queueA.empty() && !queueB.empty()) {
+            pair<int, int> currIndex;
+            int iSize = turnA ? queueA.size() : queueB.size();
+            if (iSize ==0) continue;
             numMoves++;
-            for (int i = 0; i < sz; i++) {
-                auto rowCol = queue.front();
-                queue.pop();
-                for (vector<int> &move: moves) {
-                    int newRow = rowCol.first + move[0];
-                    int newCol = rowCol.second + move[1];
-                    if (newRow == destRow && newCol == destCol) return numMoves;
-                    int index = newRow * totalCols + newCol;
-                    if (isValid(newRow, newCol) && seen.find(index) == seen.end()) {
-                        seen.insert(index);
-                        queue.push(make_pair(newRow, newCol));
+            for (int i =0; i < iSize; i++) {
+                if (turnA) {
+                    currIndex = queueA.front();
+                    queueA.pop();
+                } else {
+                    currIndex = queueB.front();
+                    queueB.pop();
+                }
+                for (auto &move: moves) {
+                    pair<int, int> newIndex(currIndex.first + move[0], currIndex.second + move[1]);
+                    if (!isValid(newIndex)) continue;
+                    if (turnA && seenA[newIndex.first][newIndex.second]) continue;
+                    if (!turnA && seenB[newIndex.first][newIndex.second]) continue;
+                    cout << "move " << numMoves << " at turn index " << newIndex.first-300 << " , " << newIndex.second-300 << endl;
+                    if (turnA && seenB[newIndex.first][newIndex.second]) return numMoves;
+                    if (!turnA && seenA[newIndex.first][newIndex.second]) return numMoves;
+
+                    if (turnA) {
+                        seenA[newIndex.first][newIndex.second] = true;
+                        queueA.push(newIndex);
+                    } else {
+                        seenB[newIndex.first][newIndex.second] = true;
+                        queueB.push(newIndex);
                     }
                 }
             }
+            turnA = !turnA;
         }
+
         return -1;
     }
 
-    int find_minimum_number_of_moves(int rows, int cols, int start_row, int start_col, int end_row, int end_col) {
-        if (start_col == end_col && start_row == end_row) {
-            return 0;
-        }
-        // Write your code here.
-        totalRows = rows;
-        totalCols = cols;
-        destRow = end_row;
-        destCol = end_col;
-        return processMove(start_row, start_col);
+    static void testMe() {
+        cout << minKnightMoves(4, 3) << endl;
     }
 };
 
