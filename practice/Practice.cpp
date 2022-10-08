@@ -39,9 +39,19 @@
 #include "../data_structures/graph/DijkstrasShortestPath.h"
 #include "../graph/CheapestFlightsWithKStops.h"
 #include "../graph/KnightMoves.h"
+#include "../graph/OpenLocks.h"
+#include "../graph/ReconstructItinerary.h"
+#include "../graph/NetworkDelayTime.h"
+#include "../graph/PathWithMaxProbability.h"
+#include "../graph/PathWithMinEffort.h"
 
 void Practice::runPracticeCode() {
-    KnightMoves::testMe();
+    PathWithMinEffort::testMe();
+    //PathWithMaxProbability::testMe();
+    //NetworkDelayTime::testMe();
+    //ReconstructItinerary::testMe();
+    //OpenLocks::testMe();
+    //KnightMoves::testMe();
     //CheapestFlightsWithinKStops::testFlights();
     //DijkstraShortestPath::testDijkstrasShortestPathAlgo();
     //UnionFindAlgo::testAlgo();
