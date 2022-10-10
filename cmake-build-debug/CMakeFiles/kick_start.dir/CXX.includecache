@@ -180,6 +180,32 @@ iterator
 iostream
 -
 
+/home/usman/work/cppAlgorithms/graph/SlidingPuzzle.h
+iostream
+-
+vector
+-
+set
+-
+string
+-
+queue
+-
+
+/home/usman/work/cppAlgorithms/graph/WaterAndJugProblem.h
+unordered_set
+-
+queue
+-
+string
+-
+sstream
+-
+iostream
+-
+vector
+-
+
 /home/usman/work/cppAlgorithms/lists/CloneRandomLinkedList.h
 unordered_map
 -
@@ -315,6 +341,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/PathWithMaxProbability.h
 ../graph/PathWithMinEffort.h
 /home/usman/work/cppAlgorithms/graph/PathWithMinEffort.h
+../graph/SlidingPuzzle.h
+/home/usman/work/cppAlgorithms/graph/SlidingPuzzle.h
+../graph/WaterAndJugProblem.h
+/home/usman/work/cppAlgorithms/graph/WaterAndJugProblem.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

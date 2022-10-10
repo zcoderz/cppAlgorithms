@@ -48,7 +48,7 @@ public:
                 int newCoordinate = newRow*cols + newCol;
                 if (seen[newCoordinate]) continue;
                 int diff = max(abs(priorHt-heights[newRow][newCol]), wt);
-                pQ.emplace(diff,heights[newRow][newCol],newCoordinate));
+                pQ.emplace(diff,heights[newRow][newCol],newCoordinate);
             }
         }
         return 0;

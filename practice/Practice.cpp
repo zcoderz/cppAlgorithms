@@ -44,9 +44,12 @@
 #include "../graph/NetworkDelayTime.h"
 #include "../graph/PathWithMaxProbability.h"
 #include "../graph/PathWithMinEffort.h"
-
+#include "../graph/SlidingPuzzle.h"
+#include "../graph/WaterAndJugProblem.h"
 void Practice::runPracticeCode() {
-    PathWithMinEffort::testMe();
+    WaterAndJugProblem::testMe();
+    //SlidingPuzzle::testMe();
+    //PathWithMinEffort::testMe();
     //PathWithMaxProbability::testMe();
     //NetworkDelayTime::testMe();
     //ReconstructItinerary::testMe();
