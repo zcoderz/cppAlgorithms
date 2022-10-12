@@ -46,8 +46,12 @@
 #include "../graph/PathWithMinEffort.h"
 #include "../graph/SlidingPuzzle.h"
 #include "../graph/WaterAndJugProblem.h"
+#include "../graph/ParallelCourses.h"
+#include "../graph/MinNumberOfSemesters.h"
 void Practice::runPracticeCode() {
-    WaterAndJugProblem::testMe();
+    MinNumberOfSemesters::testMe();
+    //ParallelCourses::testMe();
+    //WaterAndJugProblem::testMe();
     //SlidingPuzzle::testMe();
     //PathWithMinEffort::testMe();
     //PathWithMaxProbability::testMe();

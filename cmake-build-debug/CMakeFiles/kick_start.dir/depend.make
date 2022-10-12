@@ -660,8 +660,10 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h \
  /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h \
  /home/usman/work/cppAlgorithms/graph/KnightMoves.h \
+ /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h \
  /home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h \
  /home/usman/work/cppAlgorithms/graph/OpenLocks.h \
+ /home/usman/work/cppAlgorithms/graph/ParallelCourses.h \
  /home/usman/work/cppAlgorithms/graph/PathWithMaxProbability.h \
  /home/usman/work/cppAlgorithms/graph/PathWithMinEffort.h \
  /home/usman/work/cppAlgorithms/graph/ReconstructItinerary.h \
