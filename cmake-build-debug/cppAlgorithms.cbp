@@ -249,6 +249,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/ParallelCourses.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/ParallelCoursesThree.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/PathWithMaxProbability.h">
 			<Option target="kick_start"/>
 		</Unit>

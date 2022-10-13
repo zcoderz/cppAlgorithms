@@ -29,7 +29,7 @@ public:
         return maxD;
     }
 
-    static int minimumSemesters(int n, vector<vector<int>>& relations) {
+    static int minimumSemestersThree(int n, vector<vector<int>>& relations) {
         vector<vector<int>> courseDependencies (n+1);
         for (vector<int> & vec: relations) {
             courseDependencies[vec[0]].push_back(vec[1]);
@@ -43,6 +43,64 @@ public:
             maxLevels = max(maxLevels, val);
         }
         return maxLevels;
+    }
+
+    static int minimumSemesters(int n, vector<vector<int>>& relations) {
+        vector<vector<int>> courseDependencies (n+1);
+        vector<int> indegree(n+1);
+        for (vector<int> & relation: relations) {
+            courseDependencies[relation[0]].push_back(relation[1]);
+            indegree[relation[1]]++;
+        }
+        queue<int> courseQueue;
+        int cnt = 0;
+        vector<int> totalTimePerCourse (n+1, -1);
+        for (int i =1; i <= n; i++) {
+            if (indegree[i] ==0) {
+                courseQueue.push(i);
+                totalTimePerCourse[i] = 1;
+                cnt++;
+            }
+        }
+        while (!courseQueue.empty()) {
+            int course = courseQueue.front(); courseQueue.pop();
+            for (int depCourse : courseDependencies[course]) {
+                totalTimePerCourse[depCourse] = max(totalTimePerCourse[depCourse], 1 + totalTimePerCourse[course]);
+                if (--indegree[depCourse]==0) {courseQueue.push(depCourse); cnt++;}
+            }
+        }
+        if (cnt != n) return -1;
+        return *max_element(totalTimePerCourse.begin(), totalTimePerCourse.end());
+    }
+
+    int minimumSemestersTwo(int n, vector<vector<int>>& relations) {
+        vector<vector<int>> courseDependencies (n+1);
+
+        vector<int> indegree(n+1);
+        for (vector<int> & relation: relations) {
+            courseDependencies[relation[0]].push_back(relation[1]);
+            indegree[relation[1]]++;
+        }
+        queue<int> courseQueue;
+        vector<int> totalTimePerCourse (n+1, -1);
+        for (int i =1; i <= n; i++) {
+            if (indegree[i] ==0) {
+                courseQueue.push(i);
+                totalTimePerCourse[i] = 1;
+            }
+        }
+        vector<bool> visited (n+1);
+        while (!courseQueue.empty()) {
+            int course = courseQueue.front(); courseQueue.pop();
+            visited[course] = true;
+            for (int depCourse : courseDependencies[course]) {
+                totalTimePerCourse[depCourse] = max(totalTimePerCourse[depCourse], 1 + totalTimePerCourse[course]);
+                if (--indegree[depCourse]==0) courseQueue.push(depCourse);
+            }
+        }
+        int vCount = count(visited.begin(), visited.end(), true);
+        if (vCount != n) return -1;
+        return *max_element(totalTimePerCourse.begin(), totalTimePerCourse.end());
     }
 
     static void testMe() {
