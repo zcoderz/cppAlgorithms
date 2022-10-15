@@ -117,6 +117,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/EdgeWeightedDirectedCycle.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/JohnsonsAlgorithm.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/KosarajuStronglyConnected.h">
 			<Option target="kick_start"/>
 		</Unit>

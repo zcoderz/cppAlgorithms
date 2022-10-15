@@ -35,6 +35,14 @@ public:
         adj = new list<IPair> [noOfVertices_];
     }
 
+    DijkstraShortestPath(int noOfVertices_, vector<vector<int>>& edges) {
+        noOfVertices = noOfVertices_;
+        adj = new list<IPair> [noOfVertices_];
+        for (vector<int> & edge: edges) {
+            adj[edge[0]].emplace_back(edge[1], edge[2]);
+        }
+    }
+
     ~DijkstraShortestPath() {
         delete [] adj;
     }
@@ -46,6 +54,55 @@ public:
         adj[v].emplace_back(u, w);
     }
 
+    vector<vector<int>> calculateAllPairShortestPath() {
+        //int sourceVertex, int targetVertex
+        vector<vector<int>> shortestPathsWeights(noOfVertices,
+                                                 vector<int> (noOfVertices, std::numeric_limits<int>::max()));
+        for (int i =0; i < noOfVertices; i++) {
+            auto comp = [](pair<int, int> &a, pair<int, int> &b) -> bool { return a.second > b.second; };
+            priority_queue<IPair, vector<IPair>, decltype(comp)> pq;
+            // To keep track of vertices searched so far
+            vector<bool> searchedSoFar(noOfVertices, false);
+            // Insert source itself in priority queue and initialize
+            // its vertexCurrentWeights as 0.
+            pq.push(make_pair(i, 0));
+            shortestPathsWeights[i][i] = 0;
+            /* Looping till priority queue becomes empty */
+            while (!pq.empty()) {
+                // The first vertex in pair is the minimum vertexCurrentWeights
+                // vertex, extract it from priority queue.
+                // vertex label is stored in second of pair (it
+                // has to be done this way to keep the vertices
+                // sorted vertexCurrentWeights (vertexCurrentWeights must be first item
+                // in pair)
+                int currentVertex = pq.top().first;
+                int currentVertexWeight = pq.top().second;
+                pq.pop();
+                //Different vertexCurrentWeights values for same vertex may exist in the priority queue.
+                //The one with the least vertexCurrentWeights value is always processed first.
+                //Therefore, ignore the rest.
+                if (searchedSoFar[currentVertex]) {
+                    continue;
+                }
+                searchedSoFar[currentVertex] = true;  // Include vertex in MST
+                for (auto &vertexNeighborPair: adj[currentVertex]) {
+                    // Get vertex label and weight of current adjacent
+                    // of currentVertex.
+                    int vertex = vertexNeighborPair.first;
+                    int weight = vertexNeighborPair.second;
+                    int pathVertexWeight = weight + currentVertexWeight;
+                    // If v is not in MST and weight of (currentVertex,v) is smaller
+                    // than current vertexCurrentWeights of v
+                    if (!searchedSoFar[vertex] && shortestPathsWeights[i][vertex] > pathVertexWeight) {
+                        // Updating vertexCurrentWeights of v
+                        shortestPathsWeights[i][vertex] = pathVertexWeight;
+                        pq.push(make_pair(vertex, shortestPathsWeights[i][vertex]));
+                    }
+                }
+            }
+        }
+        return shortestPathsWeights;
+    }
 
     // Print MST using Prim's algorithm
     // Prints shortest paths from src to all other vertices
@@ -103,7 +160,7 @@ public:
 
                 int pathVertexWeight = weight + currentVertexWeight;
 
-                //  If v is not in MST and weight of (currentVertex,v) is smaller
+                // If v is not in MST and weight of (currentVertex,v) is smaller
                 // than current vertexCurrentWeights of v
                 if (!searchedSoFar[vertex] && vertexCurrentWeights[vertex] > pathVertexWeight) {
                     // Updating vertexCurrentWeights of v
