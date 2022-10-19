@@ -48,8 +48,16 @@
 #include "../graph/WaterAndJugProblem.h"
 #include "../graph/ParallelCourses.h"
 #include "../graph/MinNumberOfSemesters.h"
+#include "../dynamic_programming/DungeonGame.h"
+#include "../dynamic_programming/UniquePathsTwo.h"
+#include "../dynamic_programming/HouseRobber.h"
+
+
 void Practice::runPracticeCode() {
-    MinNumberOfSemesters::testMe();
+    HouseRobber::testMe();
+    //UniquePathsTwo::testMe();
+    //DungeonGame::testMe();
+    //MinNumberOfSemesters::testMe();
     //ParallelCourses::testMe();
     //WaterAndJugProblem::testMe();
     //SlidingPuzzle::testMe();

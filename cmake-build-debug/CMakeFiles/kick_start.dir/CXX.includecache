@@ -92,6 +92,24 @@ UnionFindEdge.h
 memory
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h
 vector
 -
@@ -365,6 +383,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/ParallelCourses.h
 ../graph/MinNumberOfSemesters.h
 /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h
+../dynamic_programming/DungeonGame.h
+/home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h
+../dynamic_programming/UniquePathsTwo.h
+/home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
+../dynamic_programming/HouseRobber.h
+/home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
