@@ -51,10 +51,17 @@
 #include "../dynamic_programming/DungeonGame.h"
 #include "../dynamic_programming/UniquePathsTwo.h"
 #include "../dynamic_programming/HouseRobber.h"
-
+#include "../dynamic_programming/MinCostToMergeStones.h"
+#include "../dynamic_programming/MinCostToCutSticks.h"
+#include "../dynamic_programming/BurstBaloons.h"
+#include "../dynamic_programming/IntegerBreak.h"
 
 void Practice::runPracticeCode() {
-    HouseRobber::testMe();
+    IntegerBreak::testMe();
+    //BurstBaloons::testMe();
+    //MinCostToCutSticks::testMe();
+    //MinCostToMergeStones::testMe();
+    //HouseRobber::testMe();
     //UniquePathsTwo::testMe();
     //DungeonGame::testMe();
     //MinNumberOfSemesters::testMe();

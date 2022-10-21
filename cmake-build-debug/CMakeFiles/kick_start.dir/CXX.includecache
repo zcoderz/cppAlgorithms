@@ -92,6 +92,14 @@ UnionFindEdge.h
 memory
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h
+iostream
+-
+vector
+-
+optional
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h
 vector
 -
@@ -99,6 +107,24 @@ iostream
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h
+limits
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h
 vector
 -
 iostream
@@ -389,6 +415,14 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
 ../dynamic_programming/HouseRobber.h
 /home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h
+../dynamic_programming/MinCostToMergeStones.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h
+../dynamic_programming/MinCostToCutSticks.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h
+../dynamic_programming/BurstBaloons.h
+/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h
+../dynamic_programming/IntegerBreak.h
+/home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

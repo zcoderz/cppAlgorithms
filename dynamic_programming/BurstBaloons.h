@@ -2,18 +2,26 @@
 // Created by usman on 11/18/21.
 //
 
-#include <vector>
-using namespace std;
+
 
 /**
  * This logic is similar to the matrix chain multiplication order
  */
 #ifndef CPPALGORITHMS_BURSTBALOONS_H
 #define CPPALGORITHMS_BURSTBALOONS_H
+#include <iostream>
+#include <vector>
+#include <optional>
+using namespace std;
+
+/**
+ * Dinosaur : NEED TO DO AGAIN
+ */
+
 class BurstBaloons {
 public:
 
-    int maxCoins(vector<int>& nums, int left, int right, vector<vector<optional<int>>> & costs) {
+    static int maxCoins(vector<int>& nums, int left, int right, vector<vector<optional<int>>> & costs) {
         if (left == 0 || right == nums.size()-1 || left > right) {
             return 0;
         }
@@ -31,14 +39,14 @@ public:
         return costT;
     }
 
-    int maxCoins(vector<int>& nums) {
+    static int maxCoins(vector<int>& nums) {
         nums.insert(nums.begin(), 1);
         nums.emplace_back(1);
         vector<vector<optional<int>>> costs(nums.size(), vector<optional<int>> (nums.size()));
         return maxCoins(nums, 1, nums.size()-2, costs);
     }
 
-    int maxCoinsDP(vector<int>& nums) {
+    static int maxCoinsDP(vector<int>& nums) {
         // add 1 before and after nums
         nums.insert(nums.begin(), 1);
         nums.emplace_back(1);
@@ -67,6 +75,12 @@ public:
         }
         // burst newNums[1]...newNums[n-2], excluding the first one and the last one
         return dp[1][nums.size() - 2];
+    }
+
+    static void testMe() {
+        vector<int> nums = {3,1,5,8};
+        int v = maxCoins(nums);
+        cout << v << endl;
     }
 };
 #endif //CPPALGORITHMS_BURSTBALOONS_H
