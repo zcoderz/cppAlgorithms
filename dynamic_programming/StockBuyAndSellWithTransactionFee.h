@@ -12,21 +12,18 @@ using namespace std;
 class StockBuyAndSell {
 public:
     int maxProfit(vector<int>& prices, int fee) {
-        int totalProfit=0;
-        int currProfit = 0;
-        int currMin = prices[0];
-        for(int i =1; i < prices.size(); i++) {
-            if (prices[i] < currMin) {
-                currMin = prices[i];
-                totalProfit += currProfit;
-                currProfit=0;
-            } else {
-                int tmpProfit = prices[i] - currMin - fee;
-                currProfit = max(currProfit, tmpProfit);
-            }
+        int profit=0; //this is the max profit you can get from buying and selling stocks
+        int stockBuyOrHold = -prices[0]; //this represents value if you hold prior stock or buy a new one
 
+        for (int i =1; i < prices.size(); i++) {
+            profit = max(profit, prices[i] + stockBuyOrHold - fee);
+            //if prices continue to rise this will represent value of the cheapest stock
+            //otherwise if you bought a new stock, this will represent cash value after buying stock
+            //thus when stock is next sold price[i] + stockBuyOrHold will represent the buy-sell transaction profit
+            stockBuyOrHold = max(stockBuyOrHold, profit-prices[i]);
         }
-        return totalProfit+currProfit;
+
+        return profit;
     }
 };
 

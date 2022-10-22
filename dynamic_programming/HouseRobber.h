@@ -12,6 +12,16 @@ using namespace std;
 class HouseRobber {
 public:
 
+    static int houseRobber(vector<int>& nums, int start, int end) {
+        int prior=0, current =0;
+        for (int i =start; i <=end; i++) {
+            int tmp = max(prior + nums[i], current);
+            prior=current;
+            current = tmp;
+        }
+        return current;
+    }
+
     static int rob(vector<int>& nums) {
         if (nums.empty()) return 0;
         vector<int> dp(nums.size()); dp[0] = nums[0];
