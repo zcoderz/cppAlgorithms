@@ -55,9 +55,11 @@
 #include "../dynamic_programming/MinCostToCutSticks.h"
 #include "../dynamic_programming/BurstBaloons.h"
 #include "../dynamic_programming/IntegerBreak.h"
+#include "../dynamic_programming/StockBuyAndSellWithCoolDown.h"
 
 void Practice::runPracticeCode() {
-    IntegerBreak::testMe();
+    StockBuyAndSellWithCoolDown::testMe();
+    //IntegerBreak::testMe();
     //BurstBaloons::testMe();
     //MinCostToCutSticks::testMe();
     //MinCostToMergeStones::testMe();

@@ -130,6 +130,12 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
 vector
 -
@@ -423,6 +429,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h
 ../dynamic_programming/IntegerBreak.h
 /home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h
+../dynamic_programming/StockBuyAndSellWithCoolDown.h
+/home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
