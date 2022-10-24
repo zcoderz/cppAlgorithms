@@ -56,9 +56,11 @@
 #include "../dynamic_programming/BurstBaloons.h"
 #include "../dynamic_programming/IntegerBreak.h"
 #include "../dynamic_programming/StockBuyAndSellWithCoolDown.h"
+#include "../dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h"
 
 void Practice::runPracticeCode() {
-    StockBuyAndSellWithCoolDown::testMe();
+    BestTimeBuyAndSellStock::testMe();
+    //StockBuyAndSellWithCoolDown::testMe();
     //IntegerBreak::testMe();
     //BurstBaloons::testMe();
     //MinCostToCutSticks::testMe();

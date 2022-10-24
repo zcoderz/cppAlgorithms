@@ -92,6 +92,14 @@ UnionFindEdge.h
 memory
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h
+vector
+-
+climits
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h
 iostream
 -
@@ -431,6 +439,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h
 ../dynamic_programming/StockBuyAndSellWithCoolDown.h
 /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h
+../dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h
+/home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
