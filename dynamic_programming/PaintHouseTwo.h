@@ -5,6 +5,9 @@
 #ifndef CPPALGORITHMS_PAINTHOUSETWO_H
 #define CPPALGORITHMS_PAINTHOUSETWO_H
 #include <vector>
+#include <climits>
+#include <algorithm>
+#include <limits>
 using namespace std;
 
 class PaintHouseTwo {
