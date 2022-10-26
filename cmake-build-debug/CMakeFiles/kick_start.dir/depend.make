@@ -658,11 +658,13 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindEdge.h \
  /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindHelper.h \
  /home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/AsciTwoDeleteSum.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h \

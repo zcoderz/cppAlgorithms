@@ -92,6 +92,14 @@ UnionFindEdge.h
 memory
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/AsciTwoDeleteSum.h
+string
+-
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h
 vector
 -
@@ -121,6 +129,12 @@ iostream
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h
 vector
 -
 iostream
@@ -441,6 +455,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h
 ../dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h
 /home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h
+../dynamic_programming/AsciTwoDeleteSum.h
+/home/usman/work/cppAlgorithms/dynamic_programming/AsciTwoDeleteSum.h
+../dynamic_programming/LongestIncreasingSubsequence.h
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

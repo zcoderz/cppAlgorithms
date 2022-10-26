@@ -57,9 +57,13 @@
 #include "../dynamic_programming/IntegerBreak.h"
 #include "../dynamic_programming/StockBuyAndSellWithCoolDown.h"
 #include "../dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h"
+#include "../dynamic_programming/AsciTwoDeleteSum.h"
+#include "../dynamic_programming/LongestIncreasingSubsequence.h"
 
 void Practice::runPracticeCode() {
-    BestTimeBuyAndSellStock::testMe();
+    LongestIncreasingSubsequence::testMe();
+    //Asci2DeleteSum::testMe();
+    //BestTimeBuyAndSellStock::testMe();
     //StockBuyAndSellWithCoolDown::testMe();
     //IntegerBreak::testMe();
     //BurstBaloons::testMe();
