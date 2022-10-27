@@ -134,6 +134,16 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestDivisibleSubset.h
+vector
+-
+algorithm
+-
+iostream
+-
+iterator
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h
 vector
 -
@@ -459,6 +469,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/AsciTwoDeleteSum.h
 ../dynamic_programming/LongestIncreasingSubsequence.h
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h
+../dynamic_programming/LongestDivisibleSubset.h
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestDivisibleSubset.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

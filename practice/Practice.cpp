@@ -59,9 +59,11 @@
 #include "../dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h"
 #include "../dynamic_programming/AsciTwoDeleteSum.h"
 #include "../dynamic_programming/LongestIncreasingSubsequence.h"
+#include "../dynamic_programming/LongestDivisibleSubset.h"
 
 void Practice::runPracticeCode() {
-    LongestIncreasingSubsequence::testMe();
+    LongestDivisibleSubset::testMe();
+    //LongestIncreasingSubsequence::testMe();
     //Asci2DeleteSum::testMe();
     //BestTimeBuyAndSellStock::testMe();
     //StockBuyAndSellWithCoolDown::testMe();
