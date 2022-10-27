@@ -195,6 +195,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestStringChain.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -222,10 +225,16 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PaintFence.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PartitionEqualSubset.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PascalTriangle.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h">

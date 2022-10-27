@@ -150,6 +150,12 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h
+string
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h
 limits
 -
@@ -158,6 +164,26 @@ iostream
 
 /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h
 vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h
+string
+-
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h
+string
+-
+vector
+-
+unordered_map
+-
+algorithm
 -
 iostream
 -
@@ -471,6 +497,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h
 ../dynamic_programming/LongestDivisibleSubset.h
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestDivisibleSubset.h
+../dynamic_programming/PalindromicSubstring.h
+/home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h
+../dynamic_programming/LongestPalindromicString.h
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h
+../dynamic_programming/ShortestWayToFormString.h
+/home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

@@ -60,9 +60,15 @@
 #include "../dynamic_programming/AsciTwoDeleteSum.h"
 #include "../dynamic_programming/LongestIncreasingSubsequence.h"
 #include "../dynamic_programming/LongestDivisibleSubset.h"
+#include "../dynamic_programming/PalindromicSubstring.h"
+#include "../dynamic_programming/LongestPalindromicString.h"
+#include "../dynamic_programming/ShortestWayToFormString.h"
 
 void Practice::runPracticeCode() {
-    LongestDivisibleSubset::testMe();
+    ShortestWayToFormString::testMe();
+    //LongestPalindromicString::testMe();
+    //PalindromicSubstring::testMe();
+    //LongestDivisibleSubset::testMe();
     //LongestIncreasingSubsequence::testMe();
     //Asci2DeleteSum::testMe();
     //BestTimeBuyAndSellStock::testMe();
