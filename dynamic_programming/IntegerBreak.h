@@ -26,6 +26,19 @@ public:
         return table[n];
     }
 
+    int integerBreakSimples(int n) {
+        if (n==2) return 1;
+        vector<int> dp(n+1);
+        for (int i =1; i <=n; i++) {
+            int l=1, k=i-1;
+            dp[i] = i==n ? i-1 : i; //the number needs to be broken into atleast two pieces
+            while (k>=l) {
+                dp[i] = max(dp[i], dp[l++]*dp[k--]);
+            }
+        }
+        return dp[n];
+    }
+
     static void testMe() {
         int v = integerBreak(5);
         cout << v << endl;

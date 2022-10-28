@@ -195,6 +195,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestLineOfConsecutiveOnes.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -219,6 +222,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MinPathSum.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfTheLongestIncreasingSubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -232,6 +238,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PascalTriangle.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ShortestDistanceToTargetColor.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h">

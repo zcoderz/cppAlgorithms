@@ -666,6 +666,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h
  /home/usman/work/cppAlgorithms/dynamic_programming/LongestDivisibleSubset.h
  /home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h
+ /home/usman/work/cppAlgorithms/dynamic_programming/LongestLineOfConsecutiveOnes.h
  /home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h
@@ -673,6 +674,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h
  /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h
  /home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
+ /home/usman/work/cppAlgorithms/dynamic_programming/WordBreak.h
  /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h
  /home/usman/work/cppAlgorithms/graph/KnightMoves.h
  /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h

@@ -63,9 +63,13 @@
 #include "../dynamic_programming/PalindromicSubstring.h"
 #include "../dynamic_programming/LongestPalindromicString.h"
 #include "../dynamic_programming/ShortestWayToFormString.h"
+#include "../dynamic_programming/LongestLineOfConsecutiveOnes.h"
+#include "../dynamic_programming/WordBreak.h"
 
 void Practice::runPracticeCode() {
-    ShortestWayToFormString::testMe();
+    WordBreak::testMe();
+    //LongestLineOfConsecutiveOnes::testMe();
+    //ShortestWayToFormString::testMe();
     //LongestPalindromicString::testMe();
     //PalindromicSubstring::testMe();
     //LongestDivisibleSubset::testMe();
