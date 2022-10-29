@@ -65,9 +65,13 @@
 #include "../dynamic_programming/ShortestWayToFormString.h"
 #include "../dynamic_programming/LongestLineOfConsecutiveOnes.h"
 #include "../dynamic_programming/WordBreak.h"
+#include "../dynamic_programming/LongestIncreasingPathInMatrix.h"
+#include "../dynamic_programming/OutOfBoundPaths.h"
 
 void Practice::runPracticeCode() {
-    WordBreak::testMe();
+    OutOfBoundPaths::testMe();
+    //LongestIncreasingPathInMatrix::testMe();
+    //WordBreak::testMe();
     //LongestLineOfConsecutiveOnes::testMe();
     //ShortestWayToFormString::testMe();
     //LongestPalindromicString::testMe();

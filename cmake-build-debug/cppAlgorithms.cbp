@@ -192,6 +192,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestDivisibleSubset.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingPathInMatrix.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -226,6 +229,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfTheLongestIncreasingSubsequence.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PaintFence.h">
