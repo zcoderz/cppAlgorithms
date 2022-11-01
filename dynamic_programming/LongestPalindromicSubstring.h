@@ -5,6 +5,7 @@
 #ifndef CPPALGORITHMS_LONGESTPALINDROMICSUBSTRING_H
 #define CPPALGORITHMS_LONGESTPALINDROMICSUBSTRING_H
 #include <iostream>
+#include <vector>
 using namespace std;
 
 /**
