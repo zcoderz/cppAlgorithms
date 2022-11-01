@@ -67,9 +67,12 @@
 #include "../dynamic_programming/WordBreak.h"
 #include "../dynamic_programming/LongestIncreasingPathInMatrix.h"
 #include "../dynamic_programming/OutOfBoundPaths.h"
+#include "../dynamic_programming/TwoKeysKeyboard.h"
+int TwoKeys::minStepsNo=0;
 
 void Practice::runPracticeCode() {
-    OutOfBoundPaths::testMe();
+    TwoKeys::testMe();
+    //OutOfBoundPaths::testMe();
     //LongestIncreasingPathInMatrix::testMe();
     //WordBreak::testMe();
     //LongestLineOfConsecutiveOnes::testMe();

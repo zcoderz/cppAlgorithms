@@ -214,6 +214,12 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/TwoKeysKeyboard.h
+math.h
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
 vector
 -
@@ -543,6 +549,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingPathInMatrix.h
 ../dynamic_programming/OutOfBoundPaths.h
 /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h
+../dynamic_programming/TwoKeysKeyboard.h
+/home/usman/work/cppAlgorithms/dynamic_programming/TwoKeysKeyboard.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
