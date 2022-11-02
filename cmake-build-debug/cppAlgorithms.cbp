@@ -165,6 +165,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CoinChangeTwo.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CombinationSum.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -252,6 +255,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PascalTriangle.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ShortestDistanceToTargetColor.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -259,6 +265,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/TossStrangeCoins.h">

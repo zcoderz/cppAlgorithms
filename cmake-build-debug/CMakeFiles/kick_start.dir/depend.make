@@ -673,8 +673,10 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/TwoKeysKeyboard.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/WordBreak.h \

@@ -69,9 +69,13 @@
 #include "../dynamic_programming/OutOfBoundPaths.h"
 #include "../dynamic_programming/TwoKeysKeyboard.h"
 int TwoKeys::minStepsNo=0;
+#include "../dynamic_programming/PerfectSquares.h"
+#include "../dynamic_programming/TargetSum.h"
 
 void Practice::runPracticeCode() {
-    TwoKeys::testMe();
+    TargetSum::testMe();
+    //PerfectSquares::testMe();
+    //TwoKeys::testMe();
     //OutOfBoundPaths::testMe();
     //LongestIncreasingPathInMatrix::testMe();
     //WordBreak::testMe();

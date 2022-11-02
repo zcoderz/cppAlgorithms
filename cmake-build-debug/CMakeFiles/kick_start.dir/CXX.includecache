@@ -196,6 +196,16 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h
+math.h
+-
+climits
+-
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h
 string
 -
@@ -210,6 +220,16 @@ iostream
 
 /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h
 vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h
+vector
+-
+algorithm
+-
+numeric
 -
 iostream
 -
@@ -551,6 +571,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h
 ../dynamic_programming/TwoKeysKeyboard.h
 /home/usman/work/cppAlgorithms/dynamic_programming/TwoKeysKeyboard.h
+../dynamic_programming/PerfectSquares.h
+/home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h
+../dynamic_programming/TargetSum.h
+/home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
