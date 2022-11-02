@@ -9,17 +9,16 @@
 using namespace std;
 class StockBuyAndSellWithCoolDown {
 public:
-    int maxProfitDPFast(vector<int>& prices) {
-        int held=-prices[0];
-        int sold=0;
-        int reset=0;
-        for (int i =1; i <prices.size(); i++) {
-            int preSold = sold;
-            sold = prices[i] + held;
-            held = max(held, reset-prices[i]);
-            reset = max(reset, preSold);
+    int maxProfit(vector<int>& prices) {
+        int reset = 0;
+        int profit = 0;
+        int holding = -prices[0];
+        for (int i =1; i < prices.size(); i++) {
+            holding = max(holding, reset-prices[i]);
+            reset = max(reset, profit);
+            profit = max(profit, holding + prices[i]);
         }
-        return max(sold, reset);
+        return profit;
     }
 
     static int maxProfitDP(vector<int>& prices) {
