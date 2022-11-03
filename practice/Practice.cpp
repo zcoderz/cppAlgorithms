@@ -90,7 +90,7 @@ void Practice::runPracticeCode() {
     //StockBuyAndSellWithCoolDown::testMe();
     //IntegerBreak::testMe();
     //BurstBaloons::testMe();
-    MinCostToCutSticks::testMe();
+    //MinCostToCutSticks::testMe();
     //MinCostToMergeStones::testMe();
     //HouseRobber::testMe();
     //UniquePathsTwo::testMe();
