@@ -11,30 +11,33 @@
 using namespace std;
 
 /**
- * Dinosaur : NEED TO DO AGAIN
+ * Dinosaur : DO Again
  */
 class MinCostToCutSticks {
 public:
-
-    int minCost(int n, vector<int> & cuts) {
+    static int minCost(int n, vector<int>& cuts) {
         //add sentinels
         cuts.push_back(0);
         cuts.push_back(n);
-        //sort cuts so you can process them in order from right to left
-        sort(begin(cuts), end(cuts));
-        vector<vector<int>> dp(cuts.size(), vector<int>(cuts.size(), 0));
-        for (int left = cuts.size() - 1; left >= 0; left--) {
-            for (int right = left+1; right < cuts.size() ; right++) {
-                //find the min cost to process between cuts left and right
-                for (int cutPoint = left+1; cutPoint < right; cutPoint++) {
-                    int cost = cuts[right] - cuts[left];
-                    //recursively call left side and right side
-                    int remaining = dp[left][cutPoint] + dp[cutPoint][right];
-                    dp[left][right] = min(remaining + cost, dp[left][right] == 0 ? numeric_limits<int>::max(): dp[left][right]);
+        //sort the cuts so that they can be processed in order
+        sort(cuts.begin(), cuts.end());
+        vector<vector<int>> dp(cuts.size(), vector<int> (cuts.size()));
+        for (int i = cuts.size()-1; i>=0; i--) {
+            for (int j =i+1; j < cuts.size(); j++) {
+                for (int k=i+1; k <j; k++) {
+                    int cost = cuts[j] - cuts[i]; //size of the rod that was cut
+                    //in addition need to include all sub cuts
+                    int remainingCost = dp[i][k] + dp[k][j];
+                    int totalCost = cost + remainingCost;
+                    if (dp[i][j] ==0) {
+                        dp[i][j] = totalCost;
+                    } else {
+                        dp[i][j] =  min(totalCost, dp[i][j]);
+                    }
                 }
             }
         }
-        return dp[0][cuts.size() - 1];
+        return dp[0][cuts.size()-1];
     }
 
     static int dfsuq(int i, int j, vector<int> & cuts, vector<vector<int>> & dp) {
@@ -52,7 +55,7 @@ public:
             int rec2 = dfsuq(k,j, cuts, dp);
             int tmp = cuts[j] - cuts[i] + rec1 + rec2;
             cout << "  calculated min cost between cuts " << cuts[i] << " and " << cuts[j] << " as " << rec1 <<
-                    " and " << rec2 << " and diff as " << cuts[j] - cuts[i] << " amounts to " << tmp << endl;
+                 " and " << rec2 << " and diff as " << cuts[j] - cuts[i] << " amounts to " << tmp << endl;
             minCut = min(minCut, tmp);
         }
         cout << "calculated min cost between cuts " << cuts[i] << " and " << cuts[j] << " as " << minCut << endl;
@@ -69,8 +72,8 @@ public:
     }
 
     static void testMe() {
-        vector<int> cuts = {1,3,4, 5};
-        int val = minCostRec(7, cuts);
+        vector<int> cuts = {1,3,4,5};
+        int val = minCost(7, cuts);
         cout << val << endl;
     }
 //    int dfs(vector<int>& cuts, int i, int j, vector<vector<optional<int>>> & dp) {

@@ -73,7 +73,7 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/TargetSum.h"
 
 void Practice::runPracticeCode() {
-    TargetSum::testMe();
+    //TargetSum::testMe();
     //PerfectSquares::testMe();
     //TwoKeys::testMe();
     //OutOfBoundPaths::testMe();
@@ -90,7 +90,7 @@ void Practice::runPracticeCode() {
     //StockBuyAndSellWithCoolDown::testMe();
     //IntegerBreak::testMe();
     //BurstBaloons::testMe();
-    //MinCostToCutSticks::testMe();
+    MinCostToCutSticks::testMe();
     //MinCostToMergeStones::testMe();
     //HouseRobber::testMe();
     //UniquePathsTwo::testMe();
