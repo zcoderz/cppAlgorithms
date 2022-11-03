@@ -10,7 +10,7 @@
 #include <climits>
 using namespace std;
 /**
- * DINOSAUR : This should be practiced again!!!
+ *
  */
 class MinCostTreeFromLeaf {
 public:
