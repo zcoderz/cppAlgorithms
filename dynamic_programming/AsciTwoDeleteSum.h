@@ -9,7 +9,7 @@
 #include <iostream>
 /**
  * https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
- * DINOSAUR : Do this again, interesting problem
+ *
  */
 using namespace std;
 class Asci2DeleteSum {

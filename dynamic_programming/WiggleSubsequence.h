@@ -10,7 +10,7 @@
 using namespace std;
 
 /**
- * DINOSAUR : Do this again without seeing code.......:)
+ *
  * https://leetcode.com/problems/wiggle-subsequence/
  */
 class WiggleSubSequence {
@@ -33,6 +33,24 @@ public:
             }
         }
         return max(noUps, noDowns);
+    }
+
+    int wiggleMaxLengthWithConnections(vector<int>& nums) {
+        pair<int,int> negative = make_pair(0, 1);
+        pair<int,int> positive = make_pair(0, 1);
+
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] > nums[negative.first] && (
+                    (negative.second+1 > positive.second) ||
+                    ((negative.second+1 == positive.second) && nums[i] > nums[positive.first]))) {
+                positive = make_pair(i, negative.second+1);
+            } else if (nums[i] < nums[positive.first] && (
+                    (positive.second+1 > negative.second) ||
+                    ((positive.second+1 == negative.second) && nums[i] < nums[negative.first]))) {
+                negative = make_pair(i, positive.second+1);
+            }
+        }
+        return max(negative.second, positive.second);
     }
 };
 
