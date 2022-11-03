@@ -8,9 +8,7 @@
 #include <vector>
 using namespace std;
 
-/**
- * DINOSAUR : do this again
- */
+
 class LongestPalindromicSubstring{
 public:
 

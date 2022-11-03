@@ -10,7 +10,7 @@
 using namespace std;
 
 /**
- * DINOSAUR this is tricky (keeping max length and count together). Do this again.
+ *
  */
 class LongestIncreasingSubsequence {
     int findNumberOfLIS(vector<int>& nums) {
