@@ -12,7 +12,7 @@
 using namespace std;
 
 /**
- *
+ * DINOSAUR : should do again...
  */
 class TargetSum {
 public:
