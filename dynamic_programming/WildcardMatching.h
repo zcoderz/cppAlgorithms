@@ -6,38 +6,56 @@
 #define CPPALGORITHMS_WILDCARDMATCHING_H
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
+/**
+ * DINOSAUR : This one has tricky edge cases. Need to do again.
+ */
 class WildCardMatching {
 public:
-    bool isMatch(string s, string p) {
-        vector<vector<bool>> dp(p.length(), vector<bool> (s.length()));
+    static bool isMatch(string s, string p) {
+        string modPattern; bool firstStar = true;
+        for (int i =0; i < p.length(); i++) {
+            if (p[i] == '*') {
+                if (firstStar) {
+                    modPattern +=  p[i];
+                    firstStar = false;
+                }
+            } else {
+                firstStar = true;
+                modPattern +=  p[i];
+            }
+        }
 
-        for(int i=0; i <= p.length(); i++) {
-            for (int j =0; j <=s.length(); j++) {
-                if (p[i]=='*') {
-                    if(i==0 && j==0) {
-                        dp[i][j]=true;
-                    } else {
-                        dp[i][j] = (j > 0 ? dp[i][j-1] : false) || (i > 0 ? dp[i-1][j] : false);
-                    }
-                } else if (p[i]=='?') {
-                    if(i ==0 && j==0) {
-                        dp[i][j]=true;
-                    } else {
-                        dp[i][j] = (i > 0 && j > 0 ? dp[i-1][j-1] : false);
-                    }
-                } else if (p[i]==s[j]) {
-                    if (i > 0 && j > 0)
-                        dp[i][j] = dp[i-1][j-1]);
-                    else if (i==0 && j ==0)
-                        dp[i][j] = true;
+        //add size + 1 to make traversal of matrix for prior indices easier
+        //string is going across rows and pattern is going across columns
+        vector<vector<bool>> dp(s.length()+1, vector<bool> (modPattern.length()+1));
+        dp[0][0]= true; //empty string match with empty pattern is true
+        if (modPattern[0]=='*')
+            dp[0][1] = true; //need to set so that first column (entire string first pattern char) gets match
+
+
+
+        for (int i =1; i <= s.length(); i++) {
+            for (int j =1; j <= modPattern.length(); j++) {
+                if (modPattern[j-1]=='*') {
+                    dp[i][j] = (dp[i][j-1] || dp[i-1][j]);
+                } else if ((modPattern[j-1]=='?') || (modPattern[j-1] == s[i-1])) {
+                    dp[i][j] = dp[i-1][j-1];
                 }
             }
         }
 
-        return dp[p.length()-1][s.length()-1];
+        return dp[s.length()][modPattern.length()];
+    }
+
+    static void testMe() {
+        string str = "aa";
+        string p = "*";
+        bool res = isMatch(str, p);
+        cout << res << endl;
     }
 };
 

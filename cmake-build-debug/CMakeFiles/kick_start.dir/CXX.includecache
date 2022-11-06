@@ -116,65 +116,11 @@ vector
 optional
 -
 
-/home/usman/work/cppAlgorithms/dynamic_programming/ClimbingStairs.h
-
-/home/usman/work/cppAlgorithms/dynamic_programming/CoinChange.h
-vector
--
-algorithm
--
-limits
--
-climits
--
-
-/home/usman/work/cppAlgorithms/dynamic_programming/CoinChangeTwo.h
-vector
--
-
 /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h
 vector
 -
 iostream
 -
-
-/home/usman/work/cppAlgorithms/dynamic_programming/DynamicProgramming.cpp
-DynamicProgramming.h
-/home/usman/work/cppAlgorithms/dynamic_programming/DynamicProgramming.h
-ClimbingStairs.h
-/home/usman/work/cppAlgorithms/dynamic_programming/ClimbingStairs.h
-PascalTriangle.h
-/home/usman/work/cppAlgorithms/dynamic_programming/PascalTriangle.h
-DynamicProgramming.h
-/home/usman/work/cppAlgorithms/dynamic_programming/DynamicProgramming.h
-UniquePaths.h
-/home/usman/work/cppAlgorithms/dynamic_programming/UniquePaths.h
-CoinChange.h
-/home/usman/work/cppAlgorithms/dynamic_programming/CoinChange.h
-CoinChangeTwo.h
-/home/usman/work/cppAlgorithms/dynamic_programming/CoinChangeTwo.h
-WordBreak.h
-/home/usman/work/cppAlgorithms/dynamic_programming/WordBreak.h
-Triangle.h
-/home/usman/work/cppAlgorithms/dynamic_programming/Triangle.h
-PartitionEqualSubset.h
-/home/usman/work/cppAlgorithms/dynamic_programming/PartitionEqualSubset.h
-BurstBaloons.h
-/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h
-MinCostToCutSticks.h
-/home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h
-LongestCommonSubsequence.h
-/home/usman/work/cppAlgorithms/dynamic_programming/LongestCommonSubsequence.h
-EditDistance.h
-/home/usman/work/cppAlgorithms/dynamic_programming/EditDistance.h
-KnapSack.h
-/home/usman/work/cppAlgorithms/dynamic_programming/KnapSack.h
-iostream
--
-
-/home/usman/work/cppAlgorithms/dynamic_programming/DynamicProgramming.h
-
-/home/usman/work/cppAlgorithms/dynamic_programming/EditDistance.h
 
 /home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h
 vector
@@ -186,12 +132,6 @@ iostream
 vector
 -
 iostream
--
-
-/home/usman/work/cppAlgorithms/dynamic_programming/KnapSack.h
-
-/home/usman/work/cppAlgorithms/dynamic_programming/LongestCommonSubsequence.h
-vector
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestDivisibleSubset.h
@@ -242,6 +182,12 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h
 vector
 -
@@ -254,20 +200,6 @@ string
 vector
 -
 iostream
--
-
-/home/usman/work/cppAlgorithms/dynamic_programming/PartitionEqualSubset.h
-vector
--
-numeric
--
-algorithm
--
-optional
--
-
-/home/usman/work/cppAlgorithms/dynamic_programming/PascalTriangle.h
-vector
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h
@@ -308,21 +240,21 @@ numeric
 iostream
 -
 
-/home/usman/work/cppAlgorithms/dynamic_programming/Triangle.h
-vector
--
-
 /home/usman/work/cppAlgorithms/dynamic_programming/TwoKeysKeyboard.h
 math.h
 -
 iostream
 -
 
-/home/usman/work/cppAlgorithms/dynamic_programming/UniquePaths.h
+/home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
 vector
 -
+iostream
+-
 
-/home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
+/home/usman/work/cppAlgorithms/dynamic_programming/WildcardMatching.h
+string
+-
 vector
 -
 iostream
@@ -657,6 +589,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h
 ../dynamic_programming/TargetSum.h
 /home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h
+../dynamic_programming/WildcardMatching.h
+/home/usman/work/cppAlgorithms/dynamic_programming/WildcardMatching.h
+../dynamic_programming/MountainArray.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
