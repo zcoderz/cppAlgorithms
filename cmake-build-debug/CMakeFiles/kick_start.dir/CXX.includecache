@@ -212,6 +212,14 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/RegularExpressionDP.h
+string
+-
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h
 string
 -
@@ -593,6 +601,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/WildcardMatching.h
 ../dynamic_programming/MountainArray.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h
+../dynamic_programming/RegularExpressionDP.h
+/home/usman/work/cppAlgorithms/dynamic_programming/RegularExpressionDP.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

@@ -73,9 +73,11 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/TargetSum.h"
 #include "../dynamic_programming/WildcardMatching.h"
 #include "../dynamic_programming/MountainArray.h"
+#include "../dynamic_programming/RegularExpressionDP.h"
 
 void Practice::runPracticeCode() {
-    MountainArray::testMe();
+    RegularExpressionDP::testMe();
+    //MountainArray::testMe();
     //WildCardMatching::testMe();
     //TargetSum::testMe();
     //PerfectSquares::testMe();
