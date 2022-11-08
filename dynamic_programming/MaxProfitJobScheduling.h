@@ -8,46 +8,36 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
-
+#include <map>
 using namespace std;
 
 class MaxProfitJobScheduling {
 public:
-    static int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
-        typedef tuple<int, int, int> JobInfo;
-        vector<JobInfo> jobVector;
-        for (int i =0; i < startTime.size(); i++) {
-            jobVector.emplace_back(profit[i], startTime[i], endTime[i]);
+
+    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
+        int n = startTime.size();
+        vector<vector<int>> jobs;
+        for (int i = 0; i < n; ++i) {
+            jobs.push_back({endTime[i], startTime[i], profit[i]});
         }
-        auto comp = [] (JobInfo &a, JobInfo &b) -> bool {
-            // a < b, so that smaller end times are at beginning
-            return get<2> (a) < get<2> (b);
-        };
-        sort(jobVector.begin(), jobVector.end(), comp);
-        int maxProfit = 0;
-        int lastEnd = get<2> (jobVector[jobVector.size()-1]);
-        vector<int> dp(lastEnd+1,-1); dp[0]=0;
-        for (int i =0; i < jobVector.size(); i++) {
-            JobInfo  & jobInfo = jobVector[i];
-            int startIndex = get<1> (jobInfo);
-            int origStartIndex = startIndex;
-            while (dp[startIndex]==-1) {
-                startIndex--;
-            }
-            int startProfit = dp[startIndex];
-            while (startIndex <= origStartIndex) {
-                dp[startIndex++] = startProfit;
-            }
-            dp[get<2> (jobInfo)]= max(maxProfit, startProfit + get<0> (jobInfo));
-            maxProfit = max(maxProfit, dp[get<2> (jobInfo)]);
+        //sort by ending times ascending
+        sort(jobs.begin(), jobs.end());
+        //add marker that profit at time ending in 0 is 0
+        map<int, int> dp = {{0, 0}};
+        for (auto& job : jobs) {
+            //prev(dp.upper_bound(job[1])) <--- get cost until time at or before the start time of the job
+            //upper bound returns higher time (greater)...prev will return window at or before start time
+            int cur = prev(dp.upper_bound(job[1]))->second + job[2];
+            if (cur > dp.rbegin()->second)
+                dp[job[0]] = cur;
         }
-        return maxProfit;
+        return dp.rbegin()->second;
     }
 
     static void testMe() {
-        vector<int> startTimes = {1,2,3,4,6};
-        vector<int> endTimes = {3,5,10,6,9};
-        vector<int> profits = {20,20,100,70,60};
+        vector<int> startTimes = {1,2,3,3};
+        vector<int> endTimes = {3,4,5,6};
+        vector<int> profits = {50,10,40,70};
         int res = jobScheduling(startTimes, endTimes, profits);
         cout << res << endl;
     }

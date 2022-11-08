@@ -170,6 +170,14 @@ string
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxProfitJobScheduling.h
+vector
+-
+algorithm
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
 set
 -
@@ -625,6 +633,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/RangeSumQuery2D.h
 ../dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
+../dynamic_programming/MaxProfitJobScheduling.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxProfitJobScheduling.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

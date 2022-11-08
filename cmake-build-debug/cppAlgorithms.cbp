@@ -228,6 +228,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MaxProductSubarray.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MaxProfitJobScheduling.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h">
 			<Option target="kick_start"/>
 		</Unit>
