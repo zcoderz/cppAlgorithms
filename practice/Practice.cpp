@@ -74,9 +74,13 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/WildcardMatching.h"
 #include "../dynamic_programming/MountainArray.h"
 #include "../dynamic_programming/RegularExpressionDP.h"
+#include "../dynamic_programming/RangeSumQuery2D.h"
+#include "../dynamic_programming/MaxSumOfRectangleNoLargerThanK.h"
 
 void Practice::runPracticeCode() {
-    RegularExpressionDP::testMe();
+    MaxSumRectangleLessThanK::testMe();
+    //NumMatrix::testMe();
+    //RegularExpressionDP::testMe();
     //MountainArray::testMe();
     //WildCardMatching::testMe();
     //TargetSum::testMe();

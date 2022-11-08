@@ -170,6 +170,16 @@ string
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
+set
+-
+vector
+-
+iostream
+-
+climits
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h
 limits
 -
@@ -208,6 +218,14 @@ math.h
 climits
 -
 vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/RangeSumQuery2D.h
+vector
+-
+memory
 -
 iostream
 -
@@ -603,6 +621,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h
 ../dynamic_programming/RegularExpressionDP.h
 /home/usman/work/cppAlgorithms/dynamic_programming/RegularExpressionDP.h
+../dynamic_programming/RangeSumQuery2D.h
+/home/usman/work/cppAlgorithms/dynamic_programming/RangeSumQuery2D.h
+../dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
