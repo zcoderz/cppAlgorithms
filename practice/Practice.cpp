@@ -77,9 +77,11 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/RangeSumQuery2D.h"
 #include "../dynamic_programming/MaxSumOfRectangleNoLargerThanK.h"
 #include "../dynamic_programming/MaxProfitJobScheduling.h"
+#include "../dynamic_programming/TextJustificationWithMaxWidth.h"
 
 void Practice::runPracticeCode() {
-    MaxProfitJobScheduling::testMe();
+    TextJustificationWithMaxWidth::testMe();
+    //MaxProfitJobScheduling::testMe();
     //MaxSumRectangleLessThanK::testMe();
     //NumMatrix::testMe();
     //RegularExpressionDP::testMe();

@@ -300,6 +300,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/TextJustificationWithMaxWidth.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/TossStrangeCoins.h">
 			<Option target="kick_start"/>
 		</Unit>
