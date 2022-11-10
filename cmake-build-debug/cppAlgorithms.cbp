@@ -153,6 +153,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BombEnemy.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BoxStackingLengthWidthReuse.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -222,6 +225,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MaxConsecutiveOnes.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MaxHeightByStackingCuboids.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MaxLengthPairChain.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -280,6 +286,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PrettyTextJustification.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/RangeSumQuery2D.h">

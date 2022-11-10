@@ -78,9 +78,15 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/MaxSumOfRectangleNoLargerThanK.h"
 #include "../dynamic_programming/MaxProfitJobScheduling.h"
 #include "../dynamic_programming/TextJustificationWithMaxWidth.h"
+#include "../dynamic_programming/PrettyTextJustification.h"
+#include "../dynamic_programming/BoxStackingLengthWidthReuse.h"
+#include "../dynamic_programming/MaxHeightByStackingCuboids.h"
 
 void Practice::runPracticeCode() {
-    TextJustificationWithMaxWidth::testMe();
+    //MaxHeightByStackingCuboids::testMe();
+    //BoxStackingLengthWidthReuse::testMe();
+    //PrettyTextJustification::testMe();
+    //TextJustificationWithMaxWidth::testMe();
     //MaxProfitJobScheduling::testMe();
     //MaxSumRectangleLessThanK::testMe();
     //NumMatrix::testMe();
