@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD 23)
 #target_link_libraries(${PROJECT_NAME} Threads::Threads)
 SET( CMAKE_CXX_FLAGS  " -pthread")
 
+
 add_executable(kick_start main.cpp sort/SelectionSort.h sort/SortChecks.cpp sort/SortChecks.h sort/BubbleSort.h
         sort/InsertionSort.h sort/MergeSort.h sort/QuickSort.h sort/ThreeWayQuickSort.h sort/FourWayQuickSort.h
         sort/MergeSortBottomUp.h priorityqueue/PriorityQueue.h priorityqueue/PriorityQueueTest.h priorityqueue/PriorityQueueTest.cpp
@@ -61,7 +62,7 @@ add_executable(kick_start main.cpp sort/SelectionSort.h sort/SortChecks.cpp sort
         dynamic_programming/CombinationSum.h dynamic_programming/PerfectSquares.h dynamic_programming/TargetSum.h dynamic_programming/WildcardMatching.h
         dynamic_programming/MountainArray.h dynamic_programming/RegularExpressionDP.h dynamic_programming/PalindromePartition.h dynamic_programming/OptimalCostBinarySearchTree.h
         dynamic_programming/MatrixChainMultiplicationMinCost.h dynamic_programming/RangeSumQuery2D.h dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
-        dynamic_programming/LargestRectangleInHistogram.h dynamic_programming/MaximalRectangle.h dynamic_programming/MaxProfitJobScheduling.h dynamic_programming/TextJustificationWithMaxWidth.h dynamic_programming/PrettyTextJustification.h dynamic_programming/BoxStackingLengthWidthReuse.h dynamic_programming/MaxHeightByStackingCuboids.h)
+        dynamic_programming/LargestRectangleInHistogram.h dynamic_programming/MaximalRectangle.h dynamic_programming/MaxProfitJobScheduling.h dynamic_programming/TextJustificationWithMaxWidth.h dynamic_programming/PrettyTextJustification.h dynamic_programming/BoxStackingLengthWidthReuse.h dynamic_programming/MaxHeightByStackingCuboids.h dynamic_programming/InterleavingString.h dynamic_programming/CountNumberOfOnesInBinaryString.h)
 find_package(Boost REQUIRED COMPONENTS system filesystem REQUIRED)
 
 include_directories(${Boost_INCLUDE_DIR})

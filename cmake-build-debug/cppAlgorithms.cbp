@@ -171,6 +171,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CombinationSum.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -187,6 +190,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/InterleavingString.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/KnapSack.h">

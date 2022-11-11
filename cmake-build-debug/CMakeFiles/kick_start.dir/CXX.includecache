@@ -6264,6 +6264,12 @@ vector
 optional
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h
 vector
 -
@@ -6278,6 +6284,12 @@ iostream
 
 /home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h
 vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/InterleavingString.h
+string
 -
 iostream
 -
@@ -6825,6 +6837,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/BoxStackingLengthWidthReuse.h
 ../dynamic_programming/MaxHeightByStackingCuboids.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MaxHeightByStackingCuboids.h
+../dynamic_programming/InterleavingString.h
+/home/usman/work/cppAlgorithms/dynamic_programming/InterleavingString.h
+../dynamic_programming/CountNumberOfOnesInBinaryString.h
+/home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

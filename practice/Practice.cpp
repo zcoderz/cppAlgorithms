@@ -81,8 +81,12 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/PrettyTextJustification.h"
 #include "../dynamic_programming/BoxStackingLengthWidthReuse.h"
 #include "../dynamic_programming/MaxHeightByStackingCuboids.h"
+#include "../dynamic_programming/InterleavingString.h"
+#include "../dynamic_programming/CountNumberOfOnesInBinaryString.h"
 
 void Practice::runPracticeCode() {
+    BinaryStringWithoutConsecutiveOnes::testMe();
+    //InterleavingString::testMe();
     //MaxHeightByStackingCuboids::testMe();
     //BoxStackingLengthWidthReuse::testMe();
     //PrettyTextJustification::testMe();
