@@ -6400,6 +6400,12 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/PredictWinner.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/PrettyTextJustification.h
 vector
 -
@@ -6841,6 +6847,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/InterleavingString.h
 ../dynamic_programming/CountNumberOfOnesInBinaryString.h
 /home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h
+../dynamic_programming/PredictWinner.h
+/home/usman/work/cppAlgorithms/dynamic_programming/PredictWinner.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

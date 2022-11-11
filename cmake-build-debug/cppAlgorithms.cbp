@@ -294,6 +294,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PredictWinner.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PrettyTextJustification.h">
 			<Option target="kick_start"/>
 		</Unit>

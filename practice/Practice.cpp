@@ -83,9 +83,11 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/MaxHeightByStackingCuboids.h"
 #include "../dynamic_programming/InterleavingString.h"
 #include "../dynamic_programming/CountNumberOfOnesInBinaryString.h"
+#include "../dynamic_programming/PredictWinner.h"
 
 void Practice::runPracticeCode() {
-    BinaryStringWithoutConsecutiveOnes::testMe();
+    PredictWinner::testMe();
+    //BinaryStringWithoutConsecutiveOnes::testMe();
     //InterleavingString::testMe();
     //MaxHeightByStackingCuboids::testMe();
     //BoxStackingLengthWidthReuse::testMe();
