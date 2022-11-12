@@ -77,7 +77,7 @@ public:
         return max (nums[i]-recurA,  nums[j]-recurB);
     }
 
-    //another way but the above DP solution "PredictTheWinner" is a lot more intuitive!!!
+    //another way but the above DP solution "PredictTheWinner" is a lot more intuiti ve!!!
     static int predictTheWinnerDP(vector<int>& nums) {
         vector<vector<int>> dp(nums.size()+1, vector<int> (nums.size()+1));
         for (int i = nums.size()-1; i >=0; i--) {

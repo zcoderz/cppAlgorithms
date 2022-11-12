@@ -85,8 +85,9 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/CountNumberOfOnesInBinaryString.h"
 #include "../dynamic_programming/PredictWinner.h"
 
+
 void Practice::runPracticeCode() {
-    PredictWinner::testMe();
+    //PredictWinner::testMe();
     //BinaryStringWithoutConsecutiveOnes::testMe();
     //InterleavingString::testMe();
     //MaxHeightByStackingCuboids::testMe();
