@@ -6270,6 +6270,12 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h
 vector
 -
@@ -6326,6 +6332,16 @@ iostream
 
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h
 string
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxEventsThatCanBeAttended.h
+vector
+-
+map
+-
+algorithm
 -
 iostream
 -
@@ -6400,14 +6416,6 @@ vector
 iostream
 -
 
-/home/usman/work/cppAlgorithms/dynamic_programming/PracticeEdit.h
-string
--
-vector
--
-iostream
--
-
 /home/usman/work/cppAlgorithms/dynamic_programming/PredictWinner.h
 vector
 -
@@ -6460,6 +6468,14 @@ iostream
 vector
 -
 iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/SuperEggDrop.h
+iostream
+-
+vector
+-
+climits
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h
@@ -6857,8 +6873,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h
 ../dynamic_programming/PredictWinner.h
 /home/usman/work/cppAlgorithms/dynamic_programming/PredictWinner.h
-../dynamic_programming/PracticeEdit.h
-/home/usman/work/cppAlgorithms/dynamic_programming/PracticeEdit.h
+../dynamic_programming/SuperEggDrop.h
+/home/usman/work/cppAlgorithms/dynamic_programming/SuperEggDrop.h
+../dynamic_programming/MaxEventsThatCanBeAttended.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxEventsThatCanBeAttended.h
+../dynamic_programming/CrossingHands.h
+/home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

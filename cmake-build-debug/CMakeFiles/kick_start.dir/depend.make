@@ -1244,6 +1244,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/BoxStackingLengthWidthReuse.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/IntegerBreak.h \
@@ -1253,6 +1254,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/LongestIncreasingSubsequence.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/LongestLineOfConsecutiveOnes.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/MaxEventsThatCanBeAttended.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxHeightByStackingCuboids.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxProfitJobScheduling.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h \
@@ -1262,13 +1264,13 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h \
- /home/usman/work/cppAlgorithms/dynamic_programming/PracticeEdit.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/PredictWinner.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/PrettyTextJustification.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/RangeSumQuery2D.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/RegularExpressionDP.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/SuperEggDrop.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/TextJustificationWithMaxWidth.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/TwoKeysKeyboard.h \

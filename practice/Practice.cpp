@@ -84,9 +84,14 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/InterleavingString.h"
 #include "../dynamic_programming/CountNumberOfOnesInBinaryString.h"
 #include "../dynamic_programming/PredictWinner.h"
-
+#include "../dynamic_programming/SuperEggDrop.h"
+#include "../dynamic_programming/MaxEventsThatCanBeAttended.h"
+#include "../dynamic_programming/CrossingHands.h"
 
 void Practice::runPracticeCode() {
+    CrossingHands::testMe();
+    //MaxEventsPossible::testMe();
+    //SuperEggDrop::testMe();
     //PredictWinner::testMe();
     //BinaryStringWithoutConsecutiveOnes::testMe();
     //InterleavingString::testMe();

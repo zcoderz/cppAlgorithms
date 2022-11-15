@@ -10,6 +10,9 @@
 #include <numeric>
 #include <climits>
 
+/**
+ * DINOSAUR : Do this again!
+ */
 using namespace std;
 class OptimalCostBinarySearchTree {
 public:
