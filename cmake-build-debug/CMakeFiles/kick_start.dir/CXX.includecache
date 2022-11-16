@@ -6230,6 +6230,14 @@ UnionFindEdge.h
 memory
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/AllocateMailBoxes.h
+vector
+-
+climits
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/AsciTwoDeleteSum.h
 string
 -
@@ -6272,6 +6280,12 @@ iostream
 
 /home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h
 vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h
+string
 -
 iostream
 -
@@ -6879,6 +6893,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MaxEventsThatCanBeAttended.h
 ../dynamic_programming/CrossingHands.h
 /home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h
+../dynamic_programming/AllocateMailBoxes.h
+/home/usman/work/cppAlgorithms/dynamic_programming/AllocateMailBoxes.h
+../dynamic_programming/DistinctSubsequences.h
+/home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

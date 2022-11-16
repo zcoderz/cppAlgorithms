@@ -87,9 +87,13 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/SuperEggDrop.h"
 #include "../dynamic_programming/MaxEventsThatCanBeAttended.h"
 #include "../dynamic_programming/CrossingHands.h"
+#include "../dynamic_programming/AllocateMailBoxes.h"
+#include "../dynamic_programming/DistinctSubsequences.h"
 
 void Practice::runPracticeCode() {
-    CrossingHands::testMe();
+    DistinctSubsequences::testMe();
+    //AllocateMailboxes::testMe();
+    //CrossingHands::testMe();
     //MaxEventsPossible::testMe();
     //SuperEggDrop::testMe();
     //PredictWinner::testMe();

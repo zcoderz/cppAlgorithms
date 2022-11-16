@@ -141,6 +141,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/AllocateMailBoxes.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/AsciTwoDeleteSum.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -175,6 +178,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h">
