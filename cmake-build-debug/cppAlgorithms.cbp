@@ -231,6 +231,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicString.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicSubsequenceTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestRepeatedSubstring.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestStringChain.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -273,10 +279,16 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MinCostTreeFromLeafValues.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MinNumberOfArrowsToBurstBaloons.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MinPathSum.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NonoverlappingIntervals.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfTheLongestIncreasingSubsequence.h">

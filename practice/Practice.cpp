@@ -89,9 +89,14 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/CrossingHands.h"
 #include "../dynamic_programming/AllocateMailBoxes.h"
 #include "../dynamic_programming/DistinctSubsequences.h"
-
+#include "../dynamic_programming/NonoverlappingIntervals.h"
+#include "../dynamic_programming/LongestPalindromicSubsequenceTwo.h"
+#include "../dynamic_programming/LongestRepeatedSubstring.h"
 void Practice::runPracticeCode() {
-    DistinctSubsequences::testMe();
+    LongestRepeatedSubstringDP::testMe();
+    //LongestPalindromicSubsequenceTwo::testMe();
+    //NonOverlappingIntervals::testMe();
+    //DistinctSubsequences::testMe();
     //AllocateMailboxes::testMe();
     //CrossingHands::testMe();
     //MaxEventsPossible::testMe();

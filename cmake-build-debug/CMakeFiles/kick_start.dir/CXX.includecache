@@ -6350,6 +6350,20 @@ string
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicSubsequenceTwo.h
+string
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestRepeatedSubstring.h
+string
+-
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/MaxEventsThatCanBeAttended.h
 vector
 -
@@ -6402,6 +6416,16 @@ iostream
 
 /home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h
 vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/NonoverlappingIntervals.h
+vector
+-
+algorithm
+-
+climits
 -
 iostream
 -
@@ -6897,6 +6921,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/AllocateMailBoxes.h
 ../dynamic_programming/DistinctSubsequences.h
 /home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h
+../dynamic_programming/NonoverlappingIntervals.h
+/home/usman/work/cppAlgorithms/dynamic_programming/NonoverlappingIntervals.h
+../dynamic_programming/LongestPalindromicSubsequenceTwo.h
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicSubsequenceTwo.h
+../dynamic_programming/LongestRepeatedSubstring.h
+/home/usman/work/cppAlgorithms/dynamic_programming/LongestRepeatedSubstring.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
