@@ -6363,6 +6363,8 @@ vector
 -
 iostream
 -
+unordered_set
+-
 
 /home/usman/work/cppAlgorithms/dynamic_programming/MaxEventsThatCanBeAttended.h
 vector
@@ -6412,6 +6414,14 @@ iostream
 vector
 -
 iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/MinWindowSubsequence.h
+string
+-
+vector
+-
+climits
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h
@@ -6543,6 +6553,14 @@ iostream
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h
+string
+-
 vector
 -
 iostream
@@ -6927,6 +6945,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestPalindromicSubsequenceTwo.h
 ../dynamic_programming/LongestRepeatedSubstring.h
 /home/usman/work/cppAlgorithms/dynamic_programming/LongestRepeatedSubstring.h
+../dynamic_programming/ValidPalindromeThree.h
+/home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h
+../dynamic_programming/MinWindowSubsequence.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MinWindowSubsequence.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

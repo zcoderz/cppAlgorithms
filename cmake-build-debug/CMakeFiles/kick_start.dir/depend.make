@@ -1264,6 +1264,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/MinWindowSubsequence.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/NonoverlappingIntervals.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h \
@@ -1280,6 +1281,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/TextJustificationWithMaxWidth.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/TwoKeysKeyboard.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/WildcardMatching.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/WordBreak.h \
  /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h \

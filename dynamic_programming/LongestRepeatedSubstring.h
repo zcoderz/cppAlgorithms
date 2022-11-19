@@ -8,6 +8,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <unordered_set>
 using namespace std;
 
 class LongestRepeatedSubstringDP {
@@ -28,9 +29,34 @@ public:
         return maxV;
     }
 
+    static bool substrFound(string &s, int mid) {
+        unordered_set<string> hashSet;
+        int sz = s.size();
+        for (int i=0; i <= sz-mid; i++) {
+            string tmp = s.substr(i, mid);
+            if (hashSet.contains(tmp)) return true;
+            hashSet.insert(tmp);
+        }
+        return false;
+    }
+
+    static int longestRepeatedSubstringBinarySearch(string s) {
+        int sz = s.length();
+        int left = 1;
+        int right = sz;
+        int mid;
+        while (left <= right) {
+            mid = (left + (right-left)/2);
+            if (substrFound(s, mid))
+                left = mid+1;
+            else
+                right = mid-1;
+        }
+        return left-1;
+    }
     static void testMe() {
-        string str = "aabcaabdaab";
-        int res = longestRepeatingSubstring(str);
+        string str = "aabcaab";
+        int res = longestRepeatedSubstringBinarySearch(str);
         cout << res << endl;
     }
 };

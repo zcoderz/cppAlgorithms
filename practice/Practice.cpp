@@ -92,8 +92,12 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/NonoverlappingIntervals.h"
 #include "../dynamic_programming/LongestPalindromicSubsequenceTwo.h"
 #include "../dynamic_programming/LongestRepeatedSubstring.h"
+#include "../dynamic_programming/ValidPalindromeThree.h"
+#include "../dynamic_programming/MinWindowSubsequence.h"
 void Practice::runPracticeCode() {
-    LongestRepeatedSubstringDP::testMe();
+    MinWindowSubsequence::testMe();
+    //ValidPalindrome::testMe();
+    //LongestRepeatedSubstringDP::testMe();
     //LongestPalindromicSubsequenceTwo::testMe();
     //NonOverlappingIntervals::testMe();
     //DistinctSubsequences::testMe();

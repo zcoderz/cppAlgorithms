@@ -285,6 +285,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MinPathSum.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MinWindowSubsequence.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -364,6 +367,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/UniquePathsTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/WiggleSubsequence.h">
