@@ -306,6 +306,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NonoverlappingIntervals.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfCornerRectangles.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfTheLongestIncreasingSubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>

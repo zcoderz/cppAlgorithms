@@ -97,9 +97,10 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/CherryPick.h"
 #include "../dynamic_programming/CherryPickTwo.h"
 #include "../dynamic_programming/WordBreakTwo.h"
-
+#include "../dynamic_programming/NumberOfCornerRectangles.h"
 void Practice::runPracticeCode() {
-    WordBreakTwo::testMe();
+    NumberOfCornerRectangles::testMe();
+    //WordBreakTwo::testMe();
     //CherryPickTwo::testMe();
     //CherryPick::testMe();
     //MinWindowSubsequence::testMe();

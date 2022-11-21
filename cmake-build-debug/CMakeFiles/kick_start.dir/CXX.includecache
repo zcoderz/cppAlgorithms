@@ -6456,6 +6456,14 @@ climits
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfCornerRectangles.h
+unordered_set
+-
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h
 vector
 -
@@ -6979,6 +6987,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/CherryPickTwo.h
 ../dynamic_programming/WordBreakTwo.h
 /home/usman/work/cppAlgorithms/dynamic_programming/WordBreakTwo.h
+../dynamic_programming/NumberOfCornerRectangles.h
+/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfCornerRectangles.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
