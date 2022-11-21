@@ -94,8 +94,15 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/LongestRepeatedSubstring.h"
 #include "../dynamic_programming/ValidPalindromeThree.h"
 #include "../dynamic_programming/MinWindowSubsequence.h"
+#include "../dynamic_programming/CherryPick.h"
+#include "../dynamic_programming/CherryPickTwo.h"
+#include "../dynamic_programming/WordBreakTwo.h"
+
 void Practice::runPracticeCode() {
-    MinWindowSubsequence::testMe();
+    WordBreakTwo::testMe();
+    //CherryPickTwo::testMe();
+    //CherryPick::testMe();
+    //MinWindowSubsequence::testMe();
     //ValidPalindrome::testMe();
     //LongestRepeatedSubstringDP::testMe();
     //LongestPalindromicSubsequenceTwo::testMe();

@@ -1244,6 +1244,8 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/BoxStackingLengthWidthReuse.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/CherryPick.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/CherryPickTwo.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h \
@@ -1284,6 +1286,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/WildcardMatching.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/WordBreak.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/WordBreakTwo.h \
  /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h \
  /home/usman/work/cppAlgorithms/graph/KnightMoves.h \
  /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h \

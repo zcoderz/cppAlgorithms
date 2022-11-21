@@ -6272,6 +6272,22 @@ vector
 optional
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/CherryPick.h
+vector
+-
+climits
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/CherryPickTwo.h
+vector
+-
+climits
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h
 vector
 -
@@ -6584,6 +6600,14 @@ string
 algorithm
 -
 iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/WordBreakTwo.h
+vector
+-
+string
+-
+list
 -
 
 /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h
@@ -6949,6 +6973,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h
 ../dynamic_programming/MinWindowSubsequence.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MinWindowSubsequence.h
+../dynamic_programming/CherryPick.h
+/home/usman/work/cppAlgorithms/dynamic_programming/CherryPick.h
+../dynamic_programming/CherryPickTwo.h
+/home/usman/work/cppAlgorithms/dynamic_programming/CherryPickTwo.h
+../dynamic_programming/WordBreakTwo.h
+/home/usman/work/cppAlgorithms/dynamic_programming/WordBreakTwo.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
