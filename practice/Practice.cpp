@@ -98,8 +98,14 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/CherryPickTwo.h"
 #include "../dynamic_programming/WordBreakTwo.h"
 #include "../dynamic_programming/NumberOfCornerRectangles.h"
+#include "../dynamic_programming/FourKeysKeyboard.h"
+#include "../dynamic_programming/WaysToDistributeCandies.h"
+#include "../dynamic_programming/SentenceScreenFitting.h"
 void Practice::runPracticeCode() {
-    NumberOfCornerRectangles::testMe();
+    SentenceScreenFitting::testMe();
+    //CountWaysToDistributeCandies::testMe();
+    //FourKeysKeyboard::testMe();
+    //NumberOfCornerRectangles::testMe();
     //WordBreakTwo::testMe();
     //CherryPickTwo::testMe();
     //CherryPick::testMe();

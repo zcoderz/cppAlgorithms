@@ -6312,6 +6312,10 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/FourKeysKeyboard.h
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h
 vector
 -
@@ -6524,6 +6528,16 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/SentenceScreenFitting.h
+vector
+-
+string
+-
+unordered_map
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h
 string
 -
@@ -6585,6 +6599,12 @@ iostream
 /home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h
 string
 -
+vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/WaysToDistributeCandies.h
 vector
 -
 iostream
@@ -6989,6 +7009,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/WordBreakTwo.h
 ../dynamic_programming/NumberOfCornerRectangles.h
 /home/usman/work/cppAlgorithms/dynamic_programming/NumberOfCornerRectangles.h
+../dynamic_programming/FourKeysKeyboard.h
+/home/usman/work/cppAlgorithms/dynamic_programming/FourKeysKeyboard.h
+../dynamic_programming/WaysToDistributeCandies.h
+/home/usman/work/cppAlgorithms/dynamic_programming/WaysToDistributeCandies.h
+../dynamic_programming/SentenceScreenFitting.h
+/home/usman/work/cppAlgorithms/dynamic_programming/SentenceScreenFitting.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

@@ -204,6 +204,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/EditDistance.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/FindDerangement.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/FourKeysKeyboard.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/HouseRobber.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -348,6 +354,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/RegularExpressionDP.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/SentenceScreenFitting.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ShortestDistanceToTargetColor.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -385,6 +394,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ValidPalindromeThree.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/WaysToDistributeCandies.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/WiggleSubsequence.h">
