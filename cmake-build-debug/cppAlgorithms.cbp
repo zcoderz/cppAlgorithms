@@ -183,6 +183,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CombinationSum.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CombinationSumTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -229,6 +232,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LargestRectangleInHistogram.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LastStoneWeightTwo.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/LongestCommonSubsequence.h">
@@ -330,6 +336,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PalindromePartition.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PalindromeRemoval.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -348,6 +357,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PrettyTextJustification.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ProfitableSchemes.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/RangeSumQuery2D.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -355,6 +367,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/SentenceScreenFitting.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ShortestCommonSupersequence.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/ShortestDistanceToTargetColor.h">

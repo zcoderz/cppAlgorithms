@@ -101,8 +101,13 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/FourKeysKeyboard.h"
 #include "../dynamic_programming/WaysToDistributeCandies.h"
 #include "../dynamic_programming/SentenceScreenFitting.h"
+#include "../dynamic_programming/PalindromeRemoval.h"
+#include "../dynamic_programming/ProfitableSchemes.h"
+
 void Practice::runPracticeCode() {
-    SentenceScreenFitting::testMe();
+    ProfitableSchemes::testMe();
+    //PalindromeRemoval::testMe();
+    //SentenceScreenFitting::testMe();
     //CountWaysToDistributeCandies::testMe();
     //FourKeysKeyboard::testMe();
     //NumberOfCornerRectangles::testMe();

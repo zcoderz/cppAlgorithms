@@ -6474,6 +6474,14 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/PalindromeRemoval.h
+vector
+-
+iostream
+-
+climits
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h
 string
 -
@@ -6510,6 +6518,12 @@ iostream
 boost/algorithm/string/split.hpp
 -
 boost/algorithm/string/classification.hpp
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/ProfitableSchemes.h
+vector
+-
+iostream
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/RangeSumQuery2D.h
@@ -7015,6 +7029,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/WaysToDistributeCandies.h
 ../dynamic_programming/SentenceScreenFitting.h
 /home/usman/work/cppAlgorithms/dynamic_programming/SentenceScreenFitting.h
+../dynamic_programming/PalindromeRemoval.h
+/home/usman/work/cppAlgorithms/dynamic_programming/PalindromeRemoval.h
+../dynamic_programming/ProfitableSchemes.h
+/home/usman/work/cppAlgorithms/dynamic_programming/ProfitableSchemes.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
