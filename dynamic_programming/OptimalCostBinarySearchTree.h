@@ -20,7 +20,7 @@ public:
         int sz = keys.size();
 
         //dp[i][j] represents the min cost of constructing a tree serving keys from index i to j
-        vector<vector<int>> dp(sz, vector<int> (sz));
+        vector<vector<int>> dp(sz, vector<int> (sz, INT_MAX));
         for (int i =0; i < sz; i++) {
             //diagonal in the matrix represents the cost with index at the root of the tree
             dp[i][i] = freq[i];
@@ -39,6 +39,7 @@ public:
                     int right = k==sz-1? 0: dp[k+1][j];
                     cost = min(cost, sum + left + right);
                 }
+                dp[i][j] = cost;
             }
         }
         return dp[0][sz-1];
