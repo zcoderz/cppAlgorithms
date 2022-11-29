@@ -381,6 +381,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StoneGameThree.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/SuperEggDrop.h">
 			<Option target="kick_start"/>
 		</Unit>

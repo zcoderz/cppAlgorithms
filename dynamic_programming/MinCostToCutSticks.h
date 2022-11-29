@@ -15,6 +15,7 @@ using namespace std;
  */
 class MinCostToCutSticks {
 public:
+
     static int minCost(int n, vector<int>& cuts) {
         //add sentinels
         cuts.push_back(0);

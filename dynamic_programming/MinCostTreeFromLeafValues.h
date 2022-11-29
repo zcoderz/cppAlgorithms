@@ -8,13 +8,14 @@
 #include <vector>
 #include <stack>
 #include <climits>
+#include <iostream>
 using namespace std;
 /**
  *
  */
 class MinCostTreeFromLeaf {
 public:
-    int mctFromLeafValues(vector<int>& arr) {
+    static int mctFromLeafValues(vector<int>& arr) {
         int sum=0;
         vector<int> theStack; theStack.push_back(INT_MAX);
         for (int val : arr) {
@@ -28,6 +29,12 @@ public:
             sum += (theStack[i] * theStack[i-1]);
         }
         return sum;
+    }
+
+    static void testMe() {
+        vector<int> vals = {6,4,2};
+        int res = mctFromLeafValues(vals);
+        cout << res << endl;
     }
 
 };

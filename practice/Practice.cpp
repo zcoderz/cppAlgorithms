@@ -103,9 +103,13 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/SentenceScreenFitting.h"
 #include "../dynamic_programming/PalindromeRemoval.h"
 #include "../dynamic_programming/ProfitableSchemes.h"
+#include "../dynamic_programming/MinCostTreeFromLeafValues.h"
+#include "../dynamic_programming/StoneGameThree.h"
 
 void Practice::runPracticeCode() {
-    ProfitableSchemes::testMe();
+    StoneGameThree::testMe();
+    //MinCostTreeFromLeaf::testMe();
+    //ProfitableSchemes::testMe();
     //PalindromeRemoval::testMe();
     //SentenceScreenFitting::testMe();
     //CountWaysToDistributeCandies::testMe();
