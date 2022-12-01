@@ -1244,6 +1244,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockMultipleTransactions.h
  /home/usman/work/cppAlgorithms/dynamic_programming/BoxStackingLengthWidthReuse.h
  /home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h
+ /home/usman/work/cppAlgorithms/dynamic_programming/CanIWin.h
  /home/usman/work/cppAlgorithms/dynamic_programming/CherryPick.h
  /home/usman/work/cppAlgorithms/dynamic_programming/CherryPickTwo.h
  /home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h
@@ -1275,6 +1276,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h
  /home/usman/work/cppAlgorithms/dynamic_programming/PalindromeRemoval.h
  /home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h
+ /home/usman/work/cppAlgorithms/dynamic_programming/PartitionToKEqualSumSubsets.h
  /home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h
  /home/usman/work/cppAlgorithms/dynamic_programming/PredictWinner.h
  /home/usman/work/cppAlgorithms/dynamic_programming/PrettyTextJustification.h
@@ -1285,6 +1287,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/dynamic_programming/ShortestWayToFormString.h
  /home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h
  /home/usman/work/cppAlgorithms/dynamic_programming/StoneGameThree.h
+ /home/usman/work/cppAlgorithms/dynamic_programming/StoneGamesTwo.h
  /home/usman/work/cppAlgorithms/dynamic_programming/SuperEggDrop.h
  /home/usman/work/cppAlgorithms/dynamic_programming/TargetSum.h
  /home/usman/work/cppAlgorithms/dynamic_programming/TextJustificationWithMaxWidth.h

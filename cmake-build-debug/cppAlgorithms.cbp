@@ -165,6 +165,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CanIWin.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CherryPick.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -345,6 +348,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PartitionEqualSubset.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PartitionToKEqualSumSubsets.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/PascalTriangle.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -381,7 +387,13 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StockBuyAndSellWithCoolDown.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StoneGameFour.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StoneGameThree.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/StoneGamesTwo.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/SuperEggDrop.h">

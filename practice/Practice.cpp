@@ -105,9 +105,14 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/ProfitableSchemes.h"
 #include "../dynamic_programming/MinCostTreeFromLeafValues.h"
 #include "../dynamic_programming/StoneGameThree.h"
-
+#include "../dynamic_programming/CanIWin.h"
+#include "../dynamic_programming/StoneGamesTwo.h"
+#include "../dynamic_programming/PartitionToKEqualSumSubsets.h"
 void Practice::runPracticeCode() {
-    StoneGameThree::testMe();
+    PartitionToKEqualSumSubsets::testMe();
+    //StoneGamnesTwo::testMe();
+    //CanIWin::testMe();
+    //StoneGameThree::testMe();
     //MinCostTreeFromLeaf::testMe();
     //ProfitableSchemes::testMe();
     //PalindromeRemoval::testMe();

@@ -6272,6 +6272,16 @@ vector
 optional
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/CanIWin.h
+bitset
+-
+unordered_map
+-
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/CherryPick.h
 vector
 -
@@ -6500,6 +6510,18 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/PartitionToKEqualSumSubsets.h
+vector
+-
+numeric
+-
+algorithm
+-
+iostream
+-
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/PerfectSquares.h
 math.h
 -
@@ -6584,6 +6606,14 @@ iostream
 string
 -
 vector
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/StoneGamesTwo.h
+vector
+-
+numeric
 -
 iostream
 -
@@ -7055,6 +7085,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MinCostTreeFromLeafValues.h
 ../dynamic_programming/StoneGameThree.h
 /home/usman/work/cppAlgorithms/dynamic_programming/StoneGameThree.h
+../dynamic_programming/CanIWin.h
+/home/usman/work/cppAlgorithms/dynamic_programming/CanIWin.h
+../dynamic_programming/StoneGamesTwo.h
+/home/usman/work/cppAlgorithms/dynamic_programming/StoneGamesTwo.h
+../dynamic_programming/PartitionToKEqualSumSubsets.h
+/home/usman/work/cppAlgorithms/dynamic_programming/PartitionToKEqualSumSubsets.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
