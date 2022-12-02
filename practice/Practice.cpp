@@ -108,8 +108,10 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/CanIWin.h"
 #include "../dynamic_programming/StoneGamesTwo.h"
 #include "../dynamic_programming/PartitionToKEqualSumSubsets.h"
+#include "../dynamic_programming/CampusBikesTwo.h"
 void Practice::runPracticeCode() {
-    PartitionToKEqualSumSubsets::testMe();
+    CampusBikesTwo::testMe();
+    //PartitionToKEqualSumSubsets::testMe();
     //StoneGamnesTwo::testMe();
     //CanIWin::testMe();
     //StoneGameThree::testMe();

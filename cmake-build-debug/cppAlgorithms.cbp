@@ -165,6 +165,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BurstBaloons.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CampusBikesTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CanIWin.h">
 			<Option target="kick_start"/>
 		</Unit>
