@@ -1274,6 +1274,8 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/MountainArray.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/NonoverlappingIntervals.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/NumberOfCornerRectangles.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/NumberOfWaysForHats.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/NumbersAtMostNGivenDigitset.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/PalindromeRemoval.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/PalindromicSubstring.h \

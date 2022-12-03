@@ -6500,6 +6500,34 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfWaysForHats.h
+unordered_map
+-
+vector
+-
+string
+-
+list
+-
+cstring
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/NumbersAtMostNGivenDigitset.h
+stdio.h
+-
+vector
+-
+string
+-
+queue
+-
+cstdlib
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/OutOfBoundPaths.h
 vector
 -
@@ -7105,6 +7133,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/PartitionToKEqualSumSubsets.h
 ../dynamic_programming/CampusBikesTwo.h
 /home/usman/work/cppAlgorithms/dynamic_programming/CampusBikesTwo.h
+../dynamic_programming/NumberOfWaysForHats.h
+/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfWaysForHats.h
+../dynamic_programming/NumbersAtMostNGivenDigitset.h
+/home/usman/work/cppAlgorithms/dynamic_programming/NumbersAtMostNGivenDigitset.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

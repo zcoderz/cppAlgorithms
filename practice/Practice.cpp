@@ -109,8 +109,12 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/StoneGamesTwo.h"
 #include "../dynamic_programming/PartitionToKEqualSumSubsets.h"
 #include "../dynamic_programming/CampusBikesTwo.h"
+#include "../dynamic_programming/NumberOfWaysForHats.h"
+#include "../dynamic_programming/NumbersAtMostNGivenDigitset.h"
 void Practice::runPracticeCode() {
-    CampusBikesTwo::testMe();
+    NumbersAtMostNGivenDigitSet::testMe();
+    //NumberOfWaysForHats::testMe();
+    //CampusBikesTwo::testMe();
     //PartitionToKEqualSumSubsets::testMe();
     //StoneGamnesTwo::testMe();
     //CanIWin::testMe();

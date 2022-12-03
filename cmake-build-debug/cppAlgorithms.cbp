@@ -330,6 +330,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfTheLongestIncreasingSubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumberOfWaysForHats.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/NumbersAtMostNGivenDigitset.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/OptimalCostBinarySearchTree.h">
 			<Option target="kick_start"/>
 		</Unit>
