@@ -111,8 +111,10 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/CampusBikesTwo.h"
 #include "../dynamic_programming/NumberOfWaysForHats.h"
 #include "../dynamic_programming/NumbersAtMostNGivenDigitset.h"
+#include "../dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h"
 void Practice::runPracticeCode() {
-    NumbersAtMostNGivenDigitSet::testMe();
+    NonNegativeIntegers::testMe();
+    //NumbersAtMostNGivenDigitSet::testMe();
     //NumberOfWaysForHats::testMe();
     //CampusBikesTwo::testMe();
     //PartitionToKEqualSumSubsets::testMe();

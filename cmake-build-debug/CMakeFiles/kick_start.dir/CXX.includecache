@@ -6482,6 +6482,10 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/NonoverlappingIntervals.h
 vector
 -
@@ -7137,6 +7141,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/NumberOfWaysForHats.h
 ../dynamic_programming/NumbersAtMostNGivenDigitset.h
 /home/usman/work/cppAlgorithms/dynamic_programming/NumbersAtMostNGivenDigitset.h
+../dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h
+/home/usman/work/cppAlgorithms/dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
