@@ -6322,6 +6322,10 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/DigitCountInRange.h
+iostream
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h
 string
 -
@@ -7143,6 +7147,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/NumbersAtMostNGivenDigitset.h
 ../dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h
 /home/usman/work/cppAlgorithms/dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h
+../dynamic_programming/DigitCountInRange.h
+/home/usman/work/cppAlgorithms/dynamic_programming/DigitCountInRange.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

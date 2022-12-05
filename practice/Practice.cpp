@@ -112,8 +112,11 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/NumberOfWaysForHats.h"
 #include "../dynamic_programming/NumbersAtMostNGivenDigitset.h"
 #include "../dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h"
+#include "../dynamic_programming/DigitCountInRange.h"
+
 void Practice::runPracticeCode() {
-    NonNegativeIntegers::testMe();
+    DigitCountInRange::testMe();
+    //NonNegativeIntegers::testMe();
     //NumbersAtMostNGivenDigitSet::testMe();
     //NumberOfWaysForHats::testMe();
     //CampusBikesTwo::testMe();

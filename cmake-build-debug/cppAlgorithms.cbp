@@ -156,6 +156,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BestTimeToBuyAndSellStockThree.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BinaryTreeLongestConsecutiveSequence.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BinaryTreeLongestConsecutiveSequenceTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/BombEnemy.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -196,6 +202,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/DigitCountInRange.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h">
