@@ -1250,6 +1250,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/CherryPickTwo.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/CountNumberOfOnesInBinaryString.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/CrossingHands.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/DeleteTreeNodes.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/DigitCountInRange.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/DistinctSubsequences.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h \
@@ -1268,6 +1269,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxHeightByStackingCuboids.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxProfitJobScheduling.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h \
+ /home/usman/work/cppAlgorithms/dynamic_programming/MaxVacationDays.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToMergeStones.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/MinCostTreeFromLeafValues.h \

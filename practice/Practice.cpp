@@ -113,9 +113,13 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/NumbersAtMostNGivenDigitset.h"
 #include "../dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h"
 #include "../dynamic_programming/DigitCountInRange.h"
+#include "../dynamic_programming/DeleteTreeNodes.h"
+#include "../dynamic_programming/MaxVacationDays.h"
 
 void Practice::runPracticeCode() {
-    DigitCountInRange::testMe();
+    MaxVacationDays::testMe();
+    //DeleteTreeNodes::testMe();
+    //DigitCountInRange::testMe();
     //NonNegativeIntegers::testMe();
     //NumbersAtMostNGivenDigitSet::testMe();
     //NumberOfWaysForHats::testMe();

@@ -6322,6 +6322,20 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/dynamic_programming/DeleteTreeNodes.h
+vector
+-
+tuple
+-
+climits
+-
+unordered_map
+-
+list
+-
+queue
+-
+
 /home/usman/work/cppAlgorithms/dynamic_programming/DigitCountInRange.h
 iostream
 -
@@ -6448,6 +6462,16 @@ vector
 iostream
 -
 climits
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxVacationDays.h
+vector
+-
+unordered_map
+-
+list
+-
+iostream
 -
 
 /home/usman/work/cppAlgorithms/dynamic_programming/MinCostToCutSticks.h
@@ -7149,6 +7173,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/NonNegativeIntegersWithoutConsecutiveOnes.h
 ../dynamic_programming/DigitCountInRange.h
 /home/usman/work/cppAlgorithms/dynamic_programming/DigitCountInRange.h
+../dynamic_programming/DeleteTreeNodes.h
+/home/usman/work/cppAlgorithms/dynamic_programming/DeleteTreeNodes.h
+../dynamic_programming/MaxVacationDays.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxVacationDays.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
