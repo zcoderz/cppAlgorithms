@@ -36,15 +36,15 @@ public:
 
     bool winnerSquareGameDP(int n) {
         vector<bool> dp(n+1);
-        for (int i=1; i <=n; i++) {
-            for (int k =1; k*k <=i; k++) {
-                if (!dp[i-k*k]) {
+        for (int i=n; i >=0; i--) {
+            for (int k =1; i+(k*k) <=n; k++) {
+                if (!dp[i+k*k]) {
                     dp[i] = true;
                     break;
                 }
             }
         }
-        return dp[n];
+        return dp[0];
     }
 };
 

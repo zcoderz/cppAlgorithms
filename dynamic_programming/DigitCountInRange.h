@@ -30,7 +30,7 @@ public:
             int quotient = value / divisor;
             if( quotient > 0 ) {
                 //for 34 , we have 4,14,24,34 numbers with 4
-                //34/10--> returns 3 which captures 4,14,24, below check corresponds the last 34 via remainder
+                //34/10--> returns 3 which captures 14,24,34 ...the below remainder logic handles the case for "4"
                 count += quotient * pow10;
             }
             if( digit == 0 ) {
@@ -41,7 +41,7 @@ public:
             int remainder = value % divisor;
             if( remainder >= digit * pow10 ) {
                 //for 46 in ones digit you get one 4 (generated via min on min(std::min( ...., pow10 ), pow10 is 1
-                //for 46 in 10s digit you get 7 4s. 40...47 (remainder - digit *pow10 + 1)
+                //for 46 in 10s digit you get 7 4s. 40...46 (remainder - digit *pow10 + 1)
                 //for 460 in 100s digit you get remainder as 460. 460%1000. 460-4*100+1 generates 61.
                 count += std::min( remainder - digit * pow10 + 1, pow10 );
             }
@@ -51,7 +51,7 @@ public:
 
     static void testMe() {
         //1743
-        int res = countDigit(34, 0);
+        int res = countDigit(464, 4);
         cout << res << endl;
     }
 };

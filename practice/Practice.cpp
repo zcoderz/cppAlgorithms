@@ -117,10 +117,10 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/MaxVacationDays.h"
 
 void Practice::runPracticeCode() {
-    DungeonGame::testMe();
+    //DungeonGame::testMe();
     //MaxVacationDays::testMe();
     //DeleteTreeNodes::testMe();
-    //DigitCountInRange::testMe();
+    DigitCountInRange::testMe();
     //NonNegativeIntegers::testMe();
     //NumbersAtMostNGivenDigitSet::testMe();
     //NumberOfWaysForHats::testMe();
