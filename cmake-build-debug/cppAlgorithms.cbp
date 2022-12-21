@@ -552,6 +552,15 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/ReconstructItinerary.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/RedundantConnection.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/RedundantDirectedConnection.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/RemoveMaxNumberOfEdges.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SearchLargestIsland.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -562,6 +571,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/UniquePaths.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/ValidTree.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/WaterAndJugProblem.h">
