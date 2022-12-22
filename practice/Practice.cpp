@@ -115,12 +115,16 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/DigitCountInRange.h"
 #include "../dynamic_programming/DeleteTreeNodes.h"
 #include "../dynamic_programming/MaxVacationDays.h"
+#include "../graph/SynonymousSentences.h"
+#include "../graph/SmallestStringWithSwaps.h"
 
 void Practice::runPracticeCode() {
+    SmallestStringWithSwaps::testMe();
+    //SynonymousSentences::testMe();
     //DungeonGame::testMe();
     //MaxVacationDays::testMe();
     //DeleteTreeNodes::testMe();
-    DigitCountInRange::testMe();
+    //DigitCountInRange::testMe();
     //NonNegativeIntegers::testMe();
     //NumbersAtMostNGivenDigitSet::testMe();
     //NumberOfWaysForHats::testMe();

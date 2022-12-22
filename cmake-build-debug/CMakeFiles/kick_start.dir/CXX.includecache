@@ -6890,6 +6890,36 @@ string
 queue
 -
 
+/home/usman/work/cppAlgorithms/graph/SmallestStringWithSwaps.h
+string
+-
+vector
+-
+unordered_map
+-
+algorithm
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/graph/SynonymousSentences.h
+vector
+-
+string
+-
+unordered_map
+-
+list
+-
+algorithm
+-
+sstream
+-
+iostream
+-
+iterator
+-
+
 /home/usman/work/cppAlgorithms/graph/WaterAndJugProblem.h
 unordered_set
 -
@@ -7179,6 +7209,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/dynamic_programming/DeleteTreeNodes.h
 ../dynamic_programming/MaxVacationDays.h
 /home/usman/work/cppAlgorithms/dynamic_programming/MaxVacationDays.h
+../graph/SynonymousSentences.h
+/home/usman/work/cppAlgorithms/graph/SynonymousSentences.h
+../graph/SmallestStringWithSwaps.h
+/home/usman/work/cppAlgorithms/graph/SmallestStringWithSwaps.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
