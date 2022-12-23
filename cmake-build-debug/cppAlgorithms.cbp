@@ -513,6 +513,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/FriendlyGroups.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/GraphConnectivityWithThreshold.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/GraphCopy.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -538,6 +541,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinPathSum.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinimizeMalwareSpread.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h">
