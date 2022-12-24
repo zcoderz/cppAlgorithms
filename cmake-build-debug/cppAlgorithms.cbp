@@ -495,13 +495,22 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CourseSchedule.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/CourseSchedule2.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CriticalConnections.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/DataStreamAsDisjointIntervals.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/DominoAndTromino.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/EarliestFriends.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/EdgeConnectivityWithDistance.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/EquationEquality.h">

@@ -117,9 +117,11 @@ int TwoKeys::minStepsNo=0;
 #include "../dynamic_programming/MaxVacationDays.h"
 #include "../graph/SynonymousSentences.h"
 #include "../graph/SmallestStringWithSwaps.h"
+#include "../graph/EdgeConnectivityWithDistance.h"
 
 void Practice::runPracticeCode() {
-    SmallestStringWithSwaps::testMe();
+    EdgeConnectivityWithDistance::testMe();
+    //SmallestStringWithSwaps::testMe();
     //SynonymousSentences::testMe();
     //DungeonGame::testMe();
     //MaxVacationDays::testMe();

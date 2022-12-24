@@ -6788,6 +6788,20 @@ list
 iostream
 -
 
+/home/usman/work/cppAlgorithms/graph/EdgeConnectivityWithDistance.h
+vector
+-
+algorithm
+-
+unordered_map
+-
+iostream
+-
+iterator
+-
+sstream
+-
+
 /home/usman/work/cppAlgorithms/graph/KnightMoves.h
 limits
 -
@@ -7213,6 +7227,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/SynonymousSentences.h
 ../graph/SmallestStringWithSwaps.h
 /home/usman/work/cppAlgorithms/graph/SmallestStringWithSwaps.h
+../graph/EdgeConnectivityWithDistance.h
+/home/usman/work/cppAlgorithms/graph/EdgeConnectivityWithDistance.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
