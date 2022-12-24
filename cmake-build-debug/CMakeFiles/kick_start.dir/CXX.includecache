@@ -6812,6 +6812,22 @@ unordered_set
 iostream
 -
 
+/home/usman/work/cppAlgorithms/graph/MinHeightTrees.h
+vector
+-
+climits
+-
+sstream
+-
+iostream
+-
+iterator
+-
+algorithm
+-
+unordered_set
+-
+
 /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h
 iostream
 -
@@ -7229,6 +7245,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/SmallestStringWithSwaps.h
 ../graph/EdgeConnectivityWithDistance.h
 /home/usman/work/cppAlgorithms/graph/EdgeConnectivityWithDistance.h
+../graph/MinHeightTrees.h
+/home/usman/work/cppAlgorithms/graph/MinHeightTrees.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

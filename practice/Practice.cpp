@@ -118,9 +118,11 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/SynonymousSentences.h"
 #include "../graph/SmallestStringWithSwaps.h"
 #include "../graph/EdgeConnectivityWithDistance.h"
+#include "../graph/MinHeightTrees.h"
 
 void Practice::runPracticeCode() {
-    EdgeConnectivityWithDistance::testMe();
+    MinHeightTrees::testMe();
+    //EdgeConnectivityWithDistance::testMe();
     //SmallestStringWithSwaps::testMe();
     //SynonymousSentences::testMe();
     //DungeonGame::testMe();
