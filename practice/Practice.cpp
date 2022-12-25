@@ -120,8 +120,10 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/EdgeConnectivityWithDistance.h"
 #include "../graph/MinHeightTrees.h"
 #include "../graph/AlienDictionaryTakeTwo.h"
+#include "../graph/LargestColorVarianceInDirectedGraph.h"
 void Practice::runPracticeCode() {
-    AlienDictionaryTakeTwo::testMe();
+    LargestColorVarianceInDirectedGraph::testMe();
+    //AlienDictionaryTakeTwo::testMe();
     //MinHeightTrees::testMe();
     //EdgeConnectivityWithDistance::testMe();
     //SmallestStringWithSwaps::testMe();

@@ -6824,6 +6824,16 @@ unordered_set
 iostream
 -
 
+/home/usman/work/cppAlgorithms/graph/LargestColorVarianceInDirectedGraph.h
+vector
+-
+string
+-
+unordered_set
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/graph/MinHeightTrees.h
 vector
 -
@@ -7261,6 +7271,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/MinHeightTrees.h
 ../graph/AlienDictionaryTakeTwo.h
 /home/usman/work/cppAlgorithms/graph/AlienDictionaryTakeTwo.h
+../graph/LargestColorVarianceInDirectedGraph.h
+/home/usman/work/cppAlgorithms/graph/LargestColorVarianceInDirectedGraph.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

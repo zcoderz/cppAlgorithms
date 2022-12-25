@@ -546,6 +546,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/KnightMoves.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/LargestColorVarianceInDirectedGraph.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/LexicographicallySmallestEquivalent.h">
 			<Option target="kick_start"/>
 		</Unit>
