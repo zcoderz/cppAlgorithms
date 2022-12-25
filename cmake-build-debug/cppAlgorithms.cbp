@@ -477,6 +477,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/AlienDictionary.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/AlienDictionaryTakeTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/AllPathsFromSourceToTarget.h">
 			<Option target="kick_start"/>
 		</Unit>

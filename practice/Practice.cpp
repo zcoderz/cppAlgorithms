@@ -119,9 +119,10 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/SmallestStringWithSwaps.h"
 #include "../graph/EdgeConnectivityWithDistance.h"
 #include "../graph/MinHeightTrees.h"
-
+#include "../graph/AlienDictionaryTakeTwo.h"
 void Practice::runPracticeCode() {
-    MinHeightTrees::testMe();
+    AlienDictionaryTakeTwo::testMe();
+    //MinHeightTrees::testMe();
     //EdgeConnectivityWithDistance::testMe();
     //SmallestStringWithSwaps::testMe();
     //SynonymousSentences::testMe();

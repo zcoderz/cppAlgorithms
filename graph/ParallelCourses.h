@@ -68,6 +68,7 @@ public:
                         newLeaves.push_back(parent);
                 }
                 coursesTaken++;
+
             }
             minTime++;
             swap(leaves, newLeaves);
