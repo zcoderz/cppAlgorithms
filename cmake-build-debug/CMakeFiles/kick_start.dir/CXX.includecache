@@ -6814,6 +6814,14 @@ iterator
 sstream
 -
 
+/home/usman/work/cppAlgorithms/graph/GroupDependencies.h
+vector
+-
+iostream
+-
+iterator
+-
+
 /home/usman/work/cppAlgorithms/graph/KnightMoves.h
 limits
 -
@@ -6860,6 +6868,18 @@ queue
 set
 -
 
+/home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h
+vector
+-
+algorithm
+-
+climits
+-
+iterator
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h
 iostream
 -
@@ -6882,6 +6902,14 @@ queue
 string
 -
 unordered_set
+-
+
+/home/usman/work/cppAlgorithms/graph/OptimizeWaterDistribution.h
+vector
+-
+algorithm
+-
+iostream
 -
 
 /home/usman/work/cppAlgorithms/graph/ParallelCourses.h
@@ -7273,6 +7301,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/AlienDictionaryTakeTwo.h
 ../graph/LargestColorVarianceInDirectedGraph.h
 /home/usman/work/cppAlgorithms/graph/LargestColorVarianceInDirectedGraph.h
+../graph/GroupDependencies.h
+/home/usman/work/cppAlgorithms/graph/GroupDependencies.h
+../graph/OptimizeWaterDistribution.h
+/home/usman/work/cppAlgorithms/graph/OptimizeWaterDistribution.h
+../graph/MinSpanningCriticalConnections.h
+/home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

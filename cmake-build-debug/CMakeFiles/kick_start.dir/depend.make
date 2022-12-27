@@ -1308,12 +1308,15 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/graph/AlienDictionaryTakeTwo.h \
  /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h \
  /home/usman/work/cppAlgorithms/graph/EdgeConnectivityWithDistance.h \
+ /home/usman/work/cppAlgorithms/graph/GroupDependencies.h \
  /home/usman/work/cppAlgorithms/graph/KnightMoves.h \
  /home/usman/work/cppAlgorithms/graph/LargestColorVarianceInDirectedGraph.h \
  /home/usman/work/cppAlgorithms/graph/MinHeightTrees.h \
  /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h \
+ /home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h \
  /home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h \
  /home/usman/work/cppAlgorithms/graph/OpenLocks.h \
+ /home/usman/work/cppAlgorithms/graph/OptimizeWaterDistribution.h \
  /home/usman/work/cppAlgorithms/graph/ParallelCourses.h \
  /home/usman/work/cppAlgorithms/graph/PathWithMaxProbability.h \
  /home/usman/work/cppAlgorithms/graph/PathWithMinEffort.h \

@@ -486,6 +486,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/ConnectingCitiesWithMinCost.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CountConnectedComponents.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -537,6 +540,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/GraphProblems.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/GroupDependencies.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/IsATree.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -552,6 +558,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/LexicographicallySmallestEquivalent.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinCostToConnectAllPoints.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinHeightTrees.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -559,6 +568,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinPathSum.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinimizeMalwareSpread.h">
@@ -574,6 +586,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/OpenLocks.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/OptimizeWaterDistribution.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/ParallelCourses.h">
@@ -616,6 +631,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/StringTransformation.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/SwimInRisingWater.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SynonymousSentences.h">

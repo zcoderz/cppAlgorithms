@@ -121,8 +121,15 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/MinHeightTrees.h"
 #include "../graph/AlienDictionaryTakeTwo.h"
 #include "../graph/LargestColorVarianceInDirectedGraph.h"
+#include "../graph/GroupDependencies.h"
+#include "../graph/OptimizeWaterDistribution.h"
+#include "../graph/MinSpanningCriticalConnections.h"
+
 void Practice::runPracticeCode() {
-    LargestColorVarianceInDirectedGraph::testMe();
+    MinSpanningCriticalConnections::testMe();
+    //OptimizeWaterDistribution::testMe();
+    //GroupDependencies::testMe();
+    //LargestColorVarianceInDirectedGraph::testMe();
     //AlienDictionaryTakeTwo::testMe();
     //MinHeightTrees::testMe();
     //EdgeConnectivityWithDistance::testMe();
