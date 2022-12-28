@@ -1,58 +1,39 @@
 //
-// Created by usman on 10/7/22.
+// Created by usman on 12/28/22.
 //
 
 #ifndef CPPALGORITHMS_NETWORKDELAYTIME_H
 #define CPPALGORITHMS_NETWORKDELAYTIME_H
-#include <iostream>
+
 #include <vector>
 #include <queue>
-#include <limits>
-#include <unordered_map>
+#include <iostream>
+
 using namespace std;
 
-class NetworkDelayTime {
+class NetworkDelayTwo{
 public:
-    typedef pair<int,int> IPair;
-    struct pairgreater  {
-        bool
-        operator()(const IPair & x, const IPair &y) const { return x.second > y.second ;}
-    };
-
-    static int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-
-        int MAX = numeric_limits<int>::max();
-        unordered_map<int, vector<IPair>> adjacencyList;
-        for (vector<int> & time: times) {
-            adjacencyList[time[0]].emplace_back(time[1], time[2]);
+    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        vector<vector<pair<int, int>>> graphEdges(n+1);
+        for (auto & vec: times) {
+            graphEdges[vec[0]].emplace_back(vec[1], vec[2]);
         }
-        //auto comp = [] (pair<int, int> &a, pair<int, int> &b) -> bool { return a.second > b.second; };
-        priority_queue<IPair, vector<IPair>, pairgreater> pq;
-        pq.emplace(k, 0);
-        vector<bool> seen(n, false);
-        vector<int> weights(n, MAX);
-        int cntSeen = 0;
-        int maxWt = 0;
-        while (!pq.empty()) {
-            auto [vertex, wt] = pq.top(); pq.pop();
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>> pQ;
+        pQ.emplace(0, k);
+        vector<bool> seen(n+1);
+        int countSeen = 0;
+        while (!pQ.empty()) {
+            auto [cost, vertex] = pQ.top(); pQ.pop();
             if (seen[vertex]) continue;
-            cntSeen++;
-            seen[vertex] = true;
-            maxWt = max (maxWt, wt);
-            if (cntSeen == n) return maxWt;
-            for (IPair & edge: adjacencyList[vertex]) {
-                if (wt + edge.second > weights[edge.first-1]) continue; //don't add to PQ if new edge is larger than prior edge that's already on queue
-                weights[edge.first-1] = wt + edge.second;
-                pq.emplace(edge.first,  wt + edge.second);
+            seen[vertex]=true;
+            countSeen++;
+            if (countSeen==n) return cost;
+            for (auto & p: graphEdges[vertex]) {
+                if (seen[p.first]) continue;
+                pQ.emplace(p.second+cost, p.first);
             }
         }
         return -1;
-    }
-
-    static void testMe() {
-        vector<vector<int>> paths = {{2,1,1},{2,3,1},{3,4,1}};
-        int val = networkDelayTime(paths, 4, 2);
-        cout << val << endl;
     }
 };
 

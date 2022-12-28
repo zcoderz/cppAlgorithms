@@ -645,6 +645,12 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SynonymousSentences.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/TheMazeThree.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/TheMazeTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/UniquePaths.h">
 			<Option target="kick_start"/>
 		</Unit>

@@ -125,9 +125,13 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/OptimizeWaterDistribution.h"
 #include "../graph/MinSpanningCriticalConnections.h"
 #include "../graph/MinCostGridDirectionalPath.h"
+#include "../graph/TheMazeTwo.h"
+#include "../graph/TheMazeThree.h"
 
 void Practice::runPracticeCode() {
-    MinCostGridDirectionalPath::testMe();
+    TheMazeThree::testMe();
+    //TheMazeTwo::testMe();
+    //MinCostGridDirectionalPath::testMe();
     //MinSpanningCriticalConnections::testMe();
     //OptimizeWaterDistribution::testMe();
     //GroupDependencies::testMe();
