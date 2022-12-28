@@ -124,9 +124,11 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/GroupDependencies.h"
 #include "../graph/OptimizeWaterDistribution.h"
 #include "../graph/MinSpanningCriticalConnections.h"
+#include "../graph/MinCostGridDirectionalPath.h"
 
 void Practice::runPracticeCode() {
-    MinSpanningCriticalConnections::testMe();
+    MinCostGridDirectionalPath::testMe();
+    //MinSpanningCriticalConnections::testMe();
     //OptimizeWaterDistribution::testMe();
     //GroupDependencies::testMe();
     //LargestColorVarianceInDirectedGraph::testMe();

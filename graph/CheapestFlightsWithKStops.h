@@ -58,51 +58,19 @@ public:
         return vertexCurrentWeights[dst] == numeric_limits<int>::max() ? -1 : vertexCurrentWeights[dst];
     }
 
-    static int findCheapestPriceBellmanFordReducedMemory(int noOfVertices, vector<vector<int>>& flights, int src, int dst, int k) {
-        list<pair<int, int>> adj[noOfVertices];
-        int max = numeric_limits<int>::max();
-        for (auto & flight: flights) {
-            adj[flight[1]].emplace_back(flight[0], flight[2]);
-        }
-        vector<pair<int, int>> costVector (noOfVertices, make_pair(0, max));
-        costVector[src] = make_pair(0, 0);
+    static int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
+        vector<vector<int>> records (2, vector<int> (n, INT_MAX));
+        records[0][src]=0;
         for (int i =0; i <= k; i++) {
-            for (int j =0; j < noOfVertices; j++) {
-                for (auto &flightCost: adj[j]) {
-                    //each of K is a flight. so K stops means that there can be K+1 flights
-                    int currStops = costVector[flightCost.first].first;
-                    if (currStops== k+1 || currStops ==i+1) continue;
-                    int newCost = costVector[flightCost.first].second == max ? max : costVector[flightCost.first].second + flightCost.second;
-                    int stops = costVector[flightCost.first].first + 1;
-                    costVector[j] = make_pair(stops, newCost);
-                }
+            int srcIndex = i%2;
+            int destIndex = (i+1) % 2;
+            for (auto & flight : flights) {
+                records[destIndex][flight[1]] = min (records[destIndex][flight[1]], records[srcIndex][flight[1]]);
+                if (records[srcIndex][flight[0]] == INT_MAX) continue;
+                records[destIndex][flight[1]] = min (records[destIndex][flight[1]], records[srcIndex][flight[0]] + flight[2]);
             }
         }
-
-        return costVector[dst].second == max ? -1 : costVector[dst].second;
-    }
-
-    static int findCheapestPriceBellmanFord(int noOfVertices, vector<vector<int>>& flights, int src, int dst, int k) {
-        list<pair<int, int>> adj[noOfVertices];
-        int max = numeric_limits<int>::max();
-        for (auto & flight: flights) {
-            adj[flight[1]].emplace_back(flight[0], flight[2]);
-        }
-        vector<vector<int>> costVector  (2, vector<int>(noOfVertices, max));
-        costVector[0][src] = costVector[1][src] = 0;
-        for (int i =0; i <= k; i++) {
-            int currIndex = i%2;
-            int otherIndex = (i+1)%2;
-            costVector[currIndex] = costVector[otherIndex]; //copy previous to current
-            for (int j =0; j < noOfVertices; j++) {
-                for (auto &flightCost: adj[j]) {
-                    int possibleCost = costVector[otherIndex][flightCost.first] == max ? max : costVector[otherIndex][flightCost.first] + flightCost.second;
-                    costVector[currIndex][j] = min(costVector[currIndex][j], possibleCost);
-                }
-            }
-        }
-        int currIndex = k % 2;
-        return costVector[currIndex][dst] == max ? -1 : costVector[currIndex][dst];
+        return records[(k+1)%2][dst] == INT_MAX ? -1 : records[(k+1)%2][dst];
     }
 
     static void testFlights() {
@@ -110,17 +78,17 @@ public:
         int cost = findCheapestPriceDijkstra(4, flights, 0, 3, 1);
         cout << "DK" << cost << endl;
 
-        cost = findCheapestPriceBellmanFord(4, flights, 0, 3, 1);
+        cost = findCheapestPrice(4, flights, 0, 3, 1);
         cout << "BF" << cost << endl;
 
         flights = {{0,1,100},{1,2,100},{0,2,500}};
         cost = findCheapestPriceDijkstra(3, flights, 0, 2, 1);
         cout << "DK" << cost << endl;
-        cost = findCheapestPriceBellmanFord(3, flights, 0, 2, 1);
+        cost = findCheapestPrice(3, flights, 0, 2, 1);
         cout << "BF" << cost << endl;
 
         flights = {{0,1,1},{0,2,5},{1,2,1},{2,3,1}};
-        cost = findCheapestPriceBellmanFordReducedMemory(4, flights, 0, 3, 1);
+        cost = findCheapestPrice(4, flights, 0, 3, 1);
         cout << "BF" << cost << endl;
     }
 };

@@ -6842,6 +6842,14 @@ unordered_set
 iostream
 -
 
+/home/usman/work/cppAlgorithms/graph/MinCostGridDirectionalPath.h
+vector
+-
+queue
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/graph/MinHeightTrees.h
 vector
 -
@@ -7307,6 +7315,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/OptimizeWaterDistribution.h
 ../graph/MinSpanningCriticalConnections.h
 /home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h
+../graph/MinCostGridDirectionalPath.h
+/home/usman/work/cppAlgorithms/graph/MinCostGridDirectionalPath.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

@@ -1311,6 +1311,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/graph/GroupDependencies.h \
  /home/usman/work/cppAlgorithms/graph/KnightMoves.h \
  /home/usman/work/cppAlgorithms/graph/LargestColorVarianceInDirectedGraph.h \
+ /home/usman/work/cppAlgorithms/graph/MinCostGridDirectionalPath.h \
  /home/usman/work/cppAlgorithms/graph/MinHeightTrees.h \
  /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h \
  /home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h \
