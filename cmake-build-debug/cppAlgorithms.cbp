@@ -117,6 +117,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/EdgeWeightedDirectedCycle.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/FloydWarshall.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/JohnsonsAlgorithm.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -486,6 +489,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/CityWithSmallestNumberOfNeighbors.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/ConnectingCitiesWithMinCost.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -502,6 +508,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CourseSchedule2.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/CourseScheduleFour.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CriticalConnections.h">
@@ -589,6 +598,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/NumberOfConnectedComponents.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/NumberOfRestrictedPaths.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/OpenLocks.h">
