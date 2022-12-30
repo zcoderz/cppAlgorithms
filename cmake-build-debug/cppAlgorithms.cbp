@@ -639,6 +639,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SentenceSimilarity.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/ShortestDistanceFromAllBuildings.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SimiliarStringGroups.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -655,6 +658,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SynonymousSentences.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/TheMaze.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/TheMazeThree.h">
