@@ -486,6 +486,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/AllPathsFromSourceToTarget.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/BoxToTargetMove.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -577,6 +580,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinHeightTrees.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinJumps.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h">

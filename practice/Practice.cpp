@@ -127,9 +127,13 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/MinCostGridDirectionalPath.h"
 #include "../graph/TheMazeTwo.h"
 #include "../graph/TheMazeThree.h"
+#include "../graph/BoxToTargetMove.h"
+#include "../graph/MinJumps.h"
 
 void Practice::runPracticeCode() {
-    TheMazeThree::testMe();
+    MinJumps::testMe();
+    //BoxToTargetMove::testMe();
+    //TheMazeThree::testMe();
     //TheMazeTwo::testMe();
     //MinCostGridDirectionalPath::testMe();
     //MinSpanningCriticalConnections::testMe();

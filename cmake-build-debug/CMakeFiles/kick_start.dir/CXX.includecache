@@ -6786,6 +6786,24 @@ bits/stdc++.h
 algorithm
 -
 
+/home/usman/work/cppAlgorithms/graph/BoxToTargetMove.h
+vector
+-
+queue
+-
+unordered_set
+-
+tuple
+-
+iostream
+-
+cstdlib
+-
+string
+-
+cstdio
+-
+
 /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h
 vector
 -
@@ -6864,6 +6882,16 @@ iterator
 algorithm
 -
 unordered_set
+-
+
+/home/usman/work/cppAlgorithms/graph/MinJumps.h
+vector
+-
+unordered_map
+-
+queue
+-
+iostream
 -
 
 /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h
@@ -7339,6 +7367,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/TheMazeTwo.h
 ../graph/TheMazeThree.h
 /home/usman/work/cppAlgorithms/graph/TheMazeThree.h
+../graph/BoxToTargetMove.h
+/home/usman/work/cppAlgorithms/graph/BoxToTargetMove.h
+../graph/MinJumps.h
+/home/usman/work/cppAlgorithms/graph/MinJumps.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

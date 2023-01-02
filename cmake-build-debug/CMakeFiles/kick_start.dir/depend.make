@@ -1306,6 +1306,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/dynamic_programming/WordBreak.h \
  /home/usman/work/cppAlgorithms/dynamic_programming/WordBreakTwo.h \
  /home/usman/work/cppAlgorithms/graph/AlienDictionaryTakeTwo.h \
+ /home/usman/work/cppAlgorithms/graph/BoxToTargetMove.h \
  /home/usman/work/cppAlgorithms/graph/CheapestFlightsWithKStops.h \
  /home/usman/work/cppAlgorithms/graph/EdgeConnectivityWithDistance.h \
  /home/usman/work/cppAlgorithms/graph/GroupDependencies.h \
@@ -1313,6 +1314,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/graph/LargestColorVarianceInDirectedGraph.h \
  /home/usman/work/cppAlgorithms/graph/MinCostGridDirectionalPath.h \
  /home/usman/work/cppAlgorithms/graph/MinHeightTrees.h \
+ /home/usman/work/cppAlgorithms/graph/MinJumps.h \
  /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h \
  /home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h \
  /home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h \
