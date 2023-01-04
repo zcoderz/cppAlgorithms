@@ -1315,15 +1315,17 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/graph/MinCostGridDirectionalPath.h \
  /home/usman/work/cppAlgorithms/graph/MinHeightTrees.h \
  /home/usman/work/cppAlgorithms/graph/MinJumps.h \
- /home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h \
  /home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h \
  /home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h \
+ /home/usman/work/cppAlgorithms/graph/NumberOfDistinctIslands.h \
  /home/usman/work/cppAlgorithms/graph/OpenLocks.h \
  /home/usman/work/cppAlgorithms/graph/OptimizeWaterDistribution.h \
  /home/usman/work/cppAlgorithms/graph/ParallelCourses.h \
+ /home/usman/work/cppAlgorithms/graph/ParallelCousesTwo.h \
  /home/usman/work/cppAlgorithms/graph/PathWithMaxProbability.h \
  /home/usman/work/cppAlgorithms/graph/PathWithMinEffort.h \
  /home/usman/work/cppAlgorithms/graph/ReconstructItinerary.h \
+ /home/usman/work/cppAlgorithms/graph/ShortestPathToGetAllKeys.h \
  /home/usman/work/cppAlgorithms/graph/SlidingPuzzle.h \
  /home/usman/work/cppAlgorithms/graph/SmallestStringWithSwaps.h \
  /home/usman/work/cppAlgorithms/graph/SynonymousSentences.h \

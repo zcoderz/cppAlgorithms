@@ -47,7 +47,6 @@
 #include "../graph/SlidingPuzzle.h"
 #include "../graph/WaterAndJugProblem.h"
 #include "../graph/ParallelCourses.h"
-#include "../graph/MinNumberOfSemesters.h"
 #include "../dynamic_programming/DungeonGame.h"
 #include "../dynamic_programming/UniquePathsTwo.h"
 #include "../dynamic_programming/HouseRobber.h"
@@ -129,9 +128,15 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/TheMazeThree.h"
 #include "../graph/BoxToTargetMove.h"
 #include "../graph/MinJumps.h"
+#include "../graph/ShortestPathToGetAllKeys.h"
+#include "../graph/NumberOfDistinctIslands.h"
+#include "../graph/ParallelCousesTwo.h"
 
 void Practice::runPracticeCode() {
-    MinJumps::testMe();
+    ParallelCoursesTwo::testMe();
+    //NumberOfDistinctIslands::testMe();
+    //ShortestPathToGetAllKeys::testMe();
+    //MinJumps::testMe();
     //BoxToTargetMove::testMe();
     //TheMazeThree::testMe();
     //TheMazeTwo::testMe();

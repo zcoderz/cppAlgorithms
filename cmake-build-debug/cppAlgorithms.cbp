@@ -585,9 +585,6 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinJumps.h">
 			<Option target="kick_start"/>
 		</Unit>
-		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h">
-			<Option target="kick_start"/>
-		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinPathSum.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -606,6 +603,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/NumberOfConnectedComponents.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/NumberOfDistinctIslands.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/NumberOfRestrictedPaths.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -619,6 +619,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/ParallelCoursesThree.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/ParallelCousesTwo.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/PathWithMaxProbability.h">
@@ -646,6 +649,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/ShortestDistanceFromAllBuildings.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/ShortestPathToGetAllKeys.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SimiliarStringGroups.h">

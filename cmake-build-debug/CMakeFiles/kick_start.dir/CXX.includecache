@@ -6894,16 +6894,6 @@ queue
 iostream
 -
 
-/home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h
-iostream
--
-vector
--
-queue
--
-set
--
-
 /home/usman/work/cppAlgorithms/graph/MinSpanningCriticalConnections.h
 vector
 -
@@ -6922,6 +6912,12 @@ vector
 queue
 -
 iostream
+-
+
+/home/usman/work/cppAlgorithms/graph/NumberOfDistinctIslands.h
+set
+-
+vector
 -
 
 /home/usman/work/cppAlgorithms/graph/OpenLocks.h
@@ -6948,6 +6944,12 @@ iostream
 vector
 -
 unordered_set
+-
+
+/home/usman/work/cppAlgorithms/graph/ParallelCousesTwo.h
+vector
+-
+iostream
 -
 
 /home/usman/work/cppAlgorithms/graph/PathWithMaxProbability.h
@@ -6988,6 +6990,22 @@ functional
 iterator
 -
 iostream
+-
+
+/home/usman/work/cppAlgorithms/graph/ShortestPathToGetAllKeys.h
+vector
+-
+bitset
+-
+string
+-
+queue
+-
+tuple
+-
+iostream
+-
+unordered_set
 -
 
 /home/usman/work/cppAlgorithms/graph/SlidingPuzzle.h
@@ -7209,8 +7227,6 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/WaterAndJugProblem.h
 ../graph/ParallelCourses.h
 /home/usman/work/cppAlgorithms/graph/ParallelCourses.h
-../graph/MinNumberOfSemesters.h
-/home/usman/work/cppAlgorithms/graph/MinNumberOfSemesters.h
 ../dynamic_programming/DungeonGame.h
 /home/usman/work/cppAlgorithms/dynamic_programming/DungeonGame.h
 ../dynamic_programming/UniquePathsTwo.h
@@ -7371,6 +7387,12 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/BoxToTargetMove.h
 ../graph/MinJumps.h
 /home/usman/work/cppAlgorithms/graph/MinJumps.h
+../graph/ShortestPathToGetAllKeys.h
+/home/usman/work/cppAlgorithms/graph/ShortestPathToGetAllKeys.h
+../graph/NumberOfDistinctIslands.h
+/home/usman/work/cppAlgorithms/graph/NumberOfDistinctIslands.h
+../graph/ParallelCousesTwo.h
+/home/usman/work/cppAlgorithms/graph/ParallelCousesTwo.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
