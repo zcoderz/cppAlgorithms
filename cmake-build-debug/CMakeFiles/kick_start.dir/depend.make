@@ -1328,6 +1328,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/graph/ShortestPathToGetAllKeys.h \
  /home/usman/work/cppAlgorithms/graph/SlidingPuzzle.h \
  /home/usman/work/cppAlgorithms/graph/SmallestStringWithSwaps.h \
+ /home/usman/work/cppAlgorithms/graph/SumofDistancesInTree.h \
  /home/usman/work/cppAlgorithms/graph/SynonymousSentences.h \
  /home/usman/work/cppAlgorithms/graph/TheMazeThree.h \
  /home/usman/work/cppAlgorithms/graph/TheMazeTwo.h \

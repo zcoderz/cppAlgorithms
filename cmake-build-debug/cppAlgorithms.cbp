@@ -666,6 +666,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/StringTransformation.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/SumofDistancesInTree.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SwimInRisingWater.h">
 			<Option target="kick_start"/>
 		</Unit>

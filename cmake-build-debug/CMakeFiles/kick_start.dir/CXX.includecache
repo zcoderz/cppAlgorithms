@@ -7032,6 +7032,16 @@ algorithm
 iostream
 -
 
+/home/usman/work/cppAlgorithms/graph/SumofDistancesInTree.h
+vector
+-
+iostream
+-
+algorithm
+-
+iterator
+-
+
 /home/usman/work/cppAlgorithms/graph/SynonymousSentences.h
 vector
 -
@@ -7393,6 +7403,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/NumberOfDistinctIslands.h
 ../graph/ParallelCousesTwo.h
 /home/usman/work/cppAlgorithms/graph/ParallelCousesTwo.h
+../graph/SumofDistancesInTree.h
+/home/usman/work/cppAlgorithms/graph/SumofDistancesInTree.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

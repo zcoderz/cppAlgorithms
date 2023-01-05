@@ -14,33 +14,29 @@ public:
     vector<int> arrivalTimes;
     vector<int> departureTimes;
     vector<int> lowestTimes;
-    vector<int> visited;
+    vector<bool> visited;
     vector<vector<int>> criticalEdges;
     int time=0;
 
-    int criticalDfs(int nodeId, vector<vector<int>> & adjacencyList) {
-        lowestTimes[nodeId] = arrivalTimes[nodeId]= ++time;
-        visited[nodeId]=1;
-        for (int child: adjacencyList[nodeId]) {
-            if (visited[child] == -1) {
-                nodeParents[child] = nodeId;
-                //update the lowest time based on the lowest time from the child
-                lowestTimes[nodeId] = min(lowestTimes[nodeId], criticalDfs(child, adjacencyList));
-            } else if (child != nodeParents[nodeId]) {
-                //for each child that's not _parent and had already been visited,
-                //use its lowest time to set the current node's lowest time
-                lowestTimes[nodeId] = min(lowestTimes[nodeId], lowestTimes[child]);
+    void criticalDfs(int node, int parent, vector<vector<int>> & edges ) {
+        arrivalTimes[node]= lowestTimes[node]=time++;
+        visited[node] = true;
+        for (int child : edges[node]) {
+            if (child != parent) {
+                if (!visited[child]) {
+                    criticalDfs(child, node, edges);
+                }
+                //for each child that's not _parent
+                //use its lowest time to update the current node's lowest time
+                lowestTimes[node] = min(lowestTimes[node], lowestTimes[child]);
             }
         }
-        //root node can't be a critical connection since it doesn't have any _parent and hence excluding the _parent
-        //"0" node.
-        if (lowestTimes[nodeId] == arrivalTimes[nodeId] && nodeId !=0) {
+
+        if (parent != -1 && arrivalTimes[node]==lowestTimes[node]) {
             //this is a critical edge since the child nodes dont have a back pointer to _parent nodes
-            criticalEdges.push_back({nodeParents[nodeId], nodeId});
+            criticalEdges.push_back({parent, node});
         }
-        departureTimes[nodeId]= ++time;
-        //the function needs to send the lowest time for it and its children back to _parent (caller)
-        return lowestTimes[nodeId];
+        departureTimes[node]= time++;
     }
 
     vector<vector<int>> find_critical_connections(int num, vector<vector<int>> connections) {
@@ -49,7 +45,7 @@ public:
         arrivalTimes.resize(num, 0);
         departureTimes.resize(num, 0);
         lowestTimes.resize(num, 0);
-        visited.resize(num, -1);
+        visited.resize(num, false);
         vector<vector<int>> adjacencyList(num);
         for (vector<int> & vec: connections) {
             adjacencyList[vec[0]].push_back(vec[1]);
