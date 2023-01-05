@@ -51,10 +51,10 @@ public:
         int processCost(int n, vector<vector<int>>& edges, int edgeToExclude, int edgeToInclude) {
              initialize(n);
             int cost=0;
-            int numConnections=0;
+            int numConnections=n;
             if (edgeToInclude != -1) {
                 runUnion(edges[edgeToInclude][0], edges[edgeToInclude][1]);
-                numConnections++;
+                numConnections--;
                 cost += edges[edgeToInclude][2];
             }
 
@@ -62,10 +62,10 @@ public:
                 if (i==edgeToExclude) continue;
                 if (runUnion(edges[i][0], edges[i][1])) {
                     cost += edges[i][2];
-                    numConnections++;
+                    numConnections--;
                 }
             }
-            if (numConnections == n-1) return cost;
+            if (numConnections == 1) return cost;
             return INT_MAX;
         }
     };

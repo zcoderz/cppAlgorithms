@@ -654,7 +654,7 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/ShortestPathToGetAllKeys.h">
 			<Option target="kick_start"/>
 		</Unit>
-		<Unit filename="/home/usman/work/cppAlgorithms/graph/SimiliarStringGroups.h">
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/SimilarStringGroups.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/SlidingPuzzle.h">

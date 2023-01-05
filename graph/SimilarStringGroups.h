@@ -2,15 +2,15 @@
 // Created by usman on 12/22/22.
 //
 
-#ifndef CPPALGORITHMS_SIMILIARSTRINGGROUPS_H
-#define CPPALGORITHMS_SIMILIARSTRINGGROUPS_H
+#ifndef CPPALGORITHMS_SIMILARSTRINGGROUPS_H
+#define CPPALGORITHMS_SIMILARSTRINGGROUPS_H
 
 #include <vector>
 #include <string>
 #include <unordered_set>
 using namespace std;
 
-class SimiliarStringGroups {
+class SimilarStringGroups {
 public:
     vector<pair<int, int>> vertices;
 
@@ -70,4 +70,4 @@ public:
     }
 };
 
-#endif //CPPALGORITHMS_SIMILIARSTRINGGROUPS_H
+#endif //CPPALGORITHMS_SIMILARSTRINGGROUPS_H
