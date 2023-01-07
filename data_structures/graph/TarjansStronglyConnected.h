@@ -52,8 +52,6 @@ class StronglyConnected {
             vertexComponentIds[vertexId] = numberOfStronglyConnectedComponents;
             numberOfStronglyConnectedComponents++;
         }
-        vertexStack.pop();
-        vertexOnStack[vertexId] = false;
     }
 
     void process(vector<pair<int, int>> & edges, int noVertices) {

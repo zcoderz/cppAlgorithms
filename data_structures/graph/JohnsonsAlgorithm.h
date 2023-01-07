@@ -31,7 +31,6 @@ class JohnsonsAlgorithm {
         for (int i =0; i <= noOfVertices; i++) {
             for (int j =0; j < noOfVertices; j++) {
                 for (auto &flightCost: adj[j]) {
-                    //each of K is a flight. so K stops means that there can be K+1 edges
                     costVector[j] = costVector[flightCost.first] == max ? max : costVector[flightCost.first] + flightCost.second;
                 }
             }
