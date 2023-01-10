@@ -132,9 +132,11 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/NumberOfDistinctIslands.h"
 #include "../graph/ParallelCousesTwo.h"
 #include "../graph/SumofDistancesInTree.h"
+#include "../graph/MinimizeMalwareSpreadTwo.h"
 
 void Practice::runPracticeCode() {
-    SumOfDistancesInTree::testMe();
+    MinimizeMalwareSpreadTwo::testMe();
+    //SumOfDistancesInTree::testMe();
     //ParallelCoursesTwo::testMe();
     //NumberOfDistinctIslands::testMe();
     //ShortestPathToGetAllKeys::testMe();

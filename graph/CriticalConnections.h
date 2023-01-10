@@ -51,7 +51,7 @@ public:
             adjacencyList[vec[0]].push_back(vec[1]);
             adjacencyList[vec[1]].push_back(vec[0]);
         }
-        criticalDfs(0, adjacencyList);
+        criticalDfs(0, -1, adjacencyList);
         return criticalEdges;
     }
 };

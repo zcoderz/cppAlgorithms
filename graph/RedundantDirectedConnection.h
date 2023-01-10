@@ -47,6 +47,7 @@ class RedundantDirectedConnection {
      * Therefore, the answer must be cand1 if cand1 exists, or the edge incuring the cycle if cand1 does not exist.
      * If no cycle is detected, then either cand1 or cand2 is the bad edge.
      * But since cand2 appears later than cand1 in the list, we should return cand2.
+     *
      * @param edges
      * @return
      */

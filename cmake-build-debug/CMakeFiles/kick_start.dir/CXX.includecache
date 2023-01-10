@@ -6906,6 +6906,12 @@ iterator
 iostream
 -
 
+/home/usman/work/cppAlgorithms/graph/MinimizeMalwareSpreadTwo.h
+vector
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h
 vector
 -
@@ -7130,8 +7136,6 @@ stack
 vector
 -
 unordered_map
--
-ranges
 -
 string_view
 -
@@ -7405,6 +7409,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/ParallelCousesTwo.h
 ../graph/SumofDistancesInTree.h
 /home/usman/work/cppAlgorithms/graph/SumofDistancesInTree.h
+../graph/MinimizeMalwareSpreadTwo.h
+/home/usman/work/cppAlgorithms/graph/MinimizeMalwareSpreadTwo.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

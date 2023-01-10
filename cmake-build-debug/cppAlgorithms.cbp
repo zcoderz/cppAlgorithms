@@ -594,6 +594,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinimizeMalwareSpread.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/graph/MinimizeMalwareSpreadTwo.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/NetworkDelayTime.h">
 			<Option target="kick_start"/>
 		</Unit>
