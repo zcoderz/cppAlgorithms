@@ -144,6 +144,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/data_structures/graph/UnionFindNode.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/AllPathsFromSourceToTarget.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/dynamic_programming/AllocateMailBoxes.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -481,9 +484,6 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/AlienDictionaryTakeTwo.h">
-			<Option target="kick_start"/>
-		</Unit>
-		<Unit filename="/home/usman/work/cppAlgorithms/graph/AllPathsFromSourceToTarget.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/graph/BoxToTargetMove.h">

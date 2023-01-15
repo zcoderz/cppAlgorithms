@@ -48,7 +48,7 @@ add_executable(kick_start main.cpp sort/SelectionSort.h sort/SortChecks.cpp sort
         data_structures/graph/DijkstrasShortestPath.h graph/CheapestFlightsWithKStops.h data_structures/graph/EdgeWeightedDigraph.h data_structures/graph/EdgeWeightedDirectedCycle.h
         data_structures/graph/BellmanFordShortestPath.h data_structures/graph/KosarajuStronglyConnected.h data_structures/graph/TarjansStronglyConnected.h graph/OpenLocks.h
         graph/ReconstructItinerary.h graph/PathWithMaxProbability.h graph/PathWithMinEffort.h graph/SlidingPuzzle.h graph/WaterAndJugProblem.h
-        graph/AllPathsFromSourceToTarget.h graph/UniquePaths.h graph/MinPathSum.h graph/ParallelCoursesThree.h
+        dynamic_programming/AllPathsFromSourceToTarget.h graph/UniquePaths.h graph/MinPathSum.h graph/ParallelCoursesThree.h
         data_structures/graph/JohnsonsAlgorithm.h graph/DominoAndTromino.h dynamic_programming/DungeonGame.h dynamic_programming/UniquePathsTwo.h dynamic_programming/HouseRobber.h
         dynamic_programming/MinCostTickets.h dynamic_programming/MinCostToMergeStones.h dynamic_programming/KnightDialer.h dynamic_programming/IntegerBreak.h
         dynamic_programming/PaintFence.h dynamic_programming/StockBuyAndSellWithCoolDown.h dynamic_programming/BestTimeToBuyAndSellStockThree.h
