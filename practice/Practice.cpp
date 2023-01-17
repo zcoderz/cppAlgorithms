@@ -133,9 +133,11 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/ParallelCousesTwo.h"
 #include "../graph/SumofDistancesInTree.h"
 #include "../graph/MinimizeMalwareSpreadTwo.h"
+#include "../binary_search/MissingElementInSortedArray.h"
 
 void Practice::runPracticeCode() {
-    MinimizeMalwareSpreadTwo::testMe();
+    MissingElementInSortedArray::testMe();
+    //MinimizeMalwareSpreadTwo::testMe();
     //SumOfDistancesInTree::testMe();
     //ParallelCoursesTwo::testMe();
     //NumberOfDistinctIslands::testMe();

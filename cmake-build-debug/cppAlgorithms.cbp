@@ -84,6 +84,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/CapacityToShipPackagesWithinDDays.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/FindIndexOfLargestInteger.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/LeftMostColumnWithAOne.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/SearchInSortedArrayOfUnknownSize.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/bits/BitTests.cpp">
 			<Option target="kick_start"/>
 		</Unit>
