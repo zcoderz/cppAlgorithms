@@ -87,10 +87,22 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/CapacityToShipPackagesWithinDDays.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/CountPairsInTwoArrays.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/CuttingRibbons.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/FindIndexOfLargestInteger.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/LeftMostColumnWithAOne.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaxFontToFitSentenceInScreen.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h">

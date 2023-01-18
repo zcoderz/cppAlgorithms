@@ -6144,6 +6144,18 @@ boost/utility/detail/result_of_iterate.hpp
 
 /home/usman/boost/boost_1_77_0/boost/version.hpp
 
+/home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h
+vector
+-
+algorithm
+-
+numeric
+-
+climits
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h
 vector
 -
@@ -7419,6 +7431,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/graph/MinimizeMalwareSpreadTwo.h
 ../binary_search/MissingElementInSortedArray.h
 /home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h
+../binary_search/DivideChocolate.h
+/home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

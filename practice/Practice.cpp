@@ -134,9 +134,10 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/SumofDistancesInTree.h"
 #include "../graph/MinimizeMalwareSpreadTwo.h"
 #include "../binary_search/MissingElementInSortedArray.h"
-
+#include "../binary_search/DivideChocolate.h"
 void Practice::runPracticeCode() {
-    MissingElementInSortedArray::testMe();
+    DivideChocolate::testMe();
+    //MissingElementInSortedArray::testMe();
     //MinimizeMalwareSpreadTwo::testMe();
     //SumOfDistancesInTree::testMe();
     //ParallelCoursesTwo::testMe();
