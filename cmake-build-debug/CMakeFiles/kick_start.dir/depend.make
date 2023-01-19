@@ -1229,6 +1229,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/boost/boost_1_77_0/boost/utility/result_of.hpp \
  /home/usman/boost/boost_1_77_0/boost/version.hpp \
  /home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h \
+ /home/usman/work/cppAlgorithms/binary_search/KthSmallestPrimeFraction.h \
  /home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h \
  /home/usman/work/cppAlgorithms/bits/FourBillion.h \
  /home/usman/work/cppAlgorithms/data_structures/GeneralizedSuffixTree.h \

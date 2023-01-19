@@ -135,8 +135,10 @@ int TwoKeys::minStepsNo=0;
 #include "../graph/MinimizeMalwareSpreadTwo.h"
 #include "../binary_search/MissingElementInSortedArray.h"
 #include "../binary_search/DivideChocolate.h"
+#include "../binary_search/KthSmallestPrimeFraction.h"
 void Practice::runPracticeCode() {
-    DivideChocolate::testMe();
+    KthSmallestPrimeFraction::testMe();
+    //DivideChocolate::testMe();
     //MissingElementInSortedArray::testMe();
     //MinimizeMalwareSpreadTwo::testMe();
     //SumOfDistancesInTree::testMe();
