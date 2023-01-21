@@ -6170,6 +6170,14 @@ vector
 iostream
 -
 
+/home/usman/work/cppAlgorithms/binary_search/ShortestDistanceToTargetColor.h
+vector
+-
+unordered_map
+-
+cstdlib
+-
+
 /home/usman/work/cppAlgorithms/bits/FourBillion.h
 vector
 -
@@ -7443,6 +7451,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h
 ../binary_search/KthSmallestPrimeFraction.h
 /home/usman/work/cppAlgorithms/binary_search/KthSmallestPrimeFraction.h
+../binary_search/ShortestDistanceToTargetColor.h
+/home/usman/work/cppAlgorithms/binary_search/ShortestDistanceToTargetColor.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

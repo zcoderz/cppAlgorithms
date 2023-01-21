@@ -96,6 +96,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/FindInMountainArray.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/FindIndexOfLargestInteger.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -117,10 +120,19 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaxFontToFitSentenceInScreen.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaximumScoreOfAGoodSubarray.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MedianOfTwoSortedArrays.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/SearchInSortedArrayOfUnknownSize.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/ShortestDistanceToTargetColor.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/bits/BitTests.cpp">
