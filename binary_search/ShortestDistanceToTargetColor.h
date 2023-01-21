@@ -16,7 +16,7 @@ using namespace std;
  */
 class ShortestDistanceToTargetColor {
 public:
-    vector<int> shortestDistanceColor(vector<int>& colors, vector<vector<int>>& queries) {
+    static vector<int> shortestDistanceColor(vector<int>& colors, vector<vector<int>>& queries) {
         unordered_map<int, vector<int>> colorMap;
         for (int i =0 ; i < colors.size(); i++) {
             colorMap[colors[i]].push_back(i);

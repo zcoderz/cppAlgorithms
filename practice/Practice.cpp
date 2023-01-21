@@ -137,9 +137,10 @@ int TwoKeys::minStepsNo=0;
 #include "../binary_search/DivideChocolate.h"
 #include "../binary_search/KthSmallestPrimeFraction.h"
 #include "../binary_search/ShortestDistanceToTargetColor.h"
-
+#include "../binary_search/ClosestRoom.h"
 void Practice::runPracticeCode() {
-    ShortestDistanceToTargetColor::testMe();
+    ClosestRoom::testMe();
+    //ShortestDistanceToTargetColor::testMe();
     //KthSmallestPrimeFraction::testMe();
     //DivideChocolate::testMe();
     //MissingElementInSortedArray::testMe();

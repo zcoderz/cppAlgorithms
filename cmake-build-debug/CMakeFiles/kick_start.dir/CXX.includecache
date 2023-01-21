@@ -6144,6 +6144,16 @@ boost/utility/detail/result_of_iterate.hpp
 
 /home/usman/boost/boost_1_77_0/boost/version.hpp
 
+/home/usman/work/cppAlgorithms/binary_search/ClosestRoom.h
+vector
+-
+algorithm
+-
+set
+-
+climits
+-
+
 /home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h
 vector
 -
@@ -7453,6 +7463,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/binary_search/KthSmallestPrimeFraction.h
 ../binary_search/ShortestDistanceToTargetColor.h
 /home/usman/work/cppAlgorithms/binary_search/ShortestDistanceToTargetColor.h
+../binary_search/ClosestRoom.h
+/home/usman/work/cppAlgorithms/binary_search/ClosestRoom.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
