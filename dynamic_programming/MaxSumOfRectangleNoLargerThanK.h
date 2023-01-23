@@ -55,8 +55,8 @@ public:
         for (int i =0; i < rows; i++) {
             vector<int> rowData(cols);
             for (int j=i ; j < rows; j++) {
-                for (int k=0; k < cols; k++) {
-                    rowData[k] += matrix[j][k];
+                for (int l=0; l < cols; l++) {
+                    rowData[l] += matrix[j][l];
                 }
                 updateResult(rowData, k);
                 if (result==k) return k;

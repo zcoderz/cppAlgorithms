@@ -126,6 +126,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaxFontToFitSentenceInScreen.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaxSumOfRectangleNoLargerThanK.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaximumScoreOfAGoodSubarray.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -142,6 +145,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/ShortestDistanceToTargetColor.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/SumOfFlooredPairs.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/bits/BitTests.cpp">

@@ -6188,6 +6188,16 @@ unordered_map
 cstdlib
 -
 
+/home/usman/work/cppAlgorithms/binary_search/SumOfFlooredPairs.h
+vector
+-
+climits
+-
+iostream
+-
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/bits/FourBillion.h
 vector
 -
@@ -7465,6 +7475,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/binary_search/ShortestDistanceToTargetColor.h
 ../binary_search/ClosestRoom.h
 /home/usman/work/cppAlgorithms/binary_search/ClosestRoom.h
+../binary_search/SumOfFlooredPairs.h
+/home/usman/work/cppAlgorithms/binary_search/SumOfFlooredPairs.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
