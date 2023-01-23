@@ -1231,6 +1231,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o: \
  /home/usman/work/cppAlgorithms/binary_search/ClosestRoom.h \
  /home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h \
  /home/usman/work/cppAlgorithms/binary_search/KthSmallestPrimeFraction.h \
+ /home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h \
  /home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h \
  /home/usman/work/cppAlgorithms/binary_search/ShortestDistanceToTargetColor.h \
  /home/usman/work/cppAlgorithms/binary_search/SumOfFlooredPairs.h \

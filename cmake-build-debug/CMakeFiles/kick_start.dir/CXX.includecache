@@ -6174,6 +6174,16 @@ iostream
 algorithm
 -
 
+/home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h
+vector
+-
+climits
+-
+cstdlib
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h
 vector
 -
@@ -7477,6 +7487,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/binary_search/ClosestRoom.h
 ../binary_search/SumOfFlooredPairs.h
 /home/usman/work/cppAlgorithms/binary_search/SumOfFlooredPairs.h
+../binary_search/MaximumAverageSubarrayII.h
+/home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

@@ -139,9 +139,10 @@ int TwoKeys::minStepsNo=0;
 #include "../binary_search/ShortestDistanceToTargetColor.h"
 #include "../binary_search/ClosestRoom.h"
 #include "../binary_search/SumOfFlooredPairs.h"
-
+#include "../binary_search/MaximumAverageSubarrayII.h"
 void Practice::runPracticeCode() {
-    SumOfFlooredPairs::testMe();
+    MaximumAverageSubarrayII::testMe();
+    //SumOfFlooredPairs::testMe();
     //ClosestRoom::testMe();
     //ShortestDistanceToTargetColor::testMe();
     //KthSmallestPrimeFraction::testMe();

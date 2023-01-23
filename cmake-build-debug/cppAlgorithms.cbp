@@ -129,6 +129,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaxSumOfRectangleNoLargerThanK.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaximumScoreOfAGoodSubarray.h">
 			<Option target="kick_start"/>
 		</Unit>
