@@ -141,6 +141,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MinimumOperationsToMakeASubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MinimumSpaceWastedFromPackaging.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h">
 			<Option target="kick_start"/>
 		</Unit>
