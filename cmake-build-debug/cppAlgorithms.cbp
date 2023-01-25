@@ -114,6 +114,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/KthSmallestDistancePair.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/KthSmallestElementInASortedMatrix.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/KthSmallestInMultiplicationTable.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -121,6 +124,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/LeftMostColumnWithAOne.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/LongestRepeatingSubstring.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MaxFontToFitSentenceInScreen.h">
