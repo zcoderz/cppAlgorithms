@@ -140,8 +140,11 @@ int TwoKeys::minStepsNo=0;
 #include "../binary_search/ClosestRoom.h"
 #include "../binary_search/SumOfFlooredPairs.h"
 #include "../binary_search/MaximumAverageSubarrayII.h"
+#include "../binary_search/MinimizeMaxDistanceToGasStation.h"
+
 void Practice::runPracticeCode() {
-    MaximumAverageSubarrayII::testMe();
+    MinimizeMaxDistanceToGasStation::testMe();
+    //MaximumAverageSubarrayII::testMe();
     //SumOfFlooredPairs::testMe();
     //ClosestRoom::testMe();
     //ShortestDistanceToTargetColor::testMe();

@@ -144,6 +144,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MedianOfTwoSortedArrays.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MinimizeMaxDistanceToGasStation.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MinimumOperationsToMakeASubsequence.h">
 			<Option target="kick_start"/>
 		</Unit>

@@ -6184,6 +6184,20 @@ cstdlib
 iostream
 -
 
+/home/usman/work/cppAlgorithms/binary_search/MinimizeMaxDistanceToGasStation.h
+vector
+-
+set
+-
+algorithm
+-
+climits
+-
+cmath
+-
+iostream
+-
+
 /home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h
 vector
 -
@@ -7489,6 +7503,8 @@ Practice.h
 /home/usman/work/cppAlgorithms/binary_search/SumOfFlooredPairs.h
 ../binary_search/MaximumAverageSubarrayII.h
 /home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h
+../binary_search/MinimizeMaxDistanceToGasStation.h
+/home/usman/work/cppAlgorithms/binary_search/MinimizeMaxDistanceToGasStation.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 

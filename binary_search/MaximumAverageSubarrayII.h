@@ -23,7 +23,7 @@ public:
      * @param k
      * @return
      */
-    bool possible(vector<int>& nums, double target, int k) {
+    static bool possible(vector<int>& nums, double target, int k) {
         double currSum=0;
         int j=0;
         //get the running some until first k integers with target subtracted.
@@ -46,7 +46,7 @@ public:
         return false;
     }
 
-    double findMaxAverage(vector<int>& nums, int k) {
+    static double findMaxAverage(vector<int>& nums, int k) {
         int minV = INT_MAX;
         int maxV = INT_MIN;
         for (int num: nums) {
