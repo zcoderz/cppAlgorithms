@@ -93,6 +93,9 @@
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/CountPairsInTwoArrays.h">
 			<Option target="kick_start"/>
 		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/CountPairsOfNodes.h">
+			<Option target="kick_start"/>
+		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/CuttingRibbons.h">
 			<Option target="kick_start"/>
 		</Unit>
@@ -157,6 +160,9 @@
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h">
+			<Option target="kick_start"/>
+		</Unit>
+		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/OnlineMajorityElement.h">
 			<Option target="kick_start"/>
 		</Unit>
 		<Unit filename="/home/usman/work/cppAlgorithms/binary_search/RandomPickWithBlacklist.h">
