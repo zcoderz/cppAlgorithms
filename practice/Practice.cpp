@@ -141,9 +141,12 @@ int TwoKeys::minStepsNo=0;
 #include "../binary_search/SumOfFlooredPairs.h"
 #include "../binary_search/MaximumAverageSubarrayII.h"
 #include "../binary_search/MinimizeMaxDistanceToGasStation.h"
-
+#include "../binary_search/MakeArrayStrictlyIncreasing.h"
+#include "../dynamic_programming/MaxLengthOfRepeatedSubarray.h"
 void Practice::runPracticeCode() {
-    MinimizeMaxDistanceToGasStation::testMe();
+    MaxLengthOfRepeatedSubArray::testMe();
+    //MakeArrayStrictlyIncreasing::testMe();
+    //MinimizeMaxDistanceToGasStation::testMe();
     //MaximumAverageSubarrayII::testMe();
     //SumOfFlooredPairs::testMe();
     //ClosestRoom::testMe();

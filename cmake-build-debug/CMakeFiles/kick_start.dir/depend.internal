@@ -1231,6 +1231,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/binary_search/ClosestRoom.h
  /home/usman/work/cppAlgorithms/binary_search/DivideChocolate.h
  /home/usman/work/cppAlgorithms/binary_search/KthSmallestPrimeFraction.h
+ /home/usman/work/cppAlgorithms/binary_search/MakeArrayStrictlyIncreasing.h
  /home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h
  /home/usman/work/cppAlgorithms/binary_search/MinimizeMaxDistanceToGasStation.h
  /home/usman/work/cppAlgorithms/binary_search/MissingElementInSortedArray.h
@@ -1275,6 +1276,7 @@ CMakeFiles/kick_start.dir/practice/Practice.cpp.o
  /home/usman/work/cppAlgorithms/dynamic_programming/LongestRepeatedSubstring.h
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxEventsThatCanBeAttended.h
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxHeightByStackingCuboids.h
+ /home/usman/work/cppAlgorithms/dynamic_programming/MaxLengthOfRepeatedSubarray.h
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxProfitJobScheduling.h
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxSumOfRectangleNoLargerThanK.h
  /home/usman/work/cppAlgorithms/dynamic_programming/MaxVacationDays.h

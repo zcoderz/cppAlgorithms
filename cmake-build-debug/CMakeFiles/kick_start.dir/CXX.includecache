@@ -6174,6 +6174,18 @@ iostream
 algorithm
 -
 
+/home/usman/work/cppAlgorithms/binary_search/MakeArrayStrictlyIncreasing.h
+vector
+-
+algorithm
+-
+climits
+-
+iostream
+-
+unordered_map
+-
+
 /home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h
 vector
 -
@@ -6520,6 +6532,14 @@ iostream
 vector
 -
 algorithm
+-
+iostream
+-
+
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxLengthOfRepeatedSubarray.h
+vector
+-
+climits
 -
 iostream
 -
@@ -7505,6 +7525,10 @@ Practice.h
 /home/usman/work/cppAlgorithms/binary_search/MaximumAverageSubarrayII.h
 ../binary_search/MinimizeMaxDistanceToGasStation.h
 /home/usman/work/cppAlgorithms/binary_search/MinimizeMaxDistanceToGasStation.h
+../binary_search/MakeArrayStrictlyIncreasing.h
+/home/usman/work/cppAlgorithms/binary_search/MakeArrayStrictlyIncreasing.h
+../dynamic_programming/MaxLengthOfRepeatedSubarray.h
+/home/usman/work/cppAlgorithms/dynamic_programming/MaxLengthOfRepeatedSubarray.h
 
 /home/usman/work/cppAlgorithms/practice/Practice.h
 
