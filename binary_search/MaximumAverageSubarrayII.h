@@ -55,18 +55,16 @@ public:
         }
         double l = minV, r = maxV;
         double epsilon = 1e-5;
-        double priorMid = INT_MAX;
         double mid = l + (r-l)/2.0;
-        //converge towards the highest possible mid
-        while (abs(mid-priorMid) > epsilon) {
+        while ((r-l) > epsilon) {
             if (possible(nums, mid, k)) {
                 l = mid;
             } else {
                 r = mid;
             }
-            priorMid = mid;
             mid = l + (r-l)/2.0;
         }
+        return mid;
         return mid;
     }
 

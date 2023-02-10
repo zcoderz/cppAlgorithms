@@ -144,12 +144,12 @@ int TwoKeys::minStepsNo=0;
 #include "../binary_search/MakeArrayStrictlyIncreasing.h"
 #include "../dynamic_programming/MaxLengthOfRepeatedSubarray.h"
 void Practice::runPracticeCode() {
-    MaxLengthOfRepeatedSubArray::testMe();
+    //MaxLengthOfRepeatedSubArray::testMe();
     //MakeArrayStrictlyIncreasing::testMe();
     //MinimizeMaxDistanceToGasStation::testMe();
     //MaximumAverageSubarrayII::testMe();
     //SumOfFlooredPairs::testMe();
-    //ClosestRoom::testMe();
+    ClosestRoom::testMe();
     //ShortestDistanceToTargetColor::testMe();
     //KthSmallestPrimeFraction::testMe();
     //DivideChocolate::testMe();

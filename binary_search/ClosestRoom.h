@@ -18,6 +18,7 @@ public:
         for (int i =0; i < queries.size(); i++) {
             queries[i].push_back(i);
         }
+        //sort so that larger rooms are at the beginning.
         auto comp = [] (vector<int> &a, vector<int> & b) -> bool {return a[1] > b[1];};
         sort(rooms.begin(), rooms.end(), comp);
         sort(queries.begin(), queries.end(), comp);
@@ -29,11 +30,9 @@ public:
             while (roomIndex < rooms.size() && rooms[roomIndex][1] >= roomSz) {
                 currentRooms.insert(rooms[roomIndex++][0]);
             }
-
             auto next = currentRooms.lower_bound(query[0]);
             int nextDt = next == currentRooms.end() ? INT_MAX : abs(query[0]-*next);
             int priorDt =  next == currentRooms.begin() ? INT_MAX : abs(query[0]- *prev(next));
-
             if (nextDt < priorDt) {
                 result[query[2]] = *next;
             } else if (nextDt >= priorDt && priorDt != INT_MAX){

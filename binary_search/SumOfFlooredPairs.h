@@ -11,6 +11,9 @@
 #include <unordered_map>
 using namespace std;
 
+/**
+ * https://leetcode.com/problems/sum-of-floored-pairs/solutions/1210073/c-short-easy-frequency-prefix-sum-solution-w-explanation/
+ */
 class SumOfFlooredPairs{
 public:
     static int sumOfFlooredPairs(vector<int>& nums) {
